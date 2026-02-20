@@ -22,7 +22,7 @@ Systems engineering, embedded/RTOS, health-tech
 - Documentation-first, staged methodology -- architecture decisions, block decomposition, schematic capture -- with every design choice explained and reviewable.
 - Power/PDN, address/command/clock, and data byte-lane schematics complete. SPD configuration and validation platform currently in progress.
 
-#### BeeLink CN (5G Health Platform)
+#### [BeeLink CN (5G Health Platform)](https://github.com/BeeLink-CN)
 
 > Concept-stage platform for accessible remote patient care. *Repo coming soon.*
 
