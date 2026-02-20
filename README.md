@@ -55,21 +55,22 @@ Open to issues, pull requests, and documentation reviews across any of my repos.
 
 ---
 
-### BeeLink CN -- Repo Plan
+### OMI -- Repository Organization
 
-Planned repository structure for when the 5G Health Platform moves to implementation.
+Open Memory Initiative follows a structured, documentation-first approach to hardware design.
 
-**Suggested naming:** `beelink-cn` (monorepo) or the multi-repo layout below.
+**Repository:** [The-Open-Memory-Initiative-OMI/omi](https://github.com/The-Open-Memory-Initiative-OMI/omi)
 
-| Repo | Purpose | Key folders / sections |
+| Section | Purpose | Key contents |
 |:---|:---|:---|
-| `beelink-docs` | Architecture specs, API contracts, user guides | `architecture/`, `api-specs/`, `guides/` |
-| `beelink-mobile` | Patient/carer mobile app | `src/`, `assets/`, `e2e/`, platform configs |
-| `beelink-web` | Hospital/admin dashboard | `src/components/`, `src/pages/`, `public/` |
-| `beelink-core-api` | Backend services, business logic, AI triage | `src/routes/`, `src/services/`, `src/models/`, `migrations/` |
-| `beelink-infra` | Deployment, CI/CD, container orchestration | `docker/`, `k8s/`, `.github/workflows/`, `terraform/` |
+| Root docs | Project governance and roadmap | `CHARTER.md`, `SCOPE_V1.md`, `CONTRIBUTING.md`, `LEARNING_ROADMAP.md` |
+| `docs/` | Comprehensive educational material (10+ chapters) | System context, DRAM fundamentals, DDR4 protocol, DIMM anatomy, signal integrity, power delivery, topology, schematic capture, validation, layout guidelines |
+| `design/` | Live design artifacts and decisions | Design assumptions, constraints, implementation files, power analysis, signal mapping, topology definitions |
+| Issues | Active design discussions and task tracking | Architecture decisions, component selection, validation methods, open questions |
 
-Each repo README should include: project purpose, local setup, environment variables, testing instructions, and contribution guidelines.
+The project is structured around transparent engineering: every design choice is documented **before** implementation. Contributors can join at any stage -- from reviewing design decisions in issues, to writing documentation, to implementing hardware validation tools.
+
+See [CONTRIBUTING.md](https://github.com/The-Open-Memory-Initiative-OMI/omi/blob/main/CONTRIBUTING.md) and the [issues page](https://github.com/The-Open-Memory-Initiative-OMI/omi/issues) to get started.
 
 ---
 
