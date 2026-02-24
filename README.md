@@ -13,106 +13,31 @@ Systems engineering, embedded/RTOS, health-tech
 
 ---
 
-### Featured Projects
-
-#### [The Open Memory Initiative (OMI)](https://github.com/The-Open-Memory-Initiative-OMI/omi)
-
-> Open hardware project: transparent, reproducible DDR4 UDIMM module design.
-
-- Documentation-first, staged methodology -- architecture decisions, block decomposition, schematic capture -- with every design choice explained and reviewable.
-- Power/PDN, address/command/clock, and data byte-lane schematics complete. SPD configuration and validation platform currently in progress.
-
-#### [BeeLink CN (5G Health Platform)](https://github.com/BeeLink-CN)
-
-> Concept-stage platform for accessible remote patient care. *Repo coming soon.*
-
-- Scope: home patient monitoring (bedridden/home-care), AI-based triage and diagnosis support, automatic ambulance dispatch on emergencies, real-time hospital bed occupancy tracking for routing.
-- Planned interfaces: web dashboard for hospitals/admins, mobile app for patients/carers, process-tracking backend.
-
-#### [valentine-pomodoro](https://github.com/mertefesensoy/valentine-pomodoro)
-
-> React Native + Expo + TypeScript Pomodoro timer with a Valentine aesthetic.
-
-- Timestamp-based timer (no drift when backgrounded), idempotent completion handling, event-driven state management. Background notifications on both iOS and Android via EAS.
-- Fully offline, zero data collection. All data persists locally through AsyncStorage.
-
-#### [FreeRTOS_Demo](https://github.com/mertefesensoy/FreeRTOS_Demo)
-
-> RTOS learning demos running on a Windows simulator -- no physical hardware required.
-
-- Five concurrent tasks with priority-based scheduling, mutex-protected circular buffers, deferred ISR processing via direct task notifications, and an interactive console.
-- Includes a FreeRTOS+UDP networking demo (echo server/client, CLI over UDP) and a deliberate `USE_MUTEX` toggle that demonstrates race conditions when synchronization is disabled.
-
----
-
 ### Collaboration
 
 **OMI** is actively looking for contributors. Start with the [issues page](https://github.com/The-Open-Memory-Initiative-OMI/omi/issues) for concrete topics (driver implementations, documentation reviews) or open a [discussion](https://github.com/The-Open-Memory-Initiative-OMI/omi/discussions) for architecture questions. Please review the existing docs and CONTRIBUTING.md before submitting.
-
-For **BeeLink CN** architecture discussion or general inquiries, reach out via [LinkedIn](https://linkedin.com/in/mertefesensoy).
 
 Open to issues, pull requests, and documentation reviews across any of my repos.
 
 ---
 
-### OMI -- Repository Organization
+### 🌐 Socials:
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/https://www.instagram.com/mertefe_sensoy/) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/mert-efe-%C5%9Fensoy-7bbb56290/) [![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@https://medium.com/@mefe.sensoy/following) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:sensoymertefe@gmail.com) 
 
-Open Memory Initiative follows a structured, documentation-first approach to hardware design.
+### 💻 Tech Stack:
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white) ![Expo](https://img.shields.io/badge/expo-1C1E24?style=for-the-badge&logo=expo&logoColor=#D04A37) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Cisco](https://img.shields.io/badge/cisco-%23049fd9.svg?style=for-the-badge&logo=cisco&logoColor=black)
 
-**Repository:** [The-Open-Memory-Initiative-OMI/omi](https://github.com/The-Open-Memory-Initiative-OMI/omi)
+### 📊 GitHub Stats:
+![](https://github-readme-stats.vercel.app/api?username=mertefesensoy&theme=neon&hide_border=false&include_all_commits=true&count_private=true)<br/>
+![](https://nirzak-streak-stats.vercel.app/?user=mertefesensoy&theme=neon&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=mertefesensoy&theme=neon&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
-| Section | Purpose | Key contents |
-|:---|:---|:---|
-| Root docs | Project governance and roadmap | `CHARTER.md`, `SCOPE_V1.md`, `CONTRIBUTING.md`, `LEARNING_ROADMAP.md` |
-| `docs/` | Comprehensive educational material (10+ chapters) | System context, DRAM fundamentals, DDR4 protocol, DIMM anatomy, signal integrity, power delivery, topology, schematic capture, validation, layout guidelines |
-| `design/` | Live design artifacts and decisions | Design assumptions, constraints, implementation files, power analysis, signal mapping, topology definitions |
-| Issues | Active design discussions and task tracking | Architecture decisions, component selection, validation methods, open questions |
+### 🏆 GitHub Trophies
+![](https://github-profile-trophy.vercel.app/?username=mertefesensoy&theme=radical&no-frame=false&no-bg=true&margin-w=4)
 
-The project is structured around transparent engineering: every design choice is documented **before** implementation. Contributors can join at any stage -- from reviewing design decisions in issues, to writing documentation, to implementing hardware validation tools.
-
-See [CONTRIBUTING.md](https://github.com/The-Open-Memory-Initiative-OMI/omi/blob/main/CONTRIBUTING.md) and the [issues page](https://github.com/The-Open-Memory-Initiative-OMI/omi/issues) to get started.
-
----
-
-### Metrics
-
-<div align="center">
-
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mertefesensoy&show_icons=true&theme=transparent)](https://github.com/mertefesensoy)
-
-[![Streak Stats](https://streak-stats.demolab.com?user=mertefesensoy&theme=transparent)](https://github.com/mertefesensoy)
-
-<details>
-<summary><strong>Extended activity metrics</strong></summary>
-<br/>
-<img src="https://github.com/mertefesensoy/mertefesensoy/blob/main/github-metrics.svg" alt="Detailed GitHub metrics generated by lowlighter/metrics">
-</details>
-
-</div>
+### ✍️ Random Dev Quote
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
 ---
+[![](https://visitcount.itsvg.in/api?id=mertefesensoy&icon=0&color=0)](https://visitcount.itsvg.in)
 
-### Contact
-
-<a href="https://linkedin.com/in/mertefesensoy"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-
----
-
-<details>
-<summary><strong>How I work</strong></summary>
-
-- Documentation is not an afterthought. Design decisions are recorded before implementation begins.
-- Correctness over speed -- especially in embedded and hardware-adjacent domains where silent failures are costly.
-- Open-source toolchains and reproducible environments whenever possible.
-
-</details>
-
-<details>
-<summary><strong>Other work</strong></summary>
-
-- [**CartPole-problem**](https://github.com/mertefesensoy/CartPole-problem) -- Deep Q-Network reinforcement learning agent that achieved a perfect 500/500 score on the CartPole-v1 environment. Includes headless training and interactive Pygame visualization.
-- [**CMPE232_CCL**](https://github.com/mertefesensoy/CMPE232_CCL) -- Database system design coursework (ER modeling).
-- [**Analyzing Historical Stock-Revenue Data**](https://github.com/mertefesensoy/Analyzing_Historical_Stock-Revenue_Data_and_Building_a_Dashboard) -- Jupyter-based stock data extraction and dashboard visualization.
-- [**ShiftSync**](https://github.com/mertefesensoy/ShiftSync) -- Next.js workforce management tool (early-stage / WIP).
-
-</details>
