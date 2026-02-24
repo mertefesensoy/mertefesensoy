@@ -1,7 +1,6 @@
 # Mert Efe Sensoy
 
 **Third-year Computer Engineering student at TED University**
-Systems engineering, embedded/RTOS, health-tech
 
 ---
 
