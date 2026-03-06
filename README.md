@@ -14,7 +14,7 @@
 
 ### Collaboration
 
-**OMI** is actively looking for contributors. Start with the [issues page](https://github.com/The-Open-Memory-Initiative-OMI/omi/issues) for concrete topics (driver implementations, documentation reviews) or open a [discussion](https://github.com/The-Open-Memory-Initiative-OMI/omi/discussions) for architecture questions. Please review the existing docs and CONTRIBUTING.md before submitting.
+**OMI** is actively looking for contributors. Start with the [issues page](https://github.com/The-Open-Memory-Initiative-OMI/omi/issues) for concrete topics (driver implementations, documentation reviews) or open a [discussion](https://github.com/The-Open-Memory-Initiative-OMI/omi/discussions) for architecture questions. Please review the existing docs and [CONTRIBUTING.md](https://github.com/The-Open-Memory-Initiative-OMI/omi/blob/main/CONTRIBUTING.md) before submitting.
 
 Open to issues, pull requests, and documentation reviews across any of my repos.
 
