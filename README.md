@@ -6,9 +6,17 @@
 
 ### Now
 
+- Leading [SuperconducTED](https://github.com/SuperconducTED) -- a quantum noise-modeling research project using interval type-2 fuzzy inference (TSK) to generate ensemble noise models for Qiskit Aer simulations of IBM backends. Targeting IEEE QCE 2026.
 - Building [The Open Memory Initiative (OMI)](https://github.com/The-Open-Memory-Initiative-OMI/omi) -- an open, reproducible DDR4 UDIMM reference design.
-- Deepening expertise in real-time operating systems (FreeRTOS) and embedded architecture.
-- Designing **BeeLink CN**, a 5G-enabled health platform for remote patient monitoring (concept stage).
+- Developing [Müşahit](https://github.com/mertefesensoy/MUSAHIT) -- a personal OSINT briefing system for Turkey that polls 37 news sources nightly, clusters and severity-ranks stories on a six-tier ladder, and ships a Turkish-language brief with synthesized audio by 07:00 (Python · DuckDB · local Ollama models · Piper TTS).
+- Building [crypto-dreamer](https://github.com/mertefesensoy/crypto-dreamer) -- a DreamerV3-style world model for BTC/USDT with an iTransformer encoder, RSSM core, and IQN distributional critic.
+- Working on [zbridge-asm-lab](https://github.com/mertefesensoy/zbridge-asm-lab) -- a low-level Go ↔ z/OS bridge for IBM Z, exploring cross-ABI calling conventions, register layout, and endianness.
+
+---
+
+### 🏅 Recognition
+
+[![IBM Champion 2026](https://img.shields.io/badge/IBM_Champion-2026-052FAD?style=flat&logo=ibm&logoColor=white)](https://www.ibm.com/champion) ![IBM Z Student Ambassador](https://img.shields.io/badge/IBM_Z-Student_Ambassador-0530AD?style=flat&logo=ibm&logoColor=white) ![IBM Z Student Club President @ TED University](https://img.shields.io/badge/IBM_Z_Club-President_%40_TEDU-1F70C1?style=flat&logo=ibm&logoColor=white)
 
 ---
 
@@ -21,7 +29,7 @@ Open to issues, pull requests, and documentation reviews across any of my repos.
 ---
 
 ### 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/https://www.instagram.com/mertefe_sensoy/) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/mert-efe-%C5%9Fensoy-7bbb56290/) [![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@https://medium.com/@mefe.sensoy/following) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:sensoymertefe@gmail.com) 
+[![Portfolio](https://img.shields.io/badge/Portfolio-mertefesensoy.dev-0ea5e9?logo=vercel&logoColor=white)](https://mertefesensoy.dev) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://www.instagram.com/mertefe_sensoy/) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mert-efe-%C5%9Fensoy-7bbb56290/) [![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@mefe.sensoy) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:sensoymertefe@gmail.com)
 
 ---
 
@@ -45,4 +53,3 @@ Open to issues, pull requests, and documentation reviews across any of my repos.
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
 [![](https://visitcount.itsvg.in/api?id=mertefesensoy&icon=0&color=0)](https://visitcount.itsvg.in)
-
