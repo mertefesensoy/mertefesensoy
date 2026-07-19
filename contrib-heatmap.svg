@@ -1,0 +1,1141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="888" height="166" viewBox="0 0 888 166" role="img" aria-labelledby="calendar-title calendar-desc" focusable="false">
+<title id="calendar-title">mertefesensoy&#x27;s 53-week GitHub contribution signal</title>
+<desc id="calendar-desc">Contribution calendar from 2025-07-20 through 2026-07-19, totaling 941 contributions. Current streak: 0 days; longest streak: 12 days.</desc>
+<defs><pattern id="heatmap-scan" width="4" height="4" patternUnits="userSpaceOnUse"><path d="M0 3.5H888" stroke="#f2f6fc" stroke-opacity=".018"/></pattern></defs>
+<style>
+text { font-family:'IBM Plex Mono','IBM Plex Sans',ui-monospace,SFMono-Regular,Consolas,monospace; }
+.axis { fill:#7185a8; font-size:9px; font-weight:600; letter-spacing:.45px; }
+.footer { fill:#9fb2d1; font-size:10px; font-weight:600; letter-spacing:.35px; }
+.footer-value { fill:#f2f6fc; font-size:11px; font-weight:700; }
+.ready { fill:#42be65; }
+.contribution-cell { opacity:1; transform:none; transform-box:fill-box; transform-origin:center; }
+@keyframes cell-in { 0% { opacity:0; transform:scale(.2); } 60% { opacity:1; transform:scale(1.1); } 100% { opacity:1; transform:scale(1); } }
+@keyframes cell-flash { 0%,45% { filter:brightness(2.25) drop-shadow(0 0 2px #a6c8ff); } 100% { filter:brightness(1) drop-shadow(0 0 0 transparent); } }
+@media (prefers-reduced-motion: no-preference) {
+  .contribution-cell { opacity:0; animation: cell-in .55s ease-out both; animation-delay:var(--delay); }
+  .contribution-cell.active { animation: cell-in .55s ease-out both,cell-flash .70s ease-out both; animation-delay:var(--delay),var(--delay); }
+}
+@media (prefers-reduced-motion: reduce) { .contribution-cell { opacity:1 !important; animation:none !important; transform:none !important; filter:none !important; } }
+</style>
+<rect width="888" height="166" fill="#07090e"/>
+<rect x=".5" y=".5" width="887" height="165" fill="#080e18" stroke="#1c3153"/>
+<rect x="1" y="1" width="3" height="164" fill="#4589ff"/>
+<rect x="1" y="1" width="886" height="164" fill="url(#heatmap-scan)"/>
+<text x="50" y="18" class="axis">AUG</text>
+<text x="130" y="18" class="axis">SEP</text>
+<text x="194" y="18" class="axis">OCT</text>
+<text x="258" y="18" class="axis">NOV</text>
+<text x="338" y="18" class="axis">DEC</text>
+<text x="402" y="18" class="axis">JAN</text>
+<text x="482" y="18" class="axis">FEB</text>
+<text x="546" y="18" class="axis">MAR</text>
+<text x="610" y="18" class="axis">APR</text>
+<text x="674" y="18" class="axis">MAY</text>
+<text x="754" y="18" class="axis">JUN</text>
+<text x="818" y="18" class="axis">JUL</text>
+<text x="29" y="55" class="axis" text-anchor="end">MON</text>
+<text x="29" y="87" class="axis" text-anchor="end">WED</text>
+<text x="29" y="119" class="axis" text-anchor="end">FRI</text>
+<g aria-label="Contribution calendar, Sunday through Saturday">
+<rect class="contribution-cell level-0" x="34" y="28" width="13" height="13" rx="2" fill="#161b22" data-date="2025-07-20" data-count="0" style="--delay:0.000s">
+<title>No contributions on July 20, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="34" y="44" width="13" height="13" rx="2" fill="#161b22" data-date="2025-07-21" data-count="0" style="--delay:0.036s">
+<title>No contributions on July 21, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="34" y="60" width="13" height="13" rx="2" fill="#161b22" data-date="2025-07-22" data-count="0" style="--delay:0.072s">
+<title>No contributions on July 22, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="34" y="76" width="13" height="13" rx="2" fill="#161b22" data-date="2025-07-23" data-count="0" style="--delay:0.107s">
+<title>No contributions on July 23, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="34" y="92" width="13" height="13" rx="2" fill="#161b22" data-date="2025-07-24" data-count="0" style="--delay:0.143s">
+<title>No contributions on July 24, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="34" y="108" width="13" height="13" rx="2" fill="#161b22" data-date="2025-07-25" data-count="0" style="--delay:0.179s">
+<title>No contributions on July 25, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="34" y="124" width="13" height="13" rx="2" fill="#161b22" data-date="2025-07-26" data-count="0" style="--delay:0.215s">
+<title>No contributions on July 26, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="50" y="28" width="13" height="13" rx="2" fill="#161b22" data-date="2025-07-27" data-count="0" style="--delay:0.065s">
+<title>No contributions on July 27, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="50" y="44" width="13" height="13" rx="2" fill="#161b22" data-date="2025-07-28" data-count="0" style="--delay:0.101s">
+<title>No contributions on July 28, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="50" y="60" width="13" height="13" rx="2" fill="#161b22" data-date="2025-07-29" data-count="0" style="--delay:0.137s">
+<title>No contributions on July 29, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="50" y="76" width="13" height="13" rx="2" fill="#161b22" data-date="2025-07-30" data-count="0" style="--delay:0.173s">
+<title>No contributions on July 30, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="50" y="92" width="13" height="13" rx="2" fill="#161b22" data-date="2025-07-31" data-count="0" style="--delay:0.208s">
+<title>No contributions on July 31, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="50" y="108" width="13" height="13" rx="2" fill="#161b22" data-date="2025-08-01" data-count="0" style="--delay:0.244s">
+<title>No contributions on August 01, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="50" y="124" width="13" height="13" rx="2" fill="#161b22" data-date="2025-08-02" data-count="0" style="--delay:0.280s">
+<title>No contributions on August 02, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="66" y="28" width="13" height="13" rx="2" fill="#161b22" data-date="2025-08-03" data-count="0" style="--delay:0.130s">
+<title>No contributions on August 03, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="66" y="44" width="13" height="13" rx="2" fill="#161b22" data-date="2025-08-04" data-count="0" style="--delay:0.166s">
+<title>No contributions on August 04, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="66" y="60" width="13" height="13" rx="2" fill="#161b22" data-date="2025-08-05" data-count="0" style="--delay:0.202s">
+<title>No contributions on August 05, 2025</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="66" y="76" width="13" height="13" rx="2" fill="#1c3153" data-date="2025-08-06" data-count="4" style="--delay:0.238s">
+<title>4 contributions on August 06, 2025</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="66" y="92" width="13" height="13" rx="2" fill="#1c3153" data-date="2025-08-07" data-count="14" style="--delay:0.273s">
+<title>14 contributions on August 07, 2025</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="66" y="108" width="13" height="13" rx="2" fill="#1c3153" data-date="2025-08-08" data-count="3" style="--delay:0.309s">
+<title>3 contributions on August 08, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="66" y="124" width="13" height="13" rx="2" fill="#161b22" data-date="2025-08-09" data-count="0" style="--delay:0.345s">
+<title>No contributions on August 09, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="82" y="28" width="13" height="13" rx="2" fill="#161b22" data-date="2025-08-10" data-count="0" style="--delay:0.195s">
+<title>No contributions on August 10, 2025</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="82" y="44" width="13" height="13" rx="2" fill="#1c3153" data-date="2025-08-11" data-count="6" style="--delay:0.231s">
+<title>6 contributions on August 11, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="82" y="60" width="13" height="13" rx="2" fill="#161b22" data-date="2025-08-12" data-count="0" style="--delay:0.267s">
+<title>No contributions on August 12, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="82" y="76" width="13" height="13" rx="2" fill="#161b22" data-date="2025-08-13" data-count="0" style="--delay:0.303s">
+<title>No contributions on August 13, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="82" y="92" width="13" height="13" rx="2" fill="#161b22" data-date="2025-08-14" data-count="0" style="--delay:0.339s">
+<title>No contributions on August 14, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="82" y="108" width="13" height="13" rx="2" fill="#161b22" data-date="2025-08-15" data-count="0" style="--delay:0.374s">
+<title>No contributions on August 15, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="82" y="124" width="13" height="13" rx="2" fill="#161b22" data-date="2025-08-16" data-count="0" style="--delay:0.410s">
+<title>No contributions on August 16, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="98" y="28" width="13" height="13" rx="2" fill="#161b22" data-date="2025-08-17" data-count="0" style="--delay:0.260s">
+<title>No contributions on August 17, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="98" y="44" width="13" height="13" rx="2" fill="#161b22" data-date="2025-08-18" data-count="0" style="--delay:0.296s">
+<title>No contributions on August 18, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="98" y="60" width="13" height="13" rx="2" fill="#161b22" data-date="2025-08-19" data-count="0" style="--delay:0.332s">
+<title>No contributions on August 19, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="98" y="76" width="13" height="13" rx="2" fill="#161b22" data-date="2025-08-20" data-count="0" style="--delay:0.368s">
+<title>No contributions on August 20, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="98" y="92" width="13" height="13" rx="2" fill="#161b22" data-date="2025-08-21" data-count="0" style="--delay:0.404s">
+<title>No contributions on August 21, 2025</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="98" y="108" width="13" height="13" rx="2" fill="#1c3153" data-date="2025-08-22" data-count="7" style="--delay:0.439s">
+<title>7 contributions on August 22, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="98" y="124" width="13" height="13" rx="2" fill="#161b22" data-date="2025-08-23" data-count="0" style="--delay:0.475s">
+<title>No contributions on August 23, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="114" y="28" width="13" height="13" rx="2" fill="#161b22" data-date="2025-08-24" data-count="0" style="--delay:0.325s">
+<title>No contributions on August 24, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="114" y="44" width="13" height="13" rx="2" fill="#161b22" data-date="2025-08-25" data-count="0" style="--delay:0.361s">
+<title>No contributions on August 25, 2025</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="114" y="60" width="13" height="13" rx="2" fill="#1c3153" data-date="2025-08-26" data-count="2" style="--delay:0.397s">
+<title>2 contributions on August 26, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="114" y="76" width="13" height="13" rx="2" fill="#161b22" data-date="2025-08-27" data-count="0" style="--delay:0.433s">
+<title>No contributions on August 27, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="114" y="92" width="13" height="13" rx="2" fill="#161b22" data-date="2025-08-28" data-count="0" style="--delay:0.469s">
+<title>No contributions on August 28, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="114" y="108" width="13" height="13" rx="2" fill="#161b22" data-date="2025-08-29" data-count="0" style="--delay:0.505s">
+<title>No contributions on August 29, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="114" y="124" width="13" height="13" rx="2" fill="#161b22" data-date="2025-08-30" data-count="0" style="--delay:0.540s">
+<title>No contributions on August 30, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="130" y="28" width="13" height="13" rx="2" fill="#161b22" data-date="2025-08-31" data-count="0" style="--delay:0.391s">
+<title>No contributions on August 31, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="130" y="44" width="13" height="13" rx="2" fill="#161b22" data-date="2025-09-01" data-count="0" style="--delay:0.426s">
+<title>No contributions on September 01, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="130" y="60" width="13" height="13" rx="2" fill="#161b22" data-date="2025-09-02" data-count="0" style="--delay:0.462s">
+<title>No contributions on September 02, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="130" y="76" width="13" height="13" rx="2" fill="#161b22" data-date="2025-09-03" data-count="0" style="--delay:0.498s">
+<title>No contributions on September 03, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="130" y="92" width="13" height="13" rx="2" fill="#161b22" data-date="2025-09-04" data-count="0" style="--delay:0.534s">
+<title>No contributions on September 04, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="130" y="108" width="13" height="13" rx="2" fill="#161b22" data-date="2025-09-05" data-count="0" style="--delay:0.570s">
+<title>No contributions on September 05, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="130" y="124" width="13" height="13" rx="2" fill="#161b22" data-date="2025-09-06" data-count="0" style="--delay:0.605s">
+<title>No contributions on September 06, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="146" y="28" width="13" height="13" rx="2" fill="#161b22" data-date="2025-09-07" data-count="0" style="--delay:0.456s">
+<title>No contributions on September 07, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="146" y="44" width="13" height="13" rx="2" fill="#161b22" data-date="2025-09-08" data-count="0" style="--delay:0.492s">
+<title>No contributions on September 08, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="146" y="60" width="13" height="13" rx="2" fill="#161b22" data-date="2025-09-09" data-count="0" style="--delay:0.527s">
+<title>No contributions on September 09, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="146" y="76" width="13" height="13" rx="2" fill="#161b22" data-date="2025-09-10" data-count="0" style="--delay:0.563s">
+<title>No contributions on September 10, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="146" y="92" width="13" height="13" rx="2" fill="#161b22" data-date="2025-09-11" data-count="0" style="--delay:0.599s">
+<title>No contributions on September 11, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="146" y="108" width="13" height="13" rx="2" fill="#161b22" data-date="2025-09-12" data-count="0" style="--delay:0.635s">
+<title>No contributions on September 12, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="146" y="124" width="13" height="13" rx="2" fill="#161b22" data-date="2025-09-13" data-count="0" style="--delay:0.671s">
+<title>No contributions on September 13, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="162" y="28" width="13" height="13" rx="2" fill="#161b22" data-date="2025-09-14" data-count="0" style="--delay:0.521s">
+<title>No contributions on September 14, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="162" y="44" width="13" height="13" rx="2" fill="#161b22" data-date="2025-09-15" data-count="0" style="--delay:0.557s">
+<title>No contributions on September 15, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="162" y="60" width="13" height="13" rx="2" fill="#161b22" data-date="2025-09-16" data-count="0" style="--delay:0.592s">
+<title>No contributions on September 16, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="162" y="76" width="13" height="13" rx="2" fill="#161b22" data-date="2025-09-17" data-count="0" style="--delay:0.628s">
+<title>No contributions on September 17, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="162" y="92" width="13" height="13" rx="2" fill="#161b22" data-date="2025-09-18" data-count="0" style="--delay:0.664s">
+<title>No contributions on September 18, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="162" y="108" width="13" height="13" rx="2" fill="#161b22" data-date="2025-09-19" data-count="0" style="--delay:0.700s">
+<title>No contributions on September 19, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="162" y="124" width="13" height="13" rx="2" fill="#161b22" data-date="2025-09-20" data-count="0" style="--delay:0.736s">
+<title>No contributions on September 20, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="178" y="28" width="13" height="13" rx="2" fill="#161b22" data-date="2025-09-21" data-count="0" style="--delay:0.586s">
+<title>No contributions on September 21, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="178" y="44" width="13" height="13" rx="2" fill="#161b22" data-date="2025-09-22" data-count="0" style="--delay:0.622s">
+<title>No contributions on September 22, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="178" y="60" width="13" height="13" rx="2" fill="#161b22" data-date="2025-09-23" data-count="0" style="--delay:0.658s">
+<title>No contributions on September 23, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="178" y="76" width="13" height="13" rx="2" fill="#161b22" data-date="2025-09-24" data-count="0" style="--delay:0.693s">
+<title>No contributions on September 24, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="178" y="92" width="13" height="13" rx="2" fill="#161b22" data-date="2025-09-25" data-count="0" style="--delay:0.729s">
+<title>No contributions on September 25, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="178" y="108" width="13" height="13" rx="2" fill="#161b22" data-date="2025-09-26" data-count="0" style="--delay:0.765s">
+<title>No contributions on September 26, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="178" y="124" width="13" height="13" rx="2" fill="#161b22" data-date="2025-09-27" data-count="0" style="--delay:0.801s">
+<title>No contributions on September 27, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="194" y="28" width="13" height="13" rx="2" fill="#161b22" data-date="2025-09-28" data-count="0" style="--delay:0.651s">
+<title>No contributions on September 28, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="194" y="44" width="13" height="13" rx="2" fill="#161b22" data-date="2025-09-29" data-count="0" style="--delay:0.687s">
+<title>No contributions on September 29, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="194" y="60" width="13" height="13" rx="2" fill="#161b22" data-date="2025-09-30" data-count="0" style="--delay:0.723s">
+<title>No contributions on September 30, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="194" y="76" width="13" height="13" rx="2" fill="#161b22" data-date="2025-10-01" data-count="0" style="--delay:0.758s">
+<title>No contributions on October 01, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="194" y="92" width="13" height="13" rx="2" fill="#161b22" data-date="2025-10-02" data-count="0" style="--delay:0.794s">
+<title>No contributions on October 02, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="194" y="108" width="13" height="13" rx="2" fill="#161b22" data-date="2025-10-03" data-count="0" style="--delay:0.830s">
+<title>No contributions on October 03, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="194" y="124" width="13" height="13" rx="2" fill="#161b22" data-date="2025-10-04" data-count="0" style="--delay:0.866s">
+<title>No contributions on October 04, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="210" y="28" width="13" height="13" rx="2" fill="#161b22" data-date="2025-10-05" data-count="0" style="--delay:0.716s">
+<title>No contributions on October 05, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="210" y="44" width="13" height="13" rx="2" fill="#161b22" data-date="2025-10-06" data-count="0" style="--delay:0.752s">
+<title>No contributions on October 06, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="210" y="60" width="13" height="13" rx="2" fill="#161b22" data-date="2025-10-07" data-count="0" style="--delay:0.788s">
+<title>No contributions on October 07, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="210" y="76" width="13" height="13" rx="2" fill="#161b22" data-date="2025-10-08" data-count="0" style="--delay:0.824s">
+<title>No contributions on October 08, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="210" y="92" width="13" height="13" rx="2" fill="#161b22" data-date="2025-10-09" data-count="0" style="--delay:0.859s">
+<title>No contributions on October 09, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="210" y="108" width="13" height="13" rx="2" fill="#161b22" data-date="2025-10-10" data-count="0" style="--delay:0.895s">
+<title>No contributions on October 10, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="210" y="124" width="13" height="13" rx="2" fill="#161b22" data-date="2025-10-11" data-count="0" style="--delay:0.931s">
+<title>No contributions on October 11, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="226" y="28" width="13" height="13" rx="2" fill="#161b22" data-date="2025-10-12" data-count="0" style="--delay:0.781s">
+<title>No contributions on October 12, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="226" y="44" width="13" height="13" rx="2" fill="#161b22" data-date="2025-10-13" data-count="0" style="--delay:0.817s">
+<title>No contributions on October 13, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="226" y="60" width="13" height="13" rx="2" fill="#161b22" data-date="2025-10-14" data-count="0" style="--delay:0.853s">
+<title>No contributions on October 14, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="226" y="76" width="13" height="13" rx="2" fill="#161b22" data-date="2025-10-15" data-count="0" style="--delay:0.889s">
+<title>No contributions on October 15, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="226" y="92" width="13" height="13" rx="2" fill="#161b22" data-date="2025-10-16" data-count="0" style="--delay:0.924s">
+<title>No contributions on October 16, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="226" y="108" width="13" height="13" rx="2" fill="#161b22" data-date="2025-10-17" data-count="0" style="--delay:0.960s">
+<title>No contributions on October 17, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="226" y="124" width="13" height="13" rx="2" fill="#161b22" data-date="2025-10-18" data-count="0" style="--delay:0.996s">
+<title>No contributions on October 18, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="242" y="28" width="13" height="13" rx="2" fill="#161b22" data-date="2025-10-19" data-count="0" style="--delay:0.846s">
+<title>No contributions on October 19, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="242" y="44" width="13" height="13" rx="2" fill="#161b22" data-date="2025-10-20" data-count="0" style="--delay:0.882s">
+<title>No contributions on October 20, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="242" y="60" width="13" height="13" rx="2" fill="#161b22" data-date="2025-10-21" data-count="0" style="--delay:0.918s">
+<title>No contributions on October 21, 2025</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="242" y="76" width="13" height="13" rx="2" fill="#1c3153" data-date="2025-10-22" data-count="1" style="--delay:0.954s">
+<title>1 contribution on October 22, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="242" y="92" width="13" height="13" rx="2" fill="#161b22" data-date="2025-10-23" data-count="0" style="--delay:0.990s">
+<title>No contributions on October 23, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="242" y="108" width="13" height="13" rx="2" fill="#161b22" data-date="2025-10-24" data-count="0" style="--delay:1.025s">
+<title>No contributions on October 24, 2025</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="242" y="124" width="13" height="13" rx="2" fill="#1c3153" data-date="2025-10-25" data-count="7" style="--delay:1.061s">
+<title>7 contributions on October 25, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="258" y="28" width="13" height="13" rx="2" fill="#161b22" data-date="2025-10-26" data-count="0" style="--delay:0.911s">
+<title>No contributions on October 26, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="258" y="44" width="13" height="13" rx="2" fill="#161b22" data-date="2025-10-27" data-count="0" style="--delay:0.947s">
+<title>No contributions on October 27, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="258" y="60" width="13" height="13" rx="2" fill="#161b22" data-date="2025-10-28" data-count="0" style="--delay:0.983s">
+<title>No contributions on October 28, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="258" y="76" width="13" height="13" rx="2" fill="#161b22" data-date="2025-10-29" data-count="0" style="--delay:1.019s">
+<title>No contributions on October 29, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="258" y="92" width="13" height="13" rx="2" fill="#161b22" data-date="2025-10-30" data-count="0" style="--delay:1.055s">
+<title>No contributions on October 30, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="258" y="108" width="13" height="13" rx="2" fill="#161b22" data-date="2025-10-31" data-count="0" style="--delay:1.090s">
+<title>No contributions on October 31, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="258" y="124" width="13" height="13" rx="2" fill="#161b22" data-date="2025-11-01" data-count="0" style="--delay:1.126s">
+<title>No contributions on November 01, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="274" y="28" width="13" height="13" rx="2" fill="#161b22" data-date="2025-11-02" data-count="0" style="--delay:0.976s">
+<title>No contributions on November 02, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="274" y="44" width="13" height="13" rx="2" fill="#161b22" data-date="2025-11-03" data-count="0" style="--delay:1.012s">
+<title>No contributions on November 03, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="274" y="60" width="13" height="13" rx="2" fill="#161b22" data-date="2025-11-04" data-count="0" style="--delay:1.048s">
+<title>No contributions on November 04, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="274" y="76" width="13" height="13" rx="2" fill="#161b22" data-date="2025-11-05" data-count="0" style="--delay:1.084s">
+<title>No contributions on November 05, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="274" y="92" width="13" height="13" rx="2" fill="#161b22" data-date="2025-11-06" data-count="0" style="--delay:1.120s">
+<title>No contributions on November 06, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="274" y="108" width="13" height="13" rx="2" fill="#161b22" data-date="2025-11-07" data-count="0" style="--delay:1.156s">
+<title>No contributions on November 07, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="274" y="124" width="13" height="13" rx="2" fill="#161b22" data-date="2025-11-08" data-count="0" style="--delay:1.191s">
+<title>No contributions on November 08, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="290" y="28" width="13" height="13" rx="2" fill="#161b22" data-date="2025-11-09" data-count="0" style="--delay:1.042s">
+<title>No contributions on November 09, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="290" y="44" width="13" height="13" rx="2" fill="#161b22" data-date="2025-11-10" data-count="0" style="--delay:1.077s">
+<title>No contributions on November 10, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="290" y="60" width="13" height="13" rx="2" fill="#161b22" data-date="2025-11-11" data-count="0" style="--delay:1.113s">
+<title>No contributions on November 11, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="290" y="76" width="13" height="13" rx="2" fill="#161b22" data-date="2025-11-12" data-count="0" style="--delay:1.149s">
+<title>No contributions on November 12, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="290" y="92" width="13" height="13" rx="2" fill="#161b22" data-date="2025-11-13" data-count="0" style="--delay:1.185s">
+<title>No contributions on November 13, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="290" y="108" width="13" height="13" rx="2" fill="#161b22" data-date="2025-11-14" data-count="0" style="--delay:1.221s">
+<title>No contributions on November 14, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="290" y="124" width="13" height="13" rx="2" fill="#161b22" data-date="2025-11-15" data-count="0" style="--delay:1.256s">
+<title>No contributions on November 15, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="306" y="28" width="13" height="13" rx="2" fill="#161b22" data-date="2025-11-16" data-count="0" style="--delay:1.107s">
+<title>No contributions on November 16, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="306" y="44" width="13" height="13" rx="2" fill="#161b22" data-date="2025-11-17" data-count="0" style="--delay:1.142s">
+<title>No contributions on November 17, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="306" y="60" width="13" height="13" rx="2" fill="#161b22" data-date="2025-11-18" data-count="0" style="--delay:1.178s">
+<title>No contributions on November 18, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="306" y="76" width="13" height="13" rx="2" fill="#161b22" data-date="2025-11-19" data-count="0" style="--delay:1.214s">
+<title>No contributions on November 19, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="306" y="92" width="13" height="13" rx="2" fill="#161b22" data-date="2025-11-20" data-count="0" style="--delay:1.250s">
+<title>No contributions on November 20, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="306" y="108" width="13" height="13" rx="2" fill="#161b22" data-date="2025-11-21" data-count="0" style="--delay:1.286s">
+<title>No contributions on November 21, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="306" y="124" width="13" height="13" rx="2" fill="#161b22" data-date="2025-11-22" data-count="0" style="--delay:1.322s">
+<title>No contributions on November 22, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="322" y="28" width="13" height="13" rx="2" fill="#161b22" data-date="2025-11-23" data-count="0" style="--delay:1.172s">
+<title>No contributions on November 23, 2025</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="322" y="44" width="13" height="13" rx="2" fill="#1c3153" data-date="2025-11-24" data-count="5" style="--delay:1.208s">
+<title>5 contributions on November 24, 2025</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="322" y="60" width="13" height="13" rx="2" fill="#1c3153" data-date="2025-11-25" data-count="2" style="--delay:1.243s">
+<title>2 contributions on November 25, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="322" y="76" width="13" height="13" rx="2" fill="#161b22" data-date="2025-11-26" data-count="0" style="--delay:1.279s">
+<title>No contributions on November 26, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="322" y="92" width="13" height="13" rx="2" fill="#161b22" data-date="2025-11-27" data-count="0" style="--delay:1.315s">
+<title>No contributions on November 27, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="322" y="108" width="13" height="13" rx="2" fill="#161b22" data-date="2025-11-28" data-count="0" style="--delay:1.351s">
+<title>No contributions on November 28, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="322" y="124" width="13" height="13" rx="2" fill="#161b22" data-date="2025-11-29" data-count="0" style="--delay:1.387s">
+<title>No contributions on November 29, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="338" y="28" width="13" height="13" rx="2" fill="#161b22" data-date="2025-11-30" data-count="0" style="--delay:1.237s">
+<title>No contributions on November 30, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="338" y="44" width="13" height="13" rx="2" fill="#161b22" data-date="2025-12-01" data-count="0" style="--delay:1.273s">
+<title>No contributions on December 01, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="338" y="60" width="13" height="13" rx="2" fill="#161b22" data-date="2025-12-02" data-count="0" style="--delay:1.308s">
+<title>No contributions on December 02, 2025</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="338" y="76" width="13" height="13" rx="2" fill="#1c3153" data-date="2025-12-03" data-count="2" style="--delay:1.344s">
+<title>2 contributions on December 03, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="338" y="92" width="13" height="13" rx="2" fill="#161b22" data-date="2025-12-04" data-count="0" style="--delay:1.380s">
+<title>No contributions on December 04, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="338" y="108" width="13" height="13" rx="2" fill="#161b22" data-date="2025-12-05" data-count="0" style="--delay:1.416s">
+<title>No contributions on December 05, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="338" y="124" width="13" height="13" rx="2" fill="#161b22" data-date="2025-12-06" data-count="0" style="--delay:1.452s">
+<title>No contributions on December 06, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="354" y="28" width="13" height="13" rx="2" fill="#161b22" data-date="2025-12-07" data-count="0" style="--delay:1.302s">
+<title>No contributions on December 07, 2025</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="354" y="44" width="13" height="13" rx="2" fill="#1c3153" data-date="2025-12-08" data-count="1" style="--delay:1.338s">
+<title>1 contribution on December 08, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="354" y="60" width="13" height="13" rx="2" fill="#161b22" data-date="2025-12-09" data-count="0" style="--delay:1.374s">
+<title>No contributions on December 09, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="354" y="76" width="13" height="13" rx="2" fill="#161b22" data-date="2025-12-10" data-count="0" style="--delay:1.409s">
+<title>No contributions on December 10, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="354" y="92" width="13" height="13" rx="2" fill="#161b22" data-date="2025-12-11" data-count="0" style="--delay:1.445s">
+<title>No contributions on December 11, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="354" y="108" width="13" height="13" rx="2" fill="#161b22" data-date="2025-12-12" data-count="0" style="--delay:1.481s">
+<title>No contributions on December 12, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="354" y="124" width="13" height="13" rx="2" fill="#161b22" data-date="2025-12-13" data-count="0" style="--delay:1.517s">
+<title>No contributions on December 13, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="370" y="28" width="13" height="13" rx="2" fill="#161b22" data-date="2025-12-14" data-count="0" style="--delay:1.367s">
+<title>No contributions on December 14, 2025</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="370" y="44" width="13" height="13" rx="2" fill="#1c3153" data-date="2025-12-15" data-count="3" style="--delay:1.403s">
+<title>3 contributions on December 15, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="370" y="60" width="13" height="13" rx="2" fill="#161b22" data-date="2025-12-16" data-count="0" style="--delay:1.439s">
+<title>No contributions on December 16, 2025</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="370" y="76" width="13" height="13" rx="2" fill="#1c3153" data-date="2025-12-17" data-count="2" style="--delay:1.475s">
+<title>2 contributions on December 17, 2025</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="370" y="92" width="13" height="13" rx="2" fill="#1c3153" data-date="2025-12-18" data-count="3" style="--delay:1.510s">
+<title>3 contributions on December 18, 2025</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="370" y="108" width="13" height="13" rx="2" fill="#1c3153" data-date="2025-12-19" data-count="2" style="--delay:1.546s">
+<title>2 contributions on December 19, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="370" y="124" width="13" height="13" rx="2" fill="#161b22" data-date="2025-12-20" data-count="0" style="--delay:1.582s">
+<title>No contributions on December 20, 2025</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="386" y="28" width="13" height="13" rx="2" fill="#1c3153" data-date="2025-12-21" data-count="13" style="--delay:1.432s">
+<title>13 contributions on December 21, 2025</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="386" y="44" width="13" height="13" rx="2" fill="#1c3153" data-date="2025-12-22" data-count="8" style="--delay:1.468s">
+<title>8 contributions on December 22, 2025</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="386" y="60" width="13" height="13" rx="2" fill="#1c3153" data-date="2025-12-23" data-count="2" style="--delay:1.504s">
+<title>2 contributions on December 23, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="386" y="76" width="13" height="13" rx="2" fill="#161b22" data-date="2025-12-24" data-count="0" style="--delay:1.540s">
+<title>No contributions on December 24, 2025</title>
+</rect>
+<rect class="contribution-cell level-0" x="386" y="92" width="13" height="13" rx="2" fill="#161b22" data-date="2025-12-25" data-count="0" style="--delay:1.575s">
+<title>No contributions on December 25, 2025</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="386" y="108" width="13" height="13" rx="2" fill="#1c3153" data-date="2025-12-26" data-count="7" style="--delay:1.611s">
+<title>7 contributions on December 26, 2025</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="386" y="124" width="13" height="13" rx="2" fill="#1c3153" data-date="2025-12-27" data-count="15" style="--delay:1.647s">
+<title>15 contributions on December 27, 2025</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="402" y="28" width="13" height="13" rx="2" fill="#1c3153" data-date="2025-12-28" data-count="3" style="--delay:1.497s">
+<title>3 contributions on December 28, 2025</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="402" y="44" width="13" height="13" rx="2" fill="#1c3153" data-date="2025-12-29" data-count="1" style="--delay:1.533s">
+<title>1 contribution on December 29, 2025</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="402" y="60" width="13" height="13" rx="2" fill="#1c3153" data-date="2025-12-30" data-count="3" style="--delay:1.569s">
+<title>3 contributions on December 30, 2025</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="402" y="76" width="13" height="13" rx="2" fill="#1c3153" data-date="2025-12-31" data-count="8" style="--delay:1.605s">
+<title>8 contributions on December 31, 2025</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="402" y="92" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-01-01" data-count="9" style="--delay:1.641s">
+<title>9 contributions on January 01, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="402" y="108" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-01-02" data-count="7" style="--delay:1.676s">
+<title>7 contributions on January 02, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="402" y="124" width="13" height="13" rx="2" fill="#161b22" data-date="2026-01-03" data-count="0" style="--delay:1.712s">
+<title>No contributions on January 03, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="418" y="28" width="13" height="13" rx="2" fill="#161b22" data-date="2026-01-04" data-count="0" style="--delay:1.562s">
+<title>No contributions on January 04, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="418" y="44" width="13" height="13" rx="2" fill="#161b22" data-date="2026-01-05" data-count="0" style="--delay:1.598s">
+<title>No contributions on January 05, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="418" y="60" width="13" height="13" rx="2" fill="#161b22" data-date="2026-01-06" data-count="0" style="--delay:1.634s">
+<title>No contributions on January 06, 2026</title>
+</rect>
+<rect class="contribution-cell level-2 active" x="418" y="76" width="13" height="13" rx="2" fill="#054ada" data-date="2026-01-07" data-count="30" style="--delay:1.670s">
+<title>30 contributions on January 07, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="418" y="92" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-01-08" data-count="8" style="--delay:1.706s">
+<title>8 contributions on January 08, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="418" y="108" width="13" height="13" rx="2" fill="#161b22" data-date="2026-01-09" data-count="0" style="--delay:1.741s">
+<title>No contributions on January 09, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="418" y="124" width="13" height="13" rx="2" fill="#161b22" data-date="2026-01-10" data-count="0" style="--delay:1.777s">
+<title>No contributions on January 10, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="434" y="28" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-01-11" data-count="9" style="--delay:1.627s">
+<title>9 contributions on January 11, 2026</title>
+</rect>
+<rect class="contribution-cell level-4 active" x="434" y="44" width="13" height="13" rx="2" fill="#78a9ff" data-date="2026-01-12" data-count="85" style="--delay:1.663s">
+<title>85 contributions on January 12, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="434" y="60" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-01-13" data-count="8" style="--delay:1.699s">
+<title>8 contributions on January 13, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="434" y="76" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-01-14" data-count="5" style="--delay:1.735s">
+<title>5 contributions on January 14, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="434" y="92" width="13" height="13" rx="2" fill="#161b22" data-date="2026-01-15" data-count="0" style="--delay:1.771s">
+<title>No contributions on January 15, 2026</title>
+</rect>
+<rect class="contribution-cell level-2 active" x="434" y="108" width="13" height="13" rx="2" fill="#054ada" data-date="2026-01-16" data-count="23" style="--delay:1.807s">
+<title>23 contributions on January 16, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="434" y="124" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-01-17" data-count="8" style="--delay:1.842s">
+<title>8 contributions on January 17, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="450" y="28" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-01-18" data-count="2" style="--delay:1.693s">
+<title>2 contributions on January 18, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="450" y="44" width="13" height="13" rx="2" fill="#161b22" data-date="2026-01-19" data-count="0" style="--delay:1.728s">
+<title>No contributions on January 19, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="450" y="60" width="13" height="13" rx="2" fill="#161b22" data-date="2026-01-20" data-count="0" style="--delay:1.764s">
+<title>No contributions on January 20, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="450" y="76" width="13" height="13" rx="2" fill="#161b22" data-date="2026-01-21" data-count="0" style="--delay:1.800s">
+<title>No contributions on January 21, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="450" y="92" width="13" height="13" rx="2" fill="#161b22" data-date="2026-01-22" data-count="0" style="--delay:1.836s">
+<title>No contributions on January 22, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="450" y="108" width="13" height="13" rx="2" fill="#161b22" data-date="2026-01-23" data-count="0" style="--delay:1.872s">
+<title>No contributions on January 23, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="450" y="124" width="13" height="13" rx="2" fill="#161b22" data-date="2026-01-24" data-count="0" style="--delay:1.907s">
+<title>No contributions on January 24, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="466" y="28" width="13" height="13" rx="2" fill="#161b22" data-date="2026-01-25" data-count="0" style="--delay:1.758s">
+<title>No contributions on January 25, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="466" y="44" width="13" height="13" rx="2" fill="#161b22" data-date="2026-01-26" data-count="0" style="--delay:1.793s">
+<title>No contributions on January 26, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="466" y="60" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-01-27" data-count="5" style="--delay:1.829s">
+<title>5 contributions on January 27, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="466" y="76" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-01-28" data-count="8" style="--delay:1.865s">
+<title>8 contributions on January 28, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="466" y="92" width="13" height="13" rx="2" fill="#161b22" data-date="2026-01-29" data-count="0" style="--delay:1.901s">
+<title>No contributions on January 29, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="466" y="108" width="13" height="13" rx="2" fill="#161b22" data-date="2026-01-30" data-count="0" style="--delay:1.937s">
+<title>No contributions on January 30, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="466" y="124" width="13" height="13" rx="2" fill="#161b22" data-date="2026-01-31" data-count="0" style="--delay:1.973s">
+<title>No contributions on January 31, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="482" y="28" width="13" height="13" rx="2" fill="#161b22" data-date="2026-02-01" data-count="0" style="--delay:1.823s">
+<title>No contributions on February 01, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="482" y="44" width="13" height="13" rx="2" fill="#161b22" data-date="2026-02-02" data-count="0" style="--delay:1.859s">
+<title>No contributions on February 02, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="482" y="60" width="13" height="13" rx="2" fill="#161b22" data-date="2026-02-03" data-count="0" style="--delay:1.894s">
+<title>No contributions on February 03, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="482" y="76" width="13" height="13" rx="2" fill="#161b22" data-date="2026-02-04" data-count="0" style="--delay:1.930s">
+<title>No contributions on February 04, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="482" y="92" width="13" height="13" rx="2" fill="#161b22" data-date="2026-02-05" data-count="0" style="--delay:1.966s">
+<title>No contributions on February 05, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="482" y="108" width="13" height="13" rx="2" fill="#161b22" data-date="2026-02-06" data-count="0" style="--delay:2.002s">
+<title>No contributions on February 06, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="482" y="124" width="13" height="13" rx="2" fill="#161b22" data-date="2026-02-07" data-count="0" style="--delay:2.038s">
+<title>No contributions on February 07, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="498" y="28" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-02-08" data-count="13" style="--delay:1.888s">
+<title>13 contributions on February 08, 2026</title>
+</rect>
+<rect class="contribution-cell level-3 active" x="498" y="44" width="13" height="13" rx="2" fill="#4589ff" data-date="2026-02-09" data-count="32" style="--delay:1.924s">
+<title>32 contributions on February 09, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="498" y="60" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-02-10" data-count="8" style="--delay:1.959s">
+<title>8 contributions on February 10, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="498" y="76" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-02-11" data-count="1" style="--delay:1.995s">
+<title>1 contribution on February 11, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="498" y="92" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-02-12" data-count="14" style="--delay:2.031s">
+<title>14 contributions on February 12, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="498" y="108" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-02-13" data-count="4" style="--delay:2.067s">
+<title>4 contributions on February 13, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="498" y="124" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-02-14" data-count="2" style="--delay:2.103s">
+<title>2 contributions on February 14, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="514" y="28" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-02-15" data-count="7" style="--delay:1.953s">
+<title>7 contributions on February 15, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="514" y="44" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-02-16" data-count="1" style="--delay:1.989s">
+<title>1 contribution on February 16, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="514" y="60" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-02-17" data-count="5" style="--delay:2.025s">
+<title>5 contributions on February 17, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="514" y="76" width="13" height="13" rx="2" fill="#161b22" data-date="2026-02-18" data-count="0" style="--delay:2.060s">
+<title>No contributions on February 18, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="514" y="92" width="13" height="13" rx="2" fill="#161b22" data-date="2026-02-19" data-count="0" style="--delay:2.096s">
+<title>No contributions on February 19, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="514" y="108" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-02-20" data-count="4" style="--delay:2.132s">
+<title>4 contributions on February 20, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="514" y="124" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-02-21" data-count="5" style="--delay:2.168s">
+<title>5 contributions on February 21, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="530" y="28" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-02-22" data-count="3" style="--delay:2.018s">
+<title>3 contributions on February 22, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="530" y="44" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-02-23" data-count="1" style="--delay:2.054s">
+<title>1 contribution on February 23, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="530" y="60" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-02-24" data-count="6" style="--delay:2.090s">
+<title>6 contributions on February 24, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="530" y="76" width="13" height="13" rx="2" fill="#161b22" data-date="2026-02-25" data-count="0" style="--delay:2.125s">
+<title>No contributions on February 25, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="530" y="92" width="13" height="13" rx="2" fill="#161b22" data-date="2026-02-26" data-count="0" style="--delay:2.161s">
+<title>No contributions on February 26, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="530" y="108" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-02-27" data-count="5" style="--delay:2.197s">
+<title>5 contributions on February 27, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="530" y="124" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-02-28" data-count="9" style="--delay:2.233s">
+<title>9 contributions on February 28, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="546" y="28" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-03-01" data-count="13" style="--delay:2.083s">
+<title>13 contributions on March 01, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="546" y="44" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-03-02" data-count="1" style="--delay:2.119s">
+<title>1 contribution on March 02, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="546" y="60" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-03-03" data-count="6" style="--delay:2.155s">
+<title>6 contributions on March 03, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="546" y="76" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-03-04" data-count="5" style="--delay:2.191s">
+<title>5 contributions on March 04, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="546" y="92" width="13" height="13" rx="2" fill="#161b22" data-date="2026-03-05" data-count="0" style="--delay:2.226s">
+<title>No contributions on March 05, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="546" y="108" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-03-06" data-count="8" style="--delay:2.262s">
+<title>8 contributions on March 06, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="546" y="124" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-03-07" data-count="7" style="--delay:2.298s">
+<title>7 contributions on March 07, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="562" y="28" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-03-08" data-count="6" style="--delay:2.148s">
+<title>6 contributions on March 08, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="562" y="44" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-03-09" data-count="1" style="--delay:2.184s">
+<title>1 contribution on March 09, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="562" y="60" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-03-10" data-count="7" style="--delay:2.220s">
+<title>7 contributions on March 10, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="562" y="76" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-03-11" data-count="1" style="--delay:2.256s">
+<title>1 contribution on March 11, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="562" y="92" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-03-12" data-count="7" style="--delay:2.292s">
+<title>7 contributions on March 12, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="562" y="108" width="13" height="13" rx="2" fill="#161b22" data-date="2026-03-13" data-count="0" style="--delay:2.327s">
+<title>No contributions on March 13, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="562" y="124" width="13" height="13" rx="2" fill="#161b22" data-date="2026-03-14" data-count="0" style="--delay:2.363s">
+<title>No contributions on March 14, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="578" y="28" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-03-15" data-count="4" style="--delay:2.213s">
+<title>4 contributions on March 15, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="578" y="44" width="13" height="13" rx="2" fill="#161b22" data-date="2026-03-16" data-count="0" style="--delay:2.249s">
+<title>No contributions on March 16, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="578" y="60" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-03-17" data-count="6" style="--delay:2.285s">
+<title>6 contributions on March 17, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="578" y="76" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-03-18" data-count="2" style="--delay:2.321s">
+<title>2 contributions on March 18, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="578" y="92" width="13" height="13" rx="2" fill="#161b22" data-date="2026-03-19" data-count="0" style="--delay:2.357s">
+<title>No contributions on March 19, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="578" y="108" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-03-20" data-count="5" style="--delay:2.392s">
+<title>5 contributions on March 20, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="578" y="124" width="13" height="13" rx="2" fill="#161b22" data-date="2026-03-21" data-count="0" style="--delay:2.428s">
+<title>No contributions on March 21, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="594" y="28" width="13" height="13" rx="2" fill="#161b22" data-date="2026-03-22" data-count="0" style="--delay:2.278s">
+<title>No contributions on March 22, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="594" y="44" width="13" height="13" rx="2" fill="#161b22" data-date="2026-03-23" data-count="0" style="--delay:2.314s">
+<title>No contributions on March 23, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="594" y="60" width="13" height="13" rx="2" fill="#161b22" data-date="2026-03-24" data-count="0" style="--delay:2.350s">
+<title>No contributions on March 24, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="594" y="76" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-03-25" data-count="11" style="--delay:2.386s">
+<title>11 contributions on March 25, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="594" y="92" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-03-26" data-count="4" style="--delay:2.422s">
+<title>4 contributions on March 26, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="594" y="108" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-03-27" data-count="2" style="--delay:2.458s">
+<title>2 contributions on March 27, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="594" y="124" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-03-28" data-count="1" style="--delay:2.493s">
+<title>1 contribution on March 28, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="610" y="28" width="13" height="13" rx="2" fill="#161b22" data-date="2026-03-29" data-count="0" style="--delay:2.344s">
+<title>No contributions on March 29, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="610" y="44" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-03-30" data-count="3" style="--delay:2.379s">
+<title>3 contributions on March 30, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="610" y="60" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-03-31" data-count="5" style="--delay:2.415s">
+<title>5 contributions on March 31, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="610" y="76" width="13" height="13" rx="2" fill="#161b22" data-date="2026-04-01" data-count="0" style="--delay:2.451s">
+<title>No contributions on April 01, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="610" y="92" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-04-02" data-count="2" style="--delay:2.487s">
+<title>2 contributions on April 02, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="610" y="108" width="13" height="13" rx="2" fill="#161b22" data-date="2026-04-03" data-count="0" style="--delay:2.523s">
+<title>No contributions on April 03, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="610" y="124" width="13" height="13" rx="2" fill="#161b22" data-date="2026-04-04" data-count="0" style="--delay:2.558s">
+<title>No contributions on April 04, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="626" y="28" width="13" height="13" rx="2" fill="#161b22" data-date="2026-04-05" data-count="0" style="--delay:2.409s">
+<title>No contributions on April 05, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="626" y="44" width="13" height="13" rx="2" fill="#161b22" data-date="2026-04-06" data-count="0" style="--delay:2.444s">
+<title>No contributions on April 06, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="626" y="60" width="13" height="13" rx="2" fill="#161b22" data-date="2026-04-07" data-count="0" style="--delay:2.480s">
+<title>No contributions on April 07, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="626" y="76" width="13" height="13" rx="2" fill="#161b22" data-date="2026-04-08" data-count="0" style="--delay:2.516s">
+<title>No contributions on April 08, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="626" y="92" width="13" height="13" rx="2" fill="#161b22" data-date="2026-04-09" data-count="0" style="--delay:2.552s">
+<title>No contributions on April 09, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="626" y="108" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-04-10" data-count="2" style="--delay:2.588s">
+<title>2 contributions on April 10, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="626" y="124" width="13" height="13" rx="2" fill="#161b22" data-date="2026-04-11" data-count="0" style="--delay:2.624s">
+<title>No contributions on April 11, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="642" y="28" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-04-12" data-count="2" style="--delay:2.474s">
+<title>2 contributions on April 12, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="642" y="44" width="13" height="13" rx="2" fill="#161b22" data-date="2026-04-13" data-count="0" style="--delay:2.510s">
+<title>No contributions on April 13, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="642" y="60" width="13" height="13" rx="2" fill="#161b22" data-date="2026-04-14" data-count="0" style="--delay:2.545s">
+<title>No contributions on April 14, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="642" y="76" width="13" height="13" rx="2" fill="#161b22" data-date="2026-04-15" data-count="0" style="--delay:2.581s">
+<title>No contributions on April 15, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="642" y="92" width="13" height="13" rx="2" fill="#161b22" data-date="2026-04-16" data-count="0" style="--delay:2.617s">
+<title>No contributions on April 16, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="642" y="108" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-04-17" data-count="1" style="--delay:2.653s">
+<title>1 contribution on April 17, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="642" y="124" width="13" height="13" rx="2" fill="#161b22" data-date="2026-04-18" data-count="0" style="--delay:2.689s">
+<title>No contributions on April 18, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="658" y="28" width="13" height="13" rx="2" fill="#161b22" data-date="2026-04-19" data-count="0" style="--delay:2.539s">
+<title>No contributions on April 19, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="658" y="44" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-04-20" data-count="4" style="--delay:2.575s">
+<title>4 contributions on April 20, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="658" y="60" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-04-21" data-count="1" style="--delay:2.610s">
+<title>1 contribution on April 21, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="658" y="76" width="13" height="13" rx="2" fill="#161b22" data-date="2026-04-22" data-count="0" style="--delay:2.646s">
+<title>No contributions on April 22, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="658" y="92" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-04-23" data-count="2" style="--delay:2.682s">
+<title>2 contributions on April 23, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="658" y="108" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-04-24" data-count="14" style="--delay:2.718s">
+<title>14 contributions on April 24, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="658" y="124" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-04-25" data-count="5" style="--delay:2.754s">
+<title>5 contributions on April 25, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="674" y="28" width="13" height="13" rx="2" fill="#161b22" data-date="2026-04-26" data-count="0" style="--delay:2.604s">
+<title>No contributions on April 26, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="674" y="44" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-04-27" data-count="4" style="--delay:2.640s">
+<title>4 contributions on April 27, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="674" y="60" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-04-28" data-count="8" style="--delay:2.676s">
+<title>8 contributions on April 28, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="674" y="76" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-04-29" data-count="2" style="--delay:2.711s">
+<title>2 contributions on April 29, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="674" y="92" width="13" height="13" rx="2" fill="#161b22" data-date="2026-04-30" data-count="0" style="--delay:2.747s">
+<title>No contributions on April 30, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="674" y="108" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-05-01" data-count="2" style="--delay:2.783s">
+<title>2 contributions on May 01, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="674" y="124" width="13" height="13" rx="2" fill="#161b22" data-date="2026-05-02" data-count="0" style="--delay:2.819s">
+<title>No contributions on May 02, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="690" y="28" width="13" height="13" rx="2" fill="#161b22" data-date="2026-05-03" data-count="0" style="--delay:2.669s">
+<title>No contributions on May 03, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="690" y="44" width="13" height="13" rx="2" fill="#161b22" data-date="2026-05-04" data-count="0" style="--delay:2.705s">
+<title>No contributions on May 04, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="690" y="60" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-05-05" data-count="12" style="--delay:2.741s">
+<title>12 contributions on May 05, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="690" y="76" width="13" height="13" rx="2" fill="#161b22" data-date="2026-05-06" data-count="0" style="--delay:2.776s">
+<title>No contributions on May 06, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="690" y="92" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-05-07" data-count="7" style="--delay:2.812s">
+<title>7 contributions on May 07, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="690" y="108" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-05-08" data-count="5" style="--delay:2.848s">
+<title>5 contributions on May 08, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="690" y="124" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-05-09" data-count="1" style="--delay:2.884s">
+<title>1 contribution on May 09, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="706" y="28" width="13" height="13" rx="2" fill="#161b22" data-date="2026-05-10" data-count="0" style="--delay:2.734s">
+<title>No contributions on May 10, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="706" y="44" width="13" height="13" rx="2" fill="#161b22" data-date="2026-05-11" data-count="0" style="--delay:2.770s">
+<title>No contributions on May 11, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="706" y="60" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-05-12" data-count="1" style="--delay:2.806s">
+<title>1 contribution on May 12, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="706" y="76" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-05-13" data-count="11" style="--delay:2.842s">
+<title>11 contributions on May 13, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="706" y="92" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-05-14" data-count="6" style="--delay:2.877s">
+<title>6 contributions on May 14, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="706" y="108" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-05-15" data-count="4" style="--delay:2.913s">
+<title>4 contributions on May 15, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="706" y="124" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-05-16" data-count="1" style="--delay:2.949s">
+<title>1 contribution on May 16, 2026</title>
+</rect>
+<rect class="contribution-cell level-2 active" x="722" y="28" width="13" height="13" rx="2" fill="#054ada" data-date="2026-05-17" data-count="17" style="--delay:2.799s">
+<title>17 contributions on May 17, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="722" y="44" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-05-18" data-count="9" style="--delay:2.835s">
+<title>9 contributions on May 18, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="722" y="60" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-05-19" data-count="1" style="--delay:2.871s">
+<title>1 contribution on May 19, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="722" y="76" width="13" height="13" rx="2" fill="#161b22" data-date="2026-05-20" data-count="0" style="--delay:2.907s">
+<title>No contributions on May 20, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="722" y="92" width="13" height="13" rx="2" fill="#161b22" data-date="2026-05-21" data-count="0" style="--delay:2.942s">
+<title>No contributions on May 21, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="722" y="108" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-05-22" data-count="2" style="--delay:2.978s">
+<title>2 contributions on May 22, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="722" y="124" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-05-23" data-count="15" style="--delay:3.014s">
+<title>15 contributions on May 23, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="738" y="28" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-05-24" data-count="9" style="--delay:2.864s">
+<title>9 contributions on May 24, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="738" y="44" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-05-25" data-count="6" style="--delay:2.900s">
+<title>6 contributions on May 25, 2026</title>
+</rect>
+<rect class="contribution-cell level-3 active" x="738" y="60" width="13" height="13" rx="2" fill="#4589ff" data-date="2026-05-26" data-count="38" style="--delay:2.936s">
+<title>38 contributions on May 26, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="738" y="76" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-05-27" data-count="10" style="--delay:2.972s">
+<title>10 contributions on May 27, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="738" y="92" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-05-28" data-count="11" style="--delay:3.008s">
+<title>11 contributions on May 28, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="738" y="108" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-05-29" data-count="4" style="--delay:3.043s">
+<title>4 contributions on May 29, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="738" y="124" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-05-30" data-count="7" style="--delay:3.079s">
+<title>7 contributions on May 30, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="754" y="28" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-05-31" data-count="2" style="--delay:2.929s">
+<title>2 contributions on May 31, 2026</title>
+</rect>
+<rect class="contribution-cell level-4 active" x="754" y="44" width="13" height="13" rx="2" fill="#78a9ff" data-date="2026-06-01" data-count="62" style="--delay:2.965s">
+<title>62 contributions on June 01, 2026</title>
+</rect>
+<rect class="contribution-cell level-2 active" x="754" y="60" width="13" height="13" rx="2" fill="#054ada" data-date="2026-06-02" data-count="17" style="--delay:3.001s">
+<title>17 contributions on June 02, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="754" y="76" width="13" height="13" rx="2" fill="#161b22" data-date="2026-06-03" data-count="0" style="--delay:3.037s">
+<title>No contributions on June 03, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="754" y="92" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-06-04" data-count="5" style="--delay:3.073s">
+<title>5 contributions on June 04, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="754" y="108" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-06-05" data-count="7" style="--delay:3.108s">
+<title>7 contributions on June 05, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="754" y="124" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-06-06" data-count="4" style="--delay:3.144s">
+<title>4 contributions on June 06, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="770" y="28" width="13" height="13" rx="2" fill="#161b22" data-date="2026-06-07" data-count="0" style="--delay:2.995s">
+<title>No contributions on June 07, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="770" y="44" width="13" height="13" rx="2" fill="#161b22" data-date="2026-06-08" data-count="0" style="--delay:3.030s">
+<title>No contributions on June 08, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="770" y="60" width="13" height="13" rx="2" fill="#161b22" data-date="2026-06-09" data-count="0" style="--delay:3.066s">
+<title>No contributions on June 09, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="770" y="76" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-06-10" data-count="1" style="--delay:3.102s">
+<title>1 contribution on June 10, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="770" y="92" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-06-11" data-count="4" style="--delay:3.138s">
+<title>4 contributions on June 11, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="770" y="108" width="13" height="13" rx="2" fill="#161b22" data-date="2026-06-12" data-count="0" style="--delay:3.174s">
+<title>No contributions on June 12, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="770" y="124" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-06-13" data-count="9" style="--delay:3.209s">
+<title>9 contributions on June 13, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="786" y="28" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-06-14" data-count="1" style="--delay:3.060s">
+<title>1 contribution on June 14, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="786" y="44" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-06-15" data-count="1" style="--delay:3.095s">
+<title>1 contribution on June 15, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="786" y="60" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-06-16" data-count="2" style="--delay:3.131s">
+<title>2 contributions on June 16, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="786" y="76" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-06-17" data-count="1" style="--delay:3.167s">
+<title>1 contribution on June 17, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="786" y="92" width="13" height="13" rx="2" fill="#161b22" data-date="2026-06-18" data-count="0" style="--delay:3.203s">
+<title>No contributions on June 18, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="786" y="108" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-06-19" data-count="1" style="--delay:3.239s">
+<title>1 contribution on June 19, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="786" y="124" width="13" height="13" rx="2" fill="#161b22" data-date="2026-06-20" data-count="0" style="--delay:3.275s">
+<title>No contributions on June 20, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="802" y="28" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-06-21" data-count="3" style="--delay:3.125s">
+<title>3 contributions on June 21, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="802" y="44" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-06-22" data-count="1" style="--delay:3.161s">
+<title>1 contribution on June 22, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="802" y="60" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-06-23" data-count="2" style="--delay:3.196s">
+<title>2 contributions on June 23, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="802" y="76" width="13" height="13" rx="2" fill="#161b22" data-date="2026-06-24" data-count="0" style="--delay:3.232s">
+<title>No contributions on June 24, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="802" y="92" width="13" height="13" rx="2" fill="#161b22" data-date="2026-06-25" data-count="0" style="--delay:3.268s">
+<title>No contributions on June 25, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="802" y="108" width="13" height="13" rx="2" fill="#161b22" data-date="2026-06-26" data-count="0" style="--delay:3.304s">
+<title>No contributions on June 26, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="802" y="124" width="13" height="13" rx="2" fill="#161b22" data-date="2026-06-27" data-count="0" style="--delay:3.340s">
+<title>No contributions on June 27, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="818" y="28" width="13" height="13" rx="2" fill="#161b22" data-date="2026-06-28" data-count="0" style="--delay:3.190s">
+<title>No contributions on June 28, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="818" y="44" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-06-29" data-count="2" style="--delay:3.226s">
+<title>2 contributions on June 29, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="818" y="60" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-06-30" data-count="6" style="--delay:3.261s">
+<title>6 contributions on June 30, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="818" y="76" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-07-01" data-count="3" style="--delay:3.297s">
+<title>3 contributions on July 01, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="818" y="92" width="13" height="13" rx="2" fill="#161b22" data-date="2026-07-02" data-count="0" style="--delay:3.333s">
+<title>No contributions on July 02, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="818" y="108" width="13" height="13" rx="2" fill="#161b22" data-date="2026-07-03" data-count="0" style="--delay:3.369s">
+<title>No contributions on July 03, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="818" y="124" width="13" height="13" rx="2" fill="#161b22" data-date="2026-07-04" data-count="0" style="--delay:3.405s">
+<title>No contributions on July 04, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="834" y="28" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-07-05" data-count="2" style="--delay:3.255s">
+<title>2 contributions on July 05, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="834" y="44" width="13" height="13" rx="2" fill="#161b22" data-date="2026-07-06" data-count="0" style="--delay:3.291s">
+<title>No contributions on July 06, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="834" y="60" width="13" height="13" rx="2" fill="#161b22" data-date="2026-07-07" data-count="0" style="--delay:3.327s">
+<title>No contributions on July 07, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="834" y="76" width="13" height="13" rx="2" fill="#161b22" data-date="2026-07-08" data-count="0" style="--delay:3.362s">
+<title>No contributions on July 08, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="834" y="92" width="13" height="13" rx="2" fill="#161b22" data-date="2026-07-09" data-count="0" style="--delay:3.398s">
+<title>No contributions on July 09, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="834" y="108" width="13" height="13" rx="2" fill="#161b22" data-date="2026-07-10" data-count="0" style="--delay:3.434s">
+<title>No contributions on July 10, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="834" y="124" width="13" height="13" rx="2" fill="#161b22" data-date="2026-07-11" data-count="0" style="--delay:3.470s">
+<title>No contributions on July 11, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="850" y="28" width="13" height="13" rx="2" fill="#161b22" data-date="2026-07-12" data-count="0" style="--delay:3.320s">
+<title>No contributions on July 12, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="850" y="44" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-07-13" data-count="10" style="--delay:3.356s">
+<title>10 contributions on July 13, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="850" y="60" width="13" height="13" rx="2" fill="#161b22" data-date="2026-07-14" data-count="0" style="--delay:3.392s">
+<title>No contributions on July 14, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="850" y="76" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-07-15" data-count="4" style="--delay:3.427s">
+<title>4 contributions on July 15, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="850" y="92" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-07-16" data-count="4" style="--delay:3.463s">
+<title>4 contributions on July 16, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="850" y="108" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-07-17" data-count="5" style="--delay:3.499s">
+<title>5 contributions on July 17, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="850" y="124" width="13" height="13" rx="2" fill="#161b22" data-date="2026-07-18" data-count="0" style="--delay:3.535s">
+<title>No contributions on July 18, 2026</title>
+</rect>
+<rect class="contribution-cell level-0" x="866" y="28" width="13" height="13" rx="2" fill="#161b22" data-date="2026-07-19" data-count="0" style="--delay:3.385s">
+<title>No contributions on July 19, 2026</title>
+</rect>
+</g>
+<path d="M4 144H887" stroke="#1c3153"/>
+<circle cx="18" cy="155" r="3" fill="#42be65"/>
+<text x="29" y="159" class="footer-value">941 CONTRIBUTIONS / LAST 12 MONTHS</text>
+<text x="876" y="159" class="footer" text-anchor="end">CURRENT 0D  ·  LONGEST 12D  ·  UPDATED 19 JUL</text>
+</svg>

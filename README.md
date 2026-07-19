@@ -1,54 +1,99 @@
-# Mert Efe Sensoy
+<div align="center">
 
-**Third-year Computer Engineering student at TED University**
+<!--
+  Three-asset composition inspired by AVIVASHISHTA29/AVIVASHISHTA29.
+  The generators and IBM visual system in this repository are independently implemented.
+  Portrait: python scripts/prep_photo.py && python scripts/make_ascii_svg.py
+  Info card: python scripts/make_info_card.py
+-->
+
+<h3><code>mertefe@sysplex ~ $ ./contributions.sh</code></h3>
+
+<img src="./contrib-heatmap.svg" width="860" alt="IBM-blue 53-week public GitHub contribution calendar for Mert Efe Şensoy, with total and streak statistics." />
+
+<br>
+<br>
+
+<h3><code>mertefe@sysplex ~ $ whoami</code></h3>
+
+<table>
+<tr>
+<td valign="top"><img src="./assets/mert-ascii.svg" width="370" alt="High-detail animated monochrome ASCII portrait of Mert Efe Şensoy printing row by row in an IBM-inspired terminal." /></td>
+<td valign="top"><img src="./assets/info-card.svg" width="490" alt="IBM-inspired system card showing Mert Efe Şensoy's current role, recognition, education, focus areas, technical stack, and active projects." /></td>
+</tr>
+</table>
+
+<br>
+<br>
+
+<h3><code>mertefe@sysplex ~ $ ./links.sh</code></h3>
+
+<p><b>Systems Engineer · 2026 IBM Champion · Quantum Research · Open Hardware</b></p>
+
+<p>
+  <a href="https://mertefesensoy.dev">PORTFOLIO</a> ·
+  <a href="https://github.com/mertefesensoy">GITHUB</a> ·
+  <a href="https://www.linkedin.com/in/mert-efe-%C5%9Fensoy-7bbb56290/">LINKEDIN</a> ·
+  <a href="https://medium.com/@mefe.sensoy">MEDIUM</a> ·
+  <a href="https://www.credly.com/badges/b58586a6-8305-47a5-8bd6-6a7e7b1ce69e/public_url">IBM CREDENTIAL</a> ·
+  <a href="mailto:sensoymertefe@gmail.com">EMAIL</a>
+</p>
+
+</div>
+
+<!-- PROFILE_STATS:START -->
+<p align="center"><sub><strong>GITHUB.ACTIVITY / LAST 12 MONTHS</strong> · Total: 941 contributions · Current streak: 0 days · Longest streak: 12 days · Best day: 85 contributions on 2026-01-12 · Generated: 2026-07-19</sub></p>
+<!-- PROFILE_STATS:END -->
+
+<details>
+<summary><code>mertefe@sysplex ~ $ less profile.dossier</code></summary>
+
+<br>
+
+### `01 / ACTIVE SYSTEMS`
+
+| SYS | Project | Current work | Status |
+|:---|:---|:---|:---|
+| `OMI` | [The Open Memory Initiative](https://github.com/The-Open-Memory-Initiative-OMI/omi) | Open, reproducible DDR4 UDIMM reference design: power/PDN, command/clock, data-lane schematics, SPD tooling, and educational documentation. | `ACTIVE DEVELOPMENT` |
+| `SCTD` | [SuperconducTED](https://github.com/SuperconducTED) | Transferable IBM Quantum noise models using interval type-2 TSK fuzzy inference and ensemble simulation in Qiskit Aer; targeting IEEE QCE 2026. | `ACTIVE RESEARCH` |
+| `MŞHT` | [Müşahit](https://github.com/mertefesensoy/MUSAHIT) | Local-first OSINT briefing pipeline for Turkish news with multi-agent clustering, severity ranking, DuckDB, Ollama, and Piper TTS. | `OPERATIONAL` |
+| `DRMR` | [crypto-dreamer](https://github.com/mertefesensoy/crypto-dreamer) | DreamerV3-style BTC/USDT world model with an iTransformer encoder, RSSM core, and IQN distributional critic. | `RESEARCH` |
+| `ZBRG` | [Go↔z/OS Bridge](https://github.com/mertefesensoy/zbridge-asm-lab) | Go-to-mainframe interoperability through assembly, z/Architecture calling conventions, ABI boundaries, and endianness. | `LAB` |
+
+> OMI welcomes contributors. Start with the [open issues](https://github.com/The-Open-Memory-Initiative-OMI/omi/issues), join an [architecture discussion](https://github.com/The-Open-Memory-Initiative-OMI/omi/discussions), and review [CONTRIBUTING.md](https://github.com/The-Open-Memory-Initiative-OMI/omi/blob/main/CONTRIBUTING.md).
+
+### `02 / ROLE & RECOGNITION`
+
+- **2026 IBM Champion** — recognized for advocacy and technical community work. [View credential →](https://www.credly.com/badges/b58586a6-8305-47a5-8bd6-6a7e7b1ce69e/public_url)
+- **IBM Z Student Ambassador** and **President of the IBM-Z Club at TED University** — connecting enterprise computing practitioners with the next generation of systems engineers.
+- **Junior Data Analyst (Part Time), Revenue Management at Turkish Airlines** — analytical decision support in aviation operations.
+- **Computer Engineering at TED University** with a **Business Administration minor** — expected 2027.
+
+### `03 / SELECTED BUILDS`
+
+- [**Valentine Pomodoro**](https://github.com/mertefesensoy/valentine-pomodoro) — React Native timer with drift-resistant timestamp logic, background notifications, offline persistence, and zero data collection.
+- [**FreeRTOS Demo**](https://github.com/mertefesensoy/FreeRTOS_Demo) — concurrent tasks, mutex-protected buffers, deferred ISR processing, and FreeRTOS+UDP networking.
+- [**BeeLink CN**](https://mertefesensoy.dev/en/case-studies/beelink-cn/) — concept-stage 5G health platform for remote monitoring, triage support, emergency routing, and hospital capacity awareness.
+- [**Biotama**](https://biotamaglobal.com) — production B2B manufacturing site with Next.js, internationalized routing, rate limiting, and transactional email.
+
+### `04 / TOOLCHAIN`
+
+**Core:** `Java` `C` `TypeScript` `JavaScript` `Python` `SQL`
+
+**Systems & research:** `C++` `C#` `Go` `Rust` `COBOL` `FreeRTOS` `Qiskit` `PyTorch` `FastAPI` `KiCad`
+
+**Interfaces & data:** `React` `Next.js` `Tailwind CSS` `React Native` `Expo` `PostgreSQL` `DuckDB` `NumPy / Pandas`
+
+**Platforms:** `GitHub Actions` `Docker` `IBM Z` `Linux` `Ollama` `Vercel`
+
+### `05 / OPERATING PRINCIPLES`
+
+- **Documentation First** — record architecture decisions before implementation.
+- **Correctness Over Speed** — especially in embedded and hardware-adjacent systems.
+- **Open-Source Toolchains** — reproducible environments and inspectable workflows.
+
+</details>
 
 ---
 
-### Now
-
-- Leading [SuperconducTED](https://github.com/SuperconducTED) -- a quantum noise-modeling research project using interval type-2 fuzzy inference (TSK) to generate ensemble noise models for Qiskit Aer simulations of IBM backends. Targeting IEEE QCE 2026.
-- Building [The Open Memory Initiative (OMI)](https://github.com/The-Open-Memory-Initiative-OMI/omi) -- an open, reproducible DDR4 UDIMM reference design.
-- Developing [Müşahit](https://github.com/mertefesensoy/MUSAHIT) -- a personal OSINT briefing system for Turkey that polls 37 news sources nightly, clusters and severity-ranks stories on a six-tier ladder, and ships a Turkish-language brief with synthesized audio by 07:00 (Python · DuckDB · local Ollama models · Piper TTS).
-- Building [crypto-dreamer](https://github.com/mertefesensoy/crypto-dreamer) -- a DreamerV3-style world model for BTC/USDT with an iTransformer encoder, RSSM core, and IQN distributional critic.
-- Working on [zbridge-asm-lab](https://github.com/mertefesensoy/zbridge-asm-lab) -- a low-level Go ↔ z/OS bridge for IBM Z, exploring cross-ABI calling conventions, register layout, and endianness.
-
----
-
-### 🏅 Recognition
-
-[![IBM Champion 2026](https://img.shields.io/badge/IBM_Champion-2026-052FAD?style=flat&logo=ibm&logoColor=white)](https://www.ibm.com/champion) ![IBM Z Student Ambassador](https://img.shields.io/badge/IBM_Z-Student_Ambassador-0530AD?style=flat&logo=ibm&logoColor=white) ![IBM Z Student Club President @ TED University](https://img.shields.io/badge/IBM_Z_Club-President_%40_TEDU-1F70C1?style=flat&logo=ibm&logoColor=white)
-
----
-
-### Collaboration
-
-**OMI** is actively looking for contributors. Start with the [issues page](https://github.com/The-Open-Memory-Initiative-OMI/omi/issues) for concrete topics (driver implementations, documentation reviews) or open a [discussion](https://github.com/The-Open-Memory-Initiative-OMI/omi/discussions) for architecture questions. Please review the existing docs and [CONTRIBUTING.md](https://github.com/The-Open-Memory-Initiative-OMI/omi/blob/main/CONTRIBUTING.md) before submitting.
-
-Open to issues, pull requests, and documentation reviews across any of my repos.
-
----
-
-### 🌐 Socials:
-[![Portfolio](https://img.shields.io/badge/Portfolio-mertefesensoy.dev-0ea5e9?logo=vercel&logoColor=white)](https://mertefesensoy.dev) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://www.instagram.com/mertefe_sensoy/) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mert-efe-%C5%9Fensoy-7bbb56290/) [![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@mefe.sensoy) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:sensoymertefe@gmail.com)
-
----
-
-### 💻 Tech Stack:
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white) ![Expo](https://img.shields.io/badge/expo-1C1E24?style=for-the-badge&logo=expo&logoColor=#D04A37) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Cisco](https://img.shields.io/badge/cisco-%23049fd9.svg?style=for-the-badge&logo=cisco&logoColor=black) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-
----
-
-### 📊 GitHub Stats:
-![Metrics](./github-metrics.svg)<br/>
-![](https://streak-stats.demolab.com/?user=mertefesensoy&theme=neon&hide_border=false)
-
----
-
-<img src="https://komarev.com/ghpvc/?username=mertefesensoy&style=for-the-badge&label=PROFILE+VIEWS&color=0ea5e9" alt="Profile views"/>
-
----
-
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
-[![](https://visitcount.itsvg.in/api?id=mertefesensoy&icon=0&color=0)](https://visitcount.itsvg.in)
+<sub>Self-contained SVG artwork. Public contribution data is regenerated daily from GitHub without a personal access token or hosted stats service. Motion plays once and respects reduced-motion preferences. Composition inspired by <a href="https://github.com/AVIVASHISHTA29/AVIVASHISHTA29">Avi Vashishta's profile</a>; implementation is original.</sub>

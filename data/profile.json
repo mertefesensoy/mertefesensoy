@@ -1,0 +1,51 @@
+{
+  "username": "mertefesensoy",
+  "display_name": "Mert Efe Şensoy",
+  "headline": "Systems Engineer & 2026 IBM Champion",
+  "kicker": "SYSTEMS · QUANTUM RESEARCH · OPEN HARDWARE",
+  "now": "Junior Data Analyst @ Turkish Airlines",
+  "recognition": "2026 IBM Champion · IBM Z Student Ambassador",
+  "education": "TED UNIVERSITY · CENG '27 · BUSINESS ADMINISTRATION MINOR",
+  "roles": [
+    "IBM Z Student Ambassador",
+    "IBM-Z Club President",
+    "Open Hardware Designer"
+  ],
+  "focus": "Systems · quantum simulation · embedded / real-time",
+  "stack": "Python · C · Rust · Qiskit · KiCad · IBM Z",
+  "stack_groups": [
+    {
+      "label": "Systems",
+      "value": "C · Rust · Go · IBM Z · FreeRTOS"
+    },
+    {
+      "label": "Research",
+      "value": "Python · Qiskit · PyTorch"
+    },
+    {
+      "label": "Hardware",
+      "value": "KiCad · DDR4 · open tooling"
+    }
+  ],
+  "endpoint": "mertefesensoy.dev",
+  "flagships": [
+    {
+      "code": "OMI",
+      "name": "Open Memory Initiative",
+      "status": "ACTIVE DEVELOPMENT",
+      "stack": "KiCad / Rust"
+    },
+    {
+      "code": "SCTD",
+      "name": "SuperconducTED",
+      "status": "ACTIVE RESEARCH",
+      "stack": "Qiskit / Python"
+    },
+    {
+      "code": "MŞHT",
+      "name": "Müşahit",
+      "status": "OPERATIONAL",
+      "stack": "Python / DuckDB"
+    }
+  ]
+}

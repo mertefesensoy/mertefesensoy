@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="875" viewBox="0 0 840 875" role="img" aria-labelledby="portrait-title portrait-desc" class="portrait" focusable="false">
+<title id="portrait-title">Mert Efe Şensoy — animated ASCII portrait</title>
+<desc id="portrait-desc">A high-detail monochrome portrait prints from top to bottom inside an IBM-inspired SYSPLEX terminal and resolves to Mert Efe Şensoy.</desc>
+<defs>
+<pattern id="portrait-grid" width="58" height="58" patternUnits="userSpaceOnUse"><path d="M58 0H0V58" fill="none" stroke="#4589ff" stroke-opacity=".04"/></pattern>
+<pattern id="portrait-scan" width="4" height="4" patternUnits="userSpaceOnUse"><path d="M0 3.5H840" stroke="#f2f6fc" stroke-opacity=".025"/></pattern>
+<style>
+
+          text { font-family:'IBM Plex Mono','Cascadia Mono','SFMono-Regular',Consolas,monospace; }
+          .micro { fill:#7185a8; font-size:11px; font-weight:600; letter-spacing:1.15px; }
+          .label { fill:#78a9ff; font-size:11px; font-weight:700; letter-spacing:1.05px; }
+          .status { fill:#42be65; font-size:11px; font-weight:700; letter-spacing:.9px; }
+          .ascii-row { fill:#d0e2ff; font-size:10.8px; font-weight:600; }
+          .row-clip { transform:scaleX(1); transform-box:fill-box; transform-origin:left center; }
+          .row-cursor { opacity:0; transform:translateX(800px); }
+          .prompt { fill:#9fb2d1; font-size:13px; }
+          .prompt-value { fill:#f2f6fc; font-weight:700; }
+          @keyframes reveal-row { from { transform:scaleX(0); } to { transform:scaleX(1); } }
+          @keyframes sweep-cursor {
+            0% { opacity:.88; transform:translateX(0); }
+            88% { opacity:.88; transform:translateX(800px); }
+            100% { opacity:0; transform:translateX(800px); }
+          }
+          @keyframes prompt-cursor { 0%,49% { opacity:1; } 50%,100% { opacity:.16; } }
+          @media (prefers-reduced-motion:no-preference) {
+            .portrait:not(.static) .row-clip {
+              animation:reveal-row .09s linear both;
+              animation-delay:var(--delay);
+            }
+            .portrait:not(.static) .row-cursor {
+              animation:sweep-cursor .09s linear forwards;
+              animation-delay:var(--delay);
+            }
+            .portrait:not(.static) .prompt-cursor { animation:prompt-cursor 1.1s step-end 3; animation-delay:5.86s; }
+          }
+          @media (prefers-reduced-motion:reduce) {
+            .row-clip { animation:none !important; transform:scaleX(1) !important; }
+            .row-cursor { animation:none !important; opacity:0 !important; }
+            .prompt-cursor { animation:none !important; }
+          }
+        
+</style>
+<clipPath id="portrait-row-0"><rect class="row-clip" style="--delay:0.000s" x="20" y="37.0" width="800" height="12.421875"/></clipPath>
+<clipPath id="portrait-row-1"><rect class="row-clip" style="--delay:0.090s" x="20" y="49.4" width="800" height="12.421875"/></clipPath>
+<clipPath id="portrait-row-2"><rect class="row-clip" style="--delay:0.180s" x="20" y="61.8" width="800" height="12.421875"/></clipPath>
+<clipPath id="portrait-row-3"><rect class="row-clip" style="--delay:0.270s" x="20" y="74.3" width="800" height="12.421875"/></clipPath>
+<clipPath id="portrait-row-4"><rect class="row-clip" style="--delay:0.360s" x="20" y="86.7" width="800" height="12.421875"/></clipPath>
+<clipPath id="portrait-row-5"><rect class="row-clip" style="--delay:0.450s" x="20" y="99.1" width="800" height="12.421875"/></clipPath>
+<clipPath id="portrait-row-6"><rect class="row-clip" style="--delay:0.540s" x="20" y="111.5" width="800" height="12.421875"/></clipPath>
+<clipPath id="portrait-row-7"><rect class="row-clip" style="--delay:0.630s" x="20" y="124.0" width="800" height="12.421875"/></clipPath>
+<clipPath id="portrait-row-8"><rect class="row-clip" style="--delay:0.720s" x="20" y="136.4" width="800" height="12.421875"/></clipPath>
+<clipPath id="portrait-row-9"><rect class="row-clip" style="--delay:0.810s" x="20" y="148.8" width="800" height="12.421875"/></clipPath>
+<clipPath id="portrait-row-10"><rect class="row-clip" style="--delay:0.900s" x="20" y="161.2" width="800" height="12.421875"/></clipPath>
+<clipPath id="portrait-row-11"><rect class="row-clip" style="--delay:0.990s" x="20" y="173.6" width="800" height="12.421875"/></clipPath>
+<clipPath id="portrait-row-12"><rect class="row-clip" style="--delay:1.080s" x="20" y="186.1" width="800" height="12.421875"/></clipPath>
+<clipPath id="portrait-row-13"><rect class="row-clip" style="--delay:1.170s" x="20" y="198.5" width="800" height="12.421875"/></clipPath>
+<clipPath id="portrait-row-14"><rect class="row-clip" style="--delay:1.260s" x="20" y="210.9" width="800" height="12.421875"/></clipPath>
+<clipPath id="portrait-row-15"><rect class="row-clip" style="--delay:1.350s" x="20" y="223.3" width="800" height="12.421875"/></clipPath>
+<clipPath id="portrait-row-16"><rect class="row-clip" style="--delay:1.440s" x="20" y="235.8" width="800" height="12.421875"/></clipPath>
+<clipPath id="portrait-row-17"><rect class="row-clip" style="--delay:1.530s" x="20" y="248.2" width="800" height="12.421875"/></clipPath>
+<clipPath id="portrait-row-18"><rect class="row-clip" style="--delay:1.620s" x="20" y="260.6" width="800" height="12.421875"/></clipPath>
+<clipPath id="portrait-row-19"><rect class="row-clip" style="--delay:1.710s" x="20" y="273.0" width="800" height="12.421875"/></clipPath>
+<clipPath id="portrait-row-20"><rect class="row-clip" style="--delay:1.800s" x="20" y="285.4" width="800" height="12.421875"/></clipPath>
+<clipPath id="portrait-row-21"><rect class="row-clip" style="--delay:1.890s" x="20" y="297.9" width="800" height="12.421875"/></clipPath>
+<clipPath id="portrait-row-22"><rect class="row-clip" style="--delay:1.980s" x="20" y="310.3" width="800" height="12.421875"/></clipPath>
+<clipPath id="portrait-row-23"><rect class="row-clip" style="--delay:2.070s" x="20" y="322.7" width="800" height="12.421875"/></clipPath>
+<clipPath id="portrait-row-24"><rect class="row-clip" style="--delay:2.160s" x="20" y="335.1" width="800" height="12.421875"/></clipPath>
+<clipPath id="portrait-row-25"><rect class="row-clip" style="--delay:2.250s" x="20" y="347.5" width="800" height="12.421875"/></clipPath>
+<clipPath id="portrait-row-26"><rect class="row-clip" style="--delay:2.340s" x="20" y="360.0" width="800" height="12.421875"/></clipPath>
+<clipPath id="portrait-row-27"><rect class="row-clip" style="--delay:2.430s" x="20" y="372.4" width="800" height="12.421875"/></clipPath>
+<clipPath id="portrait-row-28"><rect class="row-clip" style="--delay:2.520s" x="20" y="384.8" width="800" height="12.421875"/></clipPath>
+<clipPath id="portrait-row-29"><rect class="row-clip" style="--delay:2.610s" x="20" y="397.2" width="800" height="12.421875"/></clipPath>
+<clipPath id="portrait-row-30"><rect class="row-clip" style="--delay:2.700s" x="20" y="409.7" width="800" height="12.421875"/></clipPath>
+<clipPath id="portrait-row-31"><rect class="row-clip" style="--delay:2.790s" x="20" y="422.1" width="800" height="12.421875"/></clipPath>
+<clipPath id="portrait-row-32"><rect class="row-clip" style="--delay:2.880s" x="20" y="434.5" width="800" height="12.421875"/></clipPath>
+<clipPath id="portrait-row-33"><rect class="row-clip" style="--delay:2.970s" x="20" y="446.9" width="800" height="12.421875"/></clipPath>
+<clipPath id="portrait-row-34"><rect class="row-clip" style="--delay:3.060s" x="20" y="459.3" width="800" height="12.421875"/></clipPath>
+<clipPath id="portrait-row-35"><rect class="row-clip" style="--delay:3.150s" x="20" y="471.8" width="800" height="12.421875"/></clipPath>
+<clipPath id="portrait-row-36"><rect class="row-clip" style="--delay:3.240s" x="20" y="484.2" width="800" height="12.421875"/></clipPath>
+<clipPath id="portrait-row-37"><rect class="row-clip" style="--delay:3.330s" x="20" y="496.6" width="800" height="12.421875"/></clipPath>
+<clipPath id="portrait-row-38"><rect class="row-clip" style="--delay:3.420s" x="20" y="509.0" width="800" height="12.421875"/></clipPath>
+<clipPath id="portrait-row-39"><rect class="row-clip" style="--delay:3.510s" x="20" y="521.5" width="800" height="12.421875"/></clipPath>
+<clipPath id="portrait-row-40"><rect class="row-clip" style="--delay:3.600s" x="20" y="533.9" width="800" height="12.421875"/></clipPath>
+<clipPath id="portrait-row-41"><rect class="row-clip" style="--delay:3.690s" x="20" y="546.3" width="800" height="12.421875"/></clipPath>
+<clipPath id="portrait-row-42"><rect class="row-clip" style="--delay:3.780s" x="20" y="558.7" width="800" height="12.421875"/></clipPath>
+<clipPath id="portrait-row-43"><rect class="row-clip" style="--delay:3.870s" x="20" y="571.1" width="800" height="12.421875"/></clipPath>
+<clipPath id="portrait-row-44"><rect class="row-clip" style="--delay:3.960s" x="20" y="583.6" width="800" height="12.421875"/></clipPath>
+<clipPath id="portrait-row-45"><rect class="row-clip" style="--delay:4.050s" x="20" y="596.0" width="800" height="12.421875"/></clipPath>
+<clipPath id="portrait-row-46"><rect class="row-clip" style="--delay:4.140s" x="20" y="608.4" width="800" height="12.421875"/></clipPath>
+<clipPath id="portrait-row-47"><rect class="row-clip" style="--delay:4.230s" x="20" y="620.8" width="800" height="12.421875"/></clipPath>
+<clipPath id="portrait-row-48"><rect class="row-clip" style="--delay:4.320s" x="20" y="633.2" width="800" height="12.421875"/></clipPath>
+<clipPath id="portrait-row-49"><rect class="row-clip" style="--delay:4.410s" x="20" y="645.7" width="800" height="12.421875"/></clipPath>
+<clipPath id="portrait-row-50"><rect class="row-clip" style="--delay:4.500s" x="20" y="658.1" width="800" height="12.421875"/></clipPath>
+<clipPath id="portrait-row-51"><rect class="row-clip" style="--delay:4.590s" x="20" y="670.5" width="800" height="12.421875"/></clipPath>
+<clipPath id="portrait-row-52"><rect class="row-clip" style="--delay:4.680s" x="20" y="682.9" width="800" height="12.421875"/></clipPath>
+<clipPath id="portrait-row-53"><rect class="row-clip" style="--delay:4.770s" x="20" y="695.4" width="800" height="12.421875"/></clipPath>
+<clipPath id="portrait-row-54"><rect class="row-clip" style="--delay:4.860s" x="20" y="707.8" width="800" height="12.421875"/></clipPath>
+<clipPath id="portrait-row-55"><rect class="row-clip" style="--delay:4.950s" x="20" y="720.2" width="800" height="12.421875"/></clipPath>
+<clipPath id="portrait-row-56"><rect class="row-clip" style="--delay:5.040s" x="20" y="732.6" width="800" height="12.421875"/></clipPath>
+<clipPath id="portrait-row-57"><rect class="row-clip" style="--delay:5.130s" x="20" y="745.0" width="800" height="12.421875"/></clipPath>
+<clipPath id="portrait-row-58"><rect class="row-clip" style="--delay:5.220s" x="20" y="757.5" width="800" height="12.421875"/></clipPath>
+<clipPath id="portrait-row-59"><rect class="row-clip" style="--delay:5.310s" x="20" y="769.9" width="800" height="12.421875"/></clipPath>
+<clipPath id="portrait-row-60"><rect class="row-clip" style="--delay:5.400s" x="20" y="782.3" width="800" height="12.421875"/></clipPath>
+<clipPath id="portrait-row-61"><rect class="row-clip" style="--delay:5.490s" x="20" y="794.7" width="800" height="12.421875"/></clipPath>
+<clipPath id="portrait-row-62"><rect class="row-clip" style="--delay:5.580s" x="20" y="807.2" width="800" height="12.421875"/></clipPath>
+<clipPath id="portrait-row-63"><rect class="row-clip" style="--delay:5.670s" x="20" y="819.6" width="800" height="12.421875"/></clipPath>
+</defs>
+<rect width="840" height="875" fill="#07090e"/>
+<rect x=".5" y=".5" width="839" height="874" fill="#080e18" stroke="#27466f"/>
+<rect x="1" y="1" width="838" height="873" fill="url(#portrait-grid)"/>
+<rect x="1" y="1" width="838" height="873" fill="url(#portrait-scan)"/>
+<rect x="1" y="1" width="4" height="873" fill="#4589ff"/>
+<rect x="5" y="1" width="834" height="29" fill="#050a11"/>
+<path d="M5 30H839" stroke="#27466f"/>
+<text x="22" y="20" class="label">MERTEFE.SYSPLEX // PORTRAIT.PRINT</text>
+<circle cx="665" cy="15" r="3" fill="#42be65"/>
+<text x="676" y="20" class="status">JOB ACTIVE</text>
+<text x="818" y="20" class="micro" text-anchor="end">F1=HELP</text>
+<text xml:space="preserve" x="20" y="46.6" class="ascii-row" textLength="800" lengthAdjust="spacing" clip-path="url(#portrait-row-0)">                                                                                                                        </text>
+<rect class="row-cursor" style="--delay:0.000s" x="20" y="38.0" width="6.67" height="10.42" fill="#78a9ff"/>
+<text xml:space="preserve" x="20" y="59.0" class="ascii-row" textLength="800" lengthAdjust="spacing" clip-path="url(#portrait-row-1)">                                                                                                                        </text>
+<rect class="row-cursor" style="--delay:0.090s" x="20" y="50.4" width="6.67" height="10.42" fill="#78a9ff"/>
+<text xml:space="preserve" x="20" y="71.4" class="ascii-row" textLength="800" lengthAdjust="spacing" clip-path="url(#portrait-row-2)">                                                                                                                        </text>
+<rect class="row-cursor" style="--delay:0.180s" x="20" y="62.8" width="6.67" height="10.42" fill="#78a9ff"/>
+<text xml:space="preserve" x="20" y="83.8" class="ascii-row" textLength="800" lengthAdjust="spacing" clip-path="url(#portrait-row-3)">                                                                                                                        </text>
+<rect class="row-cursor" style="--delay:0.270s" x="20" y="75.3" width="6.67" height="10.42" fill="#78a9ff"/>
+<text xml:space="preserve" x="20" y="96.3" class="ascii-row" textLength="800" lengthAdjust="spacing" clip-path="url(#portrait-row-4)">                                                                                                                        </text>
+<rect class="row-cursor" style="--delay:0.360s" x="20" y="87.7" width="6.67" height="10.42" fill="#78a9ff"/>
+<text xml:space="preserve" x="20" y="108.7" class="ascii-row" textLength="800" lengthAdjust="spacing" clip-path="url(#portrait-row-5)">                                                                                                                        </text>
+<rect class="row-cursor" style="--delay:0.450s" x="20" y="100.1" width="6.67" height="10.42" fill="#78a9ff"/>
+<text xml:space="preserve" x="20" y="121.1" class="ascii-row" textLength="800" lengthAdjust="spacing" clip-path="url(#portrait-row-6)">                                                                                                                        </text>
+<rect class="row-cursor" style="--delay:0.540s" x="20" y="112.5" width="6.67" height="10.42" fill="#78a9ff"/>
+<text xml:space="preserve" x="20" y="133.5" class="ascii-row" textLength="800" lengthAdjust="spacing" clip-path="url(#portrait-row-7)">                                                                                                                        </text>
+<rect class="row-cursor" style="--delay:0.630s" x="20" y="125.0" width="6.67" height="10.42" fill="#78a9ff"/>
+<text xml:space="preserve" x="20" y="145.9" class="ascii-row" textLength="800" lengthAdjust="spacing" clip-path="url(#portrait-row-8)">                                      .    ,::;,                                                                        </text>
+<rect class="row-cursor" style="--delay:0.720s" x="20" y="137.4" width="6.67" height="10.42" fill="#78a9ff"/>
+<text xml:space="preserve" x="20" y="158.4" class="ascii-row" textLength="800" lengthAdjust="spacing" clip-path="url(#portrait-row-9)">                            ,=X#@@%@@%@#XX#@@@@@@@@@%@%-                                                                </text>
+<rect class="row-cursor" style="--delay:0.810s" x="20" y="149.8" width="6.67" height="10.42" fill="#78a9ff"/>
+<text xml:space="preserve" x="20" y="170.8" class="ascii-row" textLength="800" lengthAdjust="spacing" clip-path="url(#portrait-row-10)">                          :#@@@%X#####X@@@%%XXXXxX@%#@@@@#X=                                                            </text>
+<rect class="row-cursor" style="--delay:0.900s" x="20" y="162.2" width="6.67" height="10.42" fill="#78a9ff"/>
+<text xml:space="preserve" x="20" y="183.2" class="ascii-row" textLength="800" lengthAdjust="spacing" clip-path="url(#portrait-row-11)">                        :*@@@%%#%@%%%#XX%XxX#%X%#X@@%@@@@@@@@@,                                                         </text>
+<rect class="row-cursor" style="--delay:0.990s" x="20" y="174.6" width="6.67" height="10.42" fill="#78a9ff"/>
+<text xml:space="preserve" x="20" y="195.6" class="ascii-row" textLength="800" lengthAdjust="spacing" clip-path="url(#portrait-row-12)">                      ;X@@@%@@@%#%%@#x#=X@%X%@%#%%%##%X#@@%%@@X                                                         </text>
+<rect class="row-cursor" style="--delay:1.080s" x="20" y="187.1" width="6.67" height="10.42" fill="#78a9ff"/>
+<text xml:space="preserve" x="20" y="208.0" class="ascii-row" textLength="800" lengthAdjust="spacing" clip-path="url(#portrait-row-13)">                    ,#@@@@@@@@@@@###%@@@@@@@@@@@@@@@@@@@@#@@@@+                                                         </text>
+<rect class="row-cursor" style="--delay:1.170s" x="20" y="199.5" width="6.67" height="10.42" fill="#78a9ff"/>
+<text xml:space="preserve" x="20" y="220.5" class="ascii-row" textLength="800" lengthAdjust="spacing" clip-path="url(#portrait-row-14)">                    %@@@%#@%%%%%@%%%%X*%#*xxx***X##%##%@@@@@@#,                                                         </text>
+<rect class="row-cursor" style="--delay:1.260s" x="20" y="211.9" width="6.67" height="10.42" fill="#78a9ff"/>
+<text xml:space="preserve" x="20" y="232.9" class="ascii-row" textLength="800" lengthAdjust="spacing" clip-path="url(#portrait-row-15)">                   x@X@@X#%Xxxxx%#*Xx+--=-;:,.,...,.   ,;-*@%:                                                          </text>
+<rect class="row-cursor" style="--delay:1.350s" x="20" y="224.3" width="6.67" height="10.42" fill="#78a9ff"/>
+<text xml:space="preserve" x="20" y="245.3" class="ascii-row" textLength="800" lengthAdjust="spacing" clip-path="url(#portrait-row-16)">                 .%@@%@%XXxxX**+x++xx++=:,..       ..,...,.,,                                                           </text>
+<rect class="row-cursor" style="--delay:1.440s" x="20" y="236.8" width="6.67" height="10.42" fill="#78a9ff"/>
+<text xml:space="preserve" x="20" y="257.7" class="ascii-row" textLength="800" lengthAdjust="spacing" clip-path="url(#portrait-row-17)">                 =@@@@@##X*xx**x*#%#x*+;,,..,,.....,,,,,::::,:.                                                         </text>
+<rect class="row-cursor" style="--delay:1.530s" x="20" y="249.2" width="6.67" height="10.42" fill="#78a9ff"/>
+<text xml:space="preserve" x="20" y="270.2" class="ascii-row" textLength="800" lengthAdjust="spacing" clip-path="url(#portrait-row-18)">                ,@@###X#XX#xxxxxxx***+==;::.,,,....,,,,,,,:::::                                                         </text>
+<rect class="row-cursor" style="--delay:1.620s" x="20" y="261.6" width="6.67" height="10.42" fill="#78a9ff"/>
+<text xml:space="preserve" x="20" y="282.6" class="ascii-row" textLength="800" lengthAdjust="spacing" clip-path="url(#portrait-row-19)">                ;@%%#Xx#XXXX##Xxx*******====:::,,,,,,.,,,,,,,,,:                                                        </text>
+<rect class="row-cursor" style="--delay:1.710s" x="20" y="274.0" width="6.67" height="10.42" fill="#78a9ff"/>
+<text xml:space="preserve" x="20" y="295.0" class="ascii-row" textLength="800" lengthAdjust="spacing" clip-path="url(#portrait-row-20)">                -%@%####XX#X%#xXxx*****+*x*;::;:,          .,,.,,                                                       </text>
+<rect class="row-cursor" style="--delay:1.800s" x="20" y="286.4" width="6.67" height="10.42" fill="#78a9ff"/>
+<text xml:space="preserve" x="20" y="307.4" class="ascii-row" textLength="800" lengthAdjust="spacing" clip-path="url(#portrait-row-21)">                #@@@##%%###%%#X#X*x****xX=,.,,...:-+x###X+-,,,, ,                                                       </text>
+<rect class="row-cursor" style="--delay:1.890s" x="20" y="298.9" width="6.67" height="10.42" fill="#78a9ff"/>
+<text xml:space="preserve" x="20" y="319.8" class="ascii-row" textLength="800" lengthAdjust="spacing" clip-path="url(#portrait-row-22)">                *@%#@%%%@%##%XX#x**+*++=, .,,::-xXXx**+x%@@@#:-@@X                                                      </text>
+<rect class="row-cursor" style="--delay:1.980s" x="20" y="311.3" width="6.67" height="10.42" fill="#78a9ff"/>
+<text xml:space="preserve" x="20" y="332.3" class="ascii-row" textLength="800" lengthAdjust="spacing" clip-path="url(#portrait-row-23)">                 %@%@%#%@@%@@Xx***+x*++, .,,,,-==-++-;=+x+xX*.@@==                                                      </text>
+<rect class="row-cursor" style="--delay:2.070s" x="20" y="323.7" width="6.67" height="10.42" fill="#78a9ff"/>
+<text xml:space="preserve" x="20" y="344.7" class="ascii-row" textLength="800" lengthAdjust="spacing" clip-path="url(#portrait-row-24)">                 %@@%#%@@X=-;*##X***==+: ,..,,..;*x%%*@@@-:,. :@@;                                                      </text>
+<rect class="row-cursor" style="--delay:2.160s" x="20" y="336.1" width="6.67" height="10.42" fill="#78a9ff"/>
+<text xml:space="preserve" x="20" y="357.1" class="ascii-row" textLength="800" lengthAdjust="spacing" clip-path="url(#portrait-row-25)">                 *@@%%%@+;==+, :;+x++=-,..,..      ,;=+x=. .,.  @+                                                      </text>
+<rect class="row-cursor" style="--delay:2.250s" x="20" y="348.5" width="6.67" height="10.42" fill="#78a9ff"/>
+<text xml:space="preserve" x="20" y="369.5" class="ascii-row" textLength="800" lengthAdjust="spacing" clip-path="url(#portrait-row-26)">                  x@@%@x x- ;*.,,.;*=+-::,,,,,.. ...,:::.,..:;:.  ,                                                     </text>
+<rect class="row-cursor" style="--delay:2.340s" x="20" y="361.0" width="6.67" height="10.42" fill="#78a9ff"/>
+<text xml:space="preserve" x="20" y="382.0" class="ascii-row" textLength="800" lengthAdjust="spacing" clip-path="url(#portrait-row-27)">                   X@@@# =. :xx-:  +**-,;:,.+- ,,,,.,:,,,:::;:.    .,                                                   </text>
+<rect class="row-cursor" style="--delay:2.430s" x="20" y="373.4" width="6.67" height="10.42" fill="#78a9ff"/>
+<text xml:space="preserve" x="20" y="394.4" class="ascii-row" textLength="800" lengthAdjust="spacing" clip-path="url(#portrait-row-28)">                    #@@@+ .#*+@: . ,-;:;,,:,:-,:.,:.,,,,:;+@+;=x%XXx:                                                   </text>
+<rect class="row-cursor" style="--delay:2.520s" x="20" y="385.8" width="6.67" height="10.42" fill="#78a9ff"/>
+<text xml:space="preserve" x="20" y="406.8" class="ascii-row" textLength="800" lengthAdjust="spacing" clip-path="url(#portrait-row-29)">                     x@%@- . ,x@+.. ;;:;;;;::==-;;::,,,,;-,+X%%%@*--.                                                   </text>
+<rect class="row-cursor" style="--delay:2.610s" x="20" y="398.2" width="6.67" height="10.42" fill="#78a9ff"/>
+<text xml:space="preserve" x="20" y="419.2" class="ascii-row" textLength="800" lengthAdjust="spacing" clip-path="url(#portrait-row-30)">                      x@%@+,   .=;,:--;:;;;;;;;--;--:,::-,.  :,,-+.=X.                                                  </text>
+<rect class="row-cursor" style="--delay:2.700s" x="20" y="410.7" width="6.67" height="10.42" fill="#78a9ff"/>
+<text xml:space="preserve" x="20" y="431.6" class="ascii-row" textLength="800" lengthAdjust="spacing" clip-path="url(#portrait-row-31)">                       #@@@x=,.  ;=:---;::::;;;--;:,:;;-:.      ,,-@@-                                                  </text>
+<rect class="row-cursor" style="--delay:2.790s" x="20" y="423.1" width="6.67" height="10.42" fill="#78a9ff"/>
+<text xml:space="preserve" x="20" y="444.1" class="ascii-row" textLength="800" lengthAdjust="spacing" clip-path="url(#portrait-row-32)">                        %@%*+****@#;--;;,..,:;:;:::.,,:=::=xxxxX%%*+@,                                                  </text>
+<rect class="row-cursor" style="--delay:2.880s" x="20" y="435.5" width="6.67" height="10.42" fill="#78a9ff"/>
+<text xml:space="preserve" x="20" y="456.5" class="ascii-row" textLength="800" lengthAdjust="spacing" clip-path="url(#portrait-row-33)">                        .@@==--=+=+==+--;;;:::::::;;;, ,:-+#X+:,:-;*@+                                                  </text>
+<rect class="row-cursor" style="--delay:2.970s" x="20" y="447.9" width="6.67" height="10.42" fill="#78a9ff"/>
+<text xml:space="preserve" x="20" y="468.9" class="ascii-row" textLength="800" lengthAdjust="spacing" clip-path="url(#portrait-row-34)">                         *@++--;::;=+++-;----::::,:;-;:.    ,=X##x+*=;                                                  </text>
+<rect class="row-cursor" style="--delay:3.060s" x="20" y="460.3" width="6.67" height="10.42" fill="#78a9ff"/>
+<text xml:space="preserve" x="20" y="481.3" class="ascii-row" textLength="800" lengthAdjust="spacing" clip-path="url(#portrait-row-35)">                         ;@==-;:;;;=+**+===+==+=---;---:.,--;;==#X*+-                                                   </text>
+<rect class="row-cursor" style="--delay:3.150s" x="20" y="472.8" width="6.67" height="10.42" fill="#78a9ff"/>
+<text xml:space="preserve" x="20" y="493.8" class="ascii-row" textLength="800" lengthAdjust="spacing" clip-path="url(#portrait-row-36)">                          *+-;:::::-=+*x**+****=++=-;;.    ,,..,:=%-                                                    </text>
+<rect class="row-cursor" style="--delay:3.240s" x="20" y="485.2" width="6.67" height="10.42" fill="#78a9ff"/>
+<text xml:space="preserve" x="20" y="506.2" class="ascii-row" textLength="800" lengthAdjust="spacing" clip-path="url(#portrait-row-37)">                          +=--:,,,,:-=+x*x##XXxxx*==;:,,       .:+:                                                     </text>
+<rect class="row-cursor" style="--delay:3.330s" x="20" y="497.6" width="6.67" height="10.42" fill="#78a9ff"/>
+<text xml:space="preserve" x="20" y="518.6" class="ascii-row" textLength="800" lengthAdjust="spacing" clip-path="url(#portrait-row-38)">                         =+;;;;:,,:::;==**xxxXX%#XxXXXXxx*=;-=*#x:                                                      </text>
+<rect class="row-cursor" style="--delay:3.420s" x="20" y="510.0" width="6.67" height="10.42" fill="#78a9ff"/>
+<text xml:space="preserve" x="20" y="531.0" class="ascii-row" textLength="800" lengthAdjust="spacing" clip-path="url(#portrait-row-39)">                        .,*;:::::,:;;;---++*xxxxX#%####%%@@@@@@*,                                                       </text>
+<rect class="row-cursor" style="--delay:3.510s" x="20" y="522.5" width="6.67" height="10.42" fill="#78a9ff"/>
+<text xml:space="preserve" x="20" y="543.4" class="ascii-row" textLength="800" lengthAdjust="spacing" clip-path="url(#portrait-row-40)">                       .:  ::;;:::;;;---;==+**xxxXxXXX#X%%*.::                                                          </text>
+<rect class="row-cursor" style="--delay:3.600s" x="20" y="534.9" width="6.67" height="10.42" fill="#78a9ff"/>
+<text xml:space="preserve" x="20" y="555.9" class="ascii-row" textLength="800" lengthAdjust="spacing" clip-path="url(#portrait-row-41)">                      ,@ .. ..::-=--;;-=--===-==+*xxx%%,#x-                                                             </text>
+<rect class="row-cursor" style="--delay:3.690s" x="20" y="547.3" width="6.67" height="10.42" fill="#78a9ff"/>
+<text xml:space="preserve" x="20" y="568.3" class="ascii-row" textLength="800" lengthAdjust="spacing" clip-path="url(#portrait-row-42)">                     ;@@; ,.,.  .::-+==-;-------++*xXx;:=*+                                                             </text>
+<rect class="row-cursor" style="--delay:3.780s" x="20" y="559.7" width="6.67" height="10.42" fill="#78a9ff"/>
+<text xml:space="preserve" x="20" y="580.7" class="ascii-row" textLength="800" lengthAdjust="spacing" clip-path="url(#portrait-row-43)">                    x@@@@ .,....     .;=+=;::;;=x#%*=;;.@*;                                                             </text>
+<rect class="row-cursor" style="--delay:3.870s" x="20" y="572.1" width="6.67" height="10.42" fill="#78a9ff"/>
+<text xml:space="preserve" x="20" y="593.1" class="ascii-row" textLength="800" lengthAdjust="spacing" clip-path="url(#portrait-row-44)">                .=+@@@%%@@ ,:,....      .;+=;-x%x-, :-; @@=                                                             </text>
+<rect class="row-cursor" style="--delay:3.960s" x="20" y="584.6" width="6.67" height="10.42" fill="#78a9ff"/>
+<text xml:space="preserve" x="20" y="605.5" class="ascii-row" textLength="800" lengthAdjust="spacing" clip-path="url(#portrait-row-45)">            :*#@@@@@#%%%#@# ,;;,.....       -=:    ,,,:.*@@@X-,                                                         </text>
+<rect class="row-cursor" style="--delay:4.050s" x="20" y="597.0" width="6.67" height="10.42" fill="#78a9ff"/>
+<text xml:space="preserve" x="20" y="618.0" class="ascii-row" textLength="800" lengthAdjust="spacing" clip-path="url(#portrait-row-46)">        .=%@@@@@@#######%#@@:.,::,.,,,,..  X#*;   .,,::::@@@@@@@@%%x-,                                                  </text>
+<rect class="row-cursor" style="--delay:4.140s" x="20" y="609.4" width="6.67" height="10.42" fill="#78a9ff"/>
+<text xml:space="preserve" x="20" y="630.4" class="ascii-row" textLength="800" lengthAdjust="spacing" clip-path="url(#portrait-row-47)">     .*@@@@%#%%@@X#######%X%@x;, .,.....  @@%@@@@; :::;: *@##%@@@@@@@@@%x-.                                             </text>
+<rect class="row-cursor" style="--delay:4.230s" x="20" y="621.8" width="6.67" height="10.42" fill="#78a9ff"/>
+<text xml:space="preserve" x="20" y="642.8" class="ascii-row" textLength="800" lengthAdjust="spacing" clip-path="url(#portrait-row-48)">  :=@@@%XXX##%@%%X#XX######X#@+x=   ..  :@@*xXXX%@*  ,:,: X@X%%%@%%####%@@@@X=;,                                        </text>
+<rect class="row-cursor" style="--delay:4.320s" x="20" y="634.2" width="6.67" height="10.42" fill="#78a9ff"/>
+<text xml:space="preserve" x="20" y="655.2" class="ascii-row" textLength="800" lengthAdjust="spacing" clip-path="url(#portrait-row-49)">#@@@%XXXXXX#%%%##*xxxXX####%#%@,+@*    -@@@@XxXX##@* ...;. @@X####%####XXX##@@@@@X+;.                                   </text>
+<rect class="row-cursor" style="--delay:4.410s" x="20" y="646.7" width="6.67" height="10.42" fill="#78a9ff"/>
+<text xml:space="preserve" x="20" y="667.7" class="ascii-row" textLength="800" lengthAdjust="spacing" clip-path="url(#portrait-row-50)">%#XXXXXXXXXX##%%@@@%#XxX####%#@% ,X@*.;%++X@@Xx*X@;@*  ;,, #@######%@%#XXXXXXXX#%@@@@%*:                                </text>
+<rect class="row-cursor" style="--delay:4.500s" x="20" y="659.1" width="6.67" height="10.42" fill="#78a9ff"/>
+<text xml:space="preserve" x="20" y="680.1" class="ascii-row" textLength="800" lengthAdjust="spacing" clip-path="url(#portrait-row-51)">#XXXXXXXxxXXXXXXX#%@@@%%######X@@  ;X%x-;-=+@#@@*@; X*;.., .@@XXXXX#@XXXXXXXXXXXXX##%@@@#                               </text>
+<rect class="row-cursor" style="--delay:4.590s" x="20" y="671.5" width="6.67" height="10.42" fill="#78a9ff"/>
+<text xml:space="preserve" x="20" y="692.5" class="ascii-row" textLength="800" lengthAdjust="spacing" clip-path="url(#portrait-row-52)">XXXXXXXxxxxXxXxxx**xxxxXXXXXXX#X@@  ,::;;:,:@*@@xX@  :,  ,, +@XXXXX#XXXXXXXXXXXX######X@@x                              </text>
+<rect class="row-cursor" style="--delay:4.680s" x="20" y="683.9" width="6.67" height="10.42" fill="#78a9ff"/>
+<text xml:space="preserve" x="20" y="704.9" class="ascii-row" textLength="800" lengthAdjust="spacing" clip-path="url(#portrait-row-53)">XXXXX#XxxxxxxxxxX@%*XXXXXXXXXX##X@@ .,::,: #@*##Xx@@   . .: ,@#XX%.+x##XXXXXXXXX#%####X#@#:                             </text>
+<rect class="row-cursor" style="--delay:4.770s" x="20" y="696.4" width="6.67" height="10.42" fill="#78a9ff"/>
+<text xml:space="preserve" x="20" y="717.3" class="ascii-row" textLength="800" lengthAdjust="spacing" clip-path="url(#portrait-row-54)">XXXXXXXxxxxxxxxxxX@@*xXXXXXXXX##%#@# ,. .,,@%XXXXXx@@+ .. ,, @@XX#+==-X#XXXXXXXX#%###%#X@#-                             </text>
+<rect class="row-cursor" style="--delay:4.860s" x="20" y="708.8" width="6.67" height="10.42" fill="#78a9ff"/>
+<text xml:space="preserve" x="20" y="729.8" class="ascii-row" textLength="800" lengthAdjust="spacing" clip-path="url(#portrait-row-55)">XXXXXXXXXXxxxxxxxxx%@**xXXXXXxXX##X@* ....;@##XXXXXxX@+ , .: +@X#X%%##XXX#XXXXXXX%@###%x@#%                             </text>
+<rect class="row-cursor" style="--delay:4.950s" x="20" y="721.2" width="6.67" height="10.42" fill="#78a9ff"/>
+<text xml:space="preserve" x="20" y="742.2" class="ascii-row" textLength="800" lengthAdjust="spacing" clip-path="url(#portrait-row-56)">XXXXXXXXXXXxXxxxxxxxX@#*xxxxxxxXX###@* .,,=%XXXXXXXXXx@: , ,,,@#xXXXXXXXxX#XXXXXX#@%XX#X@X@+                            </text>
+<rect class="row-cursor" style="--delay:5.040s" x="20" y="733.6" width="6.67" height="10.42" fill="#78a9ff"/>
+<text xml:space="preserve" x="20" y="754.6" class="ascii-row" textLength="800" lengthAdjust="spacing" clip-path="url(#portrait-row-57)">XXXXX##XXXXXxxxxxxxxxX@%*xxxxxxxxX##X@, :,-@XXXXXXXXXx%@ ...:.#@xXXXXXXXXxXXXXXXX#@#XX#X@x%@                            </text>
+<rect class="row-cursor" style="--delay:5.130s" x="20" y="746.0" width="6.67" height="10.42" fill="#78a9ff"/>
+<text xml:space="preserve" x="20" y="767.0" class="ascii-row" textLength="800" lengthAdjust="spacing" clip-path="url(#portrait-row-58)">##XXXXXXXXXXxxxxxxxxxxx%@*xXXxXXXXX###@, ,,@XXXXXXXXXXx@  ,.,.*@xXXXXXXXXxXXXXXXX#%%XXX#@xX@;                           </text>
+<rect class="row-cursor" style="--delay:5.220s" x="20" y="758.5" width="6.67" height="10.42" fill="#78a9ff"/>
+<text xml:space="preserve" x="20" y="779.5" class="ascii-row" textLength="800" lengthAdjust="spacing" clip-path="url(#portrait-row-59)">##XXXXXXXXxXxxxxxxxxxxx*#@x*XXXXXXX#%X%@  .@XXXXXXXXXXx@+ ,.,.;@XXXXXXXXXXXXXXXXXX@@#XX%@*X@@                           </text>
+<rect class="row-cursor" style="--delay:5.310s" x="20" y="770.9" width="6.67" height="10.42" fill="#78a9ff"/>
+<text xml:space="preserve" x="20" y="791.9" class="ascii-row" textLength="800" lengthAdjust="spacing" clip-path="url(#portrait-row-60)">###X##XXXXXXXxxxxxxxxxxxxx@#*xxxXXXXX#X@@  %%xXXXXXXXXXX@  ,.,,@#XXXXXXXXX#X##XX##%@%#X%@*#%@-                          </text>
+<rect class="row-cursor" style="--delay:5.400s" x="20" y="783.3" width="6.67" height="10.42" fill="#78a9ff"/>
+<text xml:space="preserve" x="20" y="804.3" class="ascii-row" textLength="800" lengthAdjust="spacing" clip-path="url(#portrait-row-61)">%##XXXXXXXXXXXXXXxXXxXxXXXX@%xxXXXXXXX#X@X +@xXXXXXXXXXx@- ,.,,x@X#XXXXXXX#X##X###%@%#X@@x##@x                          </text>
+<rect class="row-cursor" style="--delay:5.490s" x="20" y="795.7" width="6.67" height="10.42" fill="#78a9ff"/>
+<text xml:space="preserve" x="20" y="816.7" class="ascii-row" textLength="800" lengthAdjust="spacing" clip-path="url(#portrait-row-62)">%#X#XXXXXXXXXXXxXXxxxxxxxxxx#@XxXXXXXX###@x @XXXXXXXXXXX%x ..,,*@xX##XXXXX########%@%#X@%x#%@@-                         </text>
+<rect class="row-cursor" style="--delay:5.580s" x="20" y="808.2" width="6.67" height="10.42" fill="#78a9ff"/>
+<text xml:space="preserve" x="20" y="829.1" class="ascii-row" textLength="800" lengthAdjust="spacing" clip-path="url(#portrait-row-63)">@@%#XXXXXXXXXXX#XXXXXXXxxxxxxX@XXXXXXX####@:*#XXXXXXXXXXX@: ,,,=@XX#XXXXX#########%@%%#@XX#%%@%                         </text>
+<rect class="row-cursor" style="--delay:5.670s" x="20" y="820.6" width="6.67" height="10.42" fill="#78a9ff"/>
+<path d="M5 832H839" stroke="#27466f"/>
+<text x="22" y="853" class="prompt">mertefe@sysplex:~$ whoami <tspan class="prompt-value">Mert Efe Şensoy</tspan></text>
+<rect class="prompt-cursor" x="350" y="840" width="8" height="15" fill="#78a9ff"/>
+<text x="818" y="853" class="micro" text-anchor="end">RC=0000 // COMPLETE</text>
+</svg>
