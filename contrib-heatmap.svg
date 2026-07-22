@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="888" height="166" viewBox="0 0 888 166" role="img" aria-labelledby="calendar-title calendar-desc" focusable="false">
 <title id="calendar-title">mertefesensoy&#x27;s 53-week GitHub contribution signal</title>
-<desc id="calendar-desc">Contribution calendar from 2025-07-20 through 2026-07-21, totaling 946 contributions. Current streak: 1 days; longest streak: 12 days.</desc>
+<desc id="calendar-desc">Contribution calendar from 2025-07-20 through 2026-07-22, totaling 950 contributions. Current streak: 2 days; longest streak: 12 days.</desc>
 <defs><pattern id="heatmap-scan" width="4" height="4" patternUnits="userSpaceOnUse"><path d="M0 3.5H888" stroke="#f2f6fc" stroke-opacity=".018"/></pattern></defs>
 <style>
 text { font-family:'IBM Plex Mono','IBM Plex Sans',ui-monospace,SFMono-Regular,Consolas,monospace; }
@@ -1136,12 +1136,15 @@ text { font-family:'IBM Plex Mono','IBM Plex Sans',ui-monospace,SFMono-Regular,C
 <rect class="contribution-cell level-0" x="866" y="44" width="13" height="13" rx="2" fill="#161b22" data-date="2026-07-20" data-count="0" style="--delay:3.421s">
 <title>No contributions on July 20, 2026</title>
 </rect>
-<rect class="contribution-cell level-1 active" x="866" y="60" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-07-21" data-count="4" style="--delay:3.457s">
-<title>4 contributions on July 21, 2026</title>
+<rect class="contribution-cell level-1 active" x="866" y="60" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-07-21" data-count="5" style="--delay:3.457s">
+<title>5 contributions on July 21, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="866" y="76" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-07-22" data-count="3" style="--delay:3.493s">
+<title>3 contributions on July 22, 2026</title>
 </rect>
 </g>
 <path d="M4 144H887" stroke="#1c3153"/>
 <circle cx="18" cy="155" r="3" fill="#42be65"/>
-<text x="29" y="159" class="footer-value">946 CONTRIBUTIONS / LAST 12 MONTHS</text>
-<text x="876" y="159" class="footer" text-anchor="end">CURRENT 1D  ·  LONGEST 12D  ·  UPDATED 21 JUL</text>
+<text x="29" y="159" class="footer-value">950 CONTRIBUTIONS / LAST 12 MONTHS</text>
+<text x="876" y="159" class="footer" text-anchor="end">CURRENT 2D  ·  LONGEST 12D  ·  UPDATED 22 JUL</text>
 </svg>
