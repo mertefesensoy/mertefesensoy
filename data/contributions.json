@@ -2,16 +2,16 @@
   "schema_version": 1,
   "username": "mertefesensoy",
   "source": "https://github.com/users/mertefesensoy/contributions",
-  "generated_at": "2026-08-20T07:07:52Z",
+  "generated_at": "2026-08-21T07:08:47Z",
   "range": {
     "start": "2025-08-17",
-    "end": "2026-08-20",
-    "days": 369
+    "end": "2026-08-21",
+    "days": 370
   },
   "stats": {
-    "yearly_total": 1472,
-    "current_streak": 21,
-    "longest_streak": 21,
+    "yearly_total": 1504,
+    "current_streak": 22,
+    "longest_streak": 22,
     "best_day": {
       "date": "2026-01-12",
       "count": 85
@@ -29,7 +29,7 @@
       "2026-05": 181,
       "2026-06": 129,
       "2026-07": 161,
-      "2026-08": 425
+      "2026-08": 457
     }
   },
   "days": [
@@ -666,7 +666,7 @@
     {
       "date": "2025-12-21",
       "count": 13,
-      "level": 1
+      "level": 2
     },
     {
       "date": "2025-12-22",
@@ -751,7 +751,7 @@
     {
       "date": "2026-01-07",
       "count": 30,
-      "level": 3
+      "level": 4
     },
     {
       "date": "2026-01-08",
@@ -796,7 +796,7 @@
     {
       "date": "2026-01-16",
       "count": 23,
-      "level": 2
+      "level": 3
     },
     {
       "date": "2026-01-17",
@@ -911,12 +911,12 @@
     {
       "date": "2026-02-08",
       "count": 13,
-      "level": 1
+      "level": 2
     },
     {
       "date": "2026-02-09",
       "count": 32,
-      "level": 3
+      "level": 4
     },
     {
       "date": "2026-02-10",
@@ -1016,7 +1016,7 @@
     {
       "date": "2026-03-01",
       "count": 13,
-      "level": 1
+      "level": 2
     },
     {
       "date": "2026-03-02",
@@ -1136,7 +1136,7 @@
     {
       "date": "2026-03-25",
       "count": 11,
-      "level": 1
+      "level": 2
     },
     {
       "date": "2026-03-26",
@@ -1341,7 +1341,7 @@
     {
       "date": "2026-05-05",
       "count": 12,
-      "level": 1
+      "level": 2
     },
     {
       "date": "2026-05-06",
@@ -1381,7 +1381,7 @@
     {
       "date": "2026-05-13",
       "count": 11,
-      "level": 1
+      "level": 2
     },
     {
       "date": "2026-05-14",
@@ -1446,17 +1446,17 @@
     {
       "date": "2026-05-26",
       "count": 38,
-      "level": 3
+      "level": 4
     },
     {
       "date": "2026-05-27",
       "count": 10,
-      "level": 1
+      "level": 2
     },
     {
       "date": "2026-05-28",
       "count": 11,
-      "level": 1
+      "level": 2
     },
     {
       "date": "2026-05-29",
@@ -1686,7 +1686,7 @@
     {
       "date": "2026-07-13",
       "count": 10,
-      "level": 1
+      "level": 2
     },
     {
       "date": "2026-07-14",
@@ -1766,7 +1766,7 @@
     {
       "date": "2026-07-29",
       "count": 20,
-      "level": 2
+      "level": 3
     },
     {
       "date": "2026-07-30",
@@ -1786,7 +1786,7 @@
     {
       "date": "2026-08-02",
       "count": 36,
-      "level": 3
+      "level": 4
     },
     {
       "date": "2026-08-03",
@@ -1806,12 +1806,12 @@
     {
       "date": "2026-08-06",
       "count": 12,
-      "level": 1
+      "level": 2
     },
     {
       "date": "2026-08-07",
       "count": 37,
-      "level": 3
+      "level": 4
     },
     {
       "date": "2026-08-08",
@@ -1826,12 +1826,12 @@
     {
       "date": "2026-08-10",
       "count": 13,
-      "level": 1
+      "level": 2
     },
     {
       "date": "2026-08-11",
       "count": 11,
-      "level": 1
+      "level": 2
     },
     {
       "date": "2026-08-12",
@@ -1846,36 +1846,41 @@
     {
       "date": "2026-08-14",
       "count": 31,
-      "level": 3
+      "level": 4
     },
     {
       "date": "2026-08-15",
       "count": 10,
-      "level": 1
+      "level": 2
     },
     {
       "date": "2026-08-16",
       "count": 23,
-      "level": 2
+      "level": 3
     },
     {
       "date": "2026-08-17",
       "count": 33,
-      "level": 3
+      "level": 4
     },
     {
       "date": "2026-08-18",
       "count": 27,
-      "level": 2
+      "level": 3
     },
     {
       "date": "2026-08-19",
       "count": 25,
-      "level": 2
+      "level": 3
     },
     {
       "date": "2026-08-20",
-      "count": 8,
+      "count": 31,
+      "level": 4
+    },
+    {
+      "date": "2026-08-21",
+      "count": 9,
       "level": 1
     }
   ]

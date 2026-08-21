@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="888" height="166" viewBox="0 0 888 166" role="img" aria-labelledby="calendar-title calendar-desc" focusable="false">
 <title id="calendar-title">mertefesensoy&#x27;s 53-week GitHub contribution signal</title>
-<desc id="calendar-desc">Contribution calendar from 2025-08-17 through 2026-08-20, totaling 1,472 contributions. Current streak: 21 days; longest streak: 21 days.</desc>
+<desc id="calendar-desc">Contribution calendar from 2025-08-17 through 2026-08-21, totaling 1,504 contributions. Current streak: 22 days; longest streak: 22 days.</desc>
 <defs><pattern id="heatmap-scan" width="4" height="4" patternUnits="userSpaceOnUse"><path d="M0 3.5H888" stroke="#f2f6fc" stroke-opacity=".018"/></pattern></defs>
 <style>
 text { font-family:'IBM Plex Mono','IBM Plex Sans',ui-monospace,SFMono-Regular,Consolas,monospace; }
@@ -416,7 +416,7 @@ text { font-family:'IBM Plex Mono','IBM Plex Sans',ui-monospace,SFMono-Regular,C
 <rect class="contribution-cell level-0" x="306" y="124" width="13" height="13" rx="2" fill="#161b22" data-date="2025-12-20" data-count="0" style="--delay:1.322s">
 <title>No contributions on December 20, 2025</title>
 </rect>
-<rect class="contribution-cell level-1 active" x="322" y="28" width="13" height="13" rx="2" fill="#1c3153" data-date="2025-12-21" data-count="13" style="--delay:1.172s">
+<rect class="contribution-cell level-2 active" x="322" y="28" width="13" height="13" rx="2" fill="#054ada" data-date="2025-12-21" data-count="13" style="--delay:1.172s">
 <title>13 contributions on December 21, 2025</title>
 </rect>
 <rect class="contribution-cell level-1 active" x="322" y="44" width="13" height="13" rx="2" fill="#1c3153" data-date="2025-12-22" data-count="8" style="--delay:1.208s">
@@ -467,7 +467,7 @@ text { font-family:'IBM Plex Mono','IBM Plex Sans',ui-monospace,SFMono-Regular,C
 <rect class="contribution-cell level-0" x="354" y="60" width="13" height="13" rx="2" fill="#161b22" data-date="2026-01-06" data-count="0" style="--delay:1.374s">
 <title>No contributions on January 06, 2026</title>
 </rect>
-<rect class="contribution-cell level-3 active" x="354" y="76" width="13" height="13" rx="2" fill="#4589ff" data-date="2026-01-07" data-count="30" style="--delay:1.409s">
+<rect class="contribution-cell level-4 active" x="354" y="76" width="13" height="13" rx="2" fill="#78a9ff" data-date="2026-01-07" data-count="30" style="--delay:1.409s">
 <title>30 contributions on January 07, 2026</title>
 </rect>
 <rect class="contribution-cell level-1 active" x="354" y="92" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-01-08" data-count="8" style="--delay:1.445s">
@@ -494,7 +494,7 @@ text { font-family:'IBM Plex Mono','IBM Plex Sans',ui-monospace,SFMono-Regular,C
 <rect class="contribution-cell level-0" x="370" y="92" width="13" height="13" rx="2" fill="#161b22" data-date="2026-01-15" data-count="0" style="--delay:1.510s">
 <title>No contributions on January 15, 2026</title>
 </rect>
-<rect class="contribution-cell level-2 active" x="370" y="108" width="13" height="13" rx="2" fill="#054ada" data-date="2026-01-16" data-count="23" style="--delay:1.546s">
+<rect class="contribution-cell level-3 active" x="370" y="108" width="13" height="13" rx="2" fill="#4589ff" data-date="2026-01-16" data-count="23" style="--delay:1.546s">
 <title>23 contributions on January 16, 2026</title>
 </rect>
 <rect class="contribution-cell level-1 active" x="370" y="124" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-01-17" data-count="8" style="--delay:1.582s">
@@ -563,10 +563,10 @@ text { font-family:'IBM Plex Mono','IBM Plex Sans',ui-monospace,SFMono-Regular,C
 <rect class="contribution-cell level-0" x="418" y="124" width="13" height="13" rx="2" fill="#161b22" data-date="2026-02-07" data-count="0" style="--delay:1.777s">
 <title>No contributions on February 07, 2026</title>
 </rect>
-<rect class="contribution-cell level-1 active" x="434" y="28" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-02-08" data-count="13" style="--delay:1.627s">
+<rect class="contribution-cell level-2 active" x="434" y="28" width="13" height="13" rx="2" fill="#054ada" data-date="2026-02-08" data-count="13" style="--delay:1.627s">
 <title>13 contributions on February 08, 2026</title>
 </rect>
-<rect class="contribution-cell level-3 active" x="434" y="44" width="13" height="13" rx="2" fill="#4589ff" data-date="2026-02-09" data-count="32" style="--delay:1.663s">
+<rect class="contribution-cell level-4 active" x="434" y="44" width="13" height="13" rx="2" fill="#78a9ff" data-date="2026-02-09" data-count="32" style="--delay:1.663s">
 <title>32 contributions on February 09, 2026</title>
 </rect>
 <rect class="contribution-cell level-1 active" x="434" y="60" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-02-10" data-count="8" style="--delay:1.699s">
@@ -626,7 +626,7 @@ text { font-family:'IBM Plex Mono','IBM Plex Sans',ui-monospace,SFMono-Regular,C
 <rect class="contribution-cell level-1 active" x="466" y="124" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-02-28" data-count="9" style="--delay:1.973s">
 <title>9 contributions on February 28, 2026</title>
 </rect>
-<rect class="contribution-cell level-1 active" x="482" y="28" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-03-01" data-count="13" style="--delay:1.823s">
+<rect class="contribution-cell level-2 active" x="482" y="28" width="13" height="13" rx="2" fill="#054ada" data-date="2026-03-01" data-count="13" style="--delay:1.823s">
 <title>13 contributions on March 01, 2026</title>
 </rect>
 <rect class="contribution-cell level-1 active" x="482" y="44" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-03-02" data-count="1" style="--delay:1.859s">
@@ -698,7 +698,7 @@ text { font-family:'IBM Plex Mono','IBM Plex Sans',ui-monospace,SFMono-Regular,C
 <rect class="contribution-cell level-0" x="530" y="60" width="13" height="13" rx="2" fill="#161b22" data-date="2026-03-24" data-count="0" style="--delay:2.090s">
 <title>No contributions on March 24, 2026</title>
 </rect>
-<rect class="contribution-cell level-1 active" x="530" y="76" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-03-25" data-count="11" style="--delay:2.125s">
+<rect class="contribution-cell level-2 active" x="530" y="76" width="13" height="13" rx="2" fill="#054ada" data-date="2026-03-25" data-count="11" style="--delay:2.125s">
 <title>11 contributions on March 25, 2026</title>
 </rect>
 <rect class="contribution-cell level-1 active" x="530" y="92" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-03-26" data-count="4" style="--delay:2.161s">
@@ -821,7 +821,7 @@ text { font-family:'IBM Plex Mono','IBM Plex Sans',ui-monospace,SFMono-Regular,C
 <rect class="contribution-cell level-0" x="626" y="44" width="13" height="13" rx="2" fill="#161b22" data-date="2026-05-04" data-count="0" style="--delay:2.444s">
 <title>No contributions on May 04, 2026</title>
 </rect>
-<rect class="contribution-cell level-1 active" x="626" y="60" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-05-05" data-count="12" style="--delay:2.480s">
+<rect class="contribution-cell level-2 active" x="626" y="60" width="13" height="13" rx="2" fill="#054ada" data-date="2026-05-05" data-count="12" style="--delay:2.480s">
 <title>12 contributions on May 05, 2026</title>
 </rect>
 <rect class="contribution-cell level-0" x="626" y="76" width="13" height="13" rx="2" fill="#161b22" data-date="2026-05-06" data-count="0" style="--delay:2.516s">
@@ -845,7 +845,7 @@ text { font-family:'IBM Plex Mono','IBM Plex Sans',ui-monospace,SFMono-Regular,C
 <rect class="contribution-cell level-1 active" x="642" y="60" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-05-12" data-count="1" style="--delay:2.545s">
 <title>1 contribution on May 12, 2026</title>
 </rect>
-<rect class="contribution-cell level-1 active" x="642" y="76" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-05-13" data-count="11" style="--delay:2.581s">
+<rect class="contribution-cell level-2 active" x="642" y="76" width="13" height="13" rx="2" fill="#054ada" data-date="2026-05-13" data-count="11" style="--delay:2.581s">
 <title>11 contributions on May 13, 2026</title>
 </rect>
 <rect class="contribution-cell level-1 active" x="642" y="92" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-05-14" data-count="6" style="--delay:2.617s">
@@ -884,13 +884,13 @@ text { font-family:'IBM Plex Mono','IBM Plex Sans',ui-monospace,SFMono-Regular,C
 <rect class="contribution-cell level-1 active" x="674" y="44" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-05-25" data-count="6" style="--delay:2.640s">
 <title>6 contributions on May 25, 2026</title>
 </rect>
-<rect class="contribution-cell level-3 active" x="674" y="60" width="13" height="13" rx="2" fill="#4589ff" data-date="2026-05-26" data-count="38" style="--delay:2.676s">
+<rect class="contribution-cell level-4 active" x="674" y="60" width="13" height="13" rx="2" fill="#78a9ff" data-date="2026-05-26" data-count="38" style="--delay:2.676s">
 <title>38 contributions on May 26, 2026</title>
 </rect>
-<rect class="contribution-cell level-1 active" x="674" y="76" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-05-27" data-count="10" style="--delay:2.711s">
+<rect class="contribution-cell level-2 active" x="674" y="76" width="13" height="13" rx="2" fill="#054ada" data-date="2026-05-27" data-count="10" style="--delay:2.711s">
 <title>10 contributions on May 27, 2026</title>
 </rect>
-<rect class="contribution-cell level-1 active" x="674" y="92" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-05-28" data-count="11" style="--delay:2.747s">
+<rect class="contribution-cell level-2 active" x="674" y="92" width="13" height="13" rx="2" fill="#054ada" data-date="2026-05-28" data-count="11" style="--delay:2.747s">
 <title>11 contributions on May 28, 2026</title>
 </rect>
 <rect class="contribution-cell level-1 active" x="674" y="108" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-05-29" data-count="4" style="--delay:2.783s">
@@ -1028,7 +1028,7 @@ text { font-family:'IBM Plex Mono','IBM Plex Sans',ui-monospace,SFMono-Regular,C
 <rect class="contribution-cell level-0" x="786" y="28" width="13" height="13" rx="2" fill="#161b22" data-date="2026-07-12" data-count="0" style="--delay:3.060s">
 <title>No contributions on July 12, 2026</title>
 </rect>
-<rect class="contribution-cell level-1 active" x="786" y="44" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-07-13" data-count="10" style="--delay:3.095s">
+<rect class="contribution-cell level-2 active" x="786" y="44" width="13" height="13" rx="2" fill="#054ada" data-date="2026-07-13" data-count="10" style="--delay:3.095s">
 <title>10 contributions on July 13, 2026</title>
 </rect>
 <rect class="contribution-cell level-0" x="786" y="60" width="13" height="13" rx="2" fill="#161b22" data-date="2026-07-14" data-count="0" style="--delay:3.131s">
@@ -1076,7 +1076,7 @@ text { font-family:'IBM Plex Mono','IBM Plex Sans',ui-monospace,SFMono-Regular,C
 <rect class="contribution-cell level-2 active" x="818" y="60" width="13" height="13" rx="2" fill="#054ada" data-date="2026-07-28" data-count="19" style="--delay:3.261s">
 <title>19 contributions on July 28, 2026</title>
 </rect>
-<rect class="contribution-cell level-2 active" x="818" y="76" width="13" height="13" rx="2" fill="#054ada" data-date="2026-07-29" data-count="20" style="--delay:3.297s">
+<rect class="contribution-cell level-3 active" x="818" y="76" width="13" height="13" rx="2" fill="#4589ff" data-date="2026-07-29" data-count="20" style="--delay:3.297s">
 <title>20 contributions on July 29, 2026</title>
 </rect>
 <rect class="contribution-cell level-0" x="818" y="92" width="13" height="13" rx="2" fill="#161b22" data-date="2026-07-30" data-count="0" style="--delay:3.333s">
@@ -1088,7 +1088,7 @@ text { font-family:'IBM Plex Mono','IBM Plex Sans',ui-monospace,SFMono-Regular,C
 <rect class="contribution-cell level-2 active" x="818" y="124" width="13" height="13" rx="2" fill="#054ada" data-date="2026-08-01" data-count="18" style="--delay:3.405s">
 <title>18 contributions on August 01, 2026</title>
 </rect>
-<rect class="contribution-cell level-3 active" x="834" y="28" width="13" height="13" rx="2" fill="#4589ff" data-date="2026-08-02" data-count="36" style="--delay:3.255s">
+<rect class="contribution-cell level-4 active" x="834" y="28" width="13" height="13" rx="2" fill="#78a9ff" data-date="2026-08-02" data-count="36" style="--delay:3.255s">
 <title>36 contributions on August 02, 2026</title>
 </rect>
 <rect class="contribution-cell level-2 active" x="834" y="44" width="13" height="13" rx="2" fill="#054ada" data-date="2026-08-03" data-count="17" style="--delay:3.291s">
@@ -1100,10 +1100,10 @@ text { font-family:'IBM Plex Mono','IBM Plex Sans',ui-monospace,SFMono-Regular,C
 <rect class="contribution-cell level-2 active" x="834" y="76" width="13" height="13" rx="2" fill="#054ada" data-date="2026-08-05" data-count="18" style="--delay:3.362s">
 <title>18 contributions on August 05, 2026</title>
 </rect>
-<rect class="contribution-cell level-1 active" x="834" y="92" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-08-06" data-count="12" style="--delay:3.398s">
+<rect class="contribution-cell level-2 active" x="834" y="92" width="13" height="13" rx="2" fill="#054ada" data-date="2026-08-06" data-count="12" style="--delay:3.398s">
 <title>12 contributions on August 06, 2026</title>
 </rect>
-<rect class="contribution-cell level-3 active" x="834" y="108" width="13" height="13" rx="2" fill="#4589ff" data-date="2026-08-07" data-count="37" style="--delay:3.434s">
+<rect class="contribution-cell level-4 active" x="834" y="108" width="13" height="13" rx="2" fill="#78a9ff" data-date="2026-08-07" data-count="37" style="--delay:3.434s">
 <title>37 contributions on August 07, 2026</title>
 </rect>
 <rect class="contribution-cell level-3 active" x="834" y="124" width="13" height="13" rx="2" fill="#4589ff" data-date="2026-08-08" data-count="28" style="--delay:3.470s">
@@ -1112,10 +1112,10 @@ text { font-family:'IBM Plex Mono','IBM Plex Sans',ui-monospace,SFMono-Regular,C
 <rect class="contribution-cell level-2 active" x="850" y="28" width="13" height="13" rx="2" fill="#054ada" data-date="2026-08-09" data-count="18" style="--delay:3.320s">
 <title>18 contributions on August 09, 2026</title>
 </rect>
-<rect class="contribution-cell level-1 active" x="850" y="44" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-08-10" data-count="13" style="--delay:3.356s">
+<rect class="contribution-cell level-2 active" x="850" y="44" width="13" height="13" rx="2" fill="#054ada" data-date="2026-08-10" data-count="13" style="--delay:3.356s">
 <title>13 contributions on August 10, 2026</title>
 </rect>
-<rect class="contribution-cell level-1 active" x="850" y="60" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-08-11" data-count="11" style="--delay:3.392s">
+<rect class="contribution-cell level-2 active" x="850" y="60" width="13" height="13" rx="2" fill="#054ada" data-date="2026-08-11" data-count="11" style="--delay:3.392s">
 <title>11 contributions on August 11, 2026</title>
 </rect>
 <rect class="contribution-cell level-2 active" x="850" y="76" width="13" height="13" rx="2" fill="#054ada" data-date="2026-08-12" data-count="15" style="--delay:3.427s">
@@ -1124,30 +1124,33 @@ text { font-family:'IBM Plex Mono','IBM Plex Sans',ui-monospace,SFMono-Regular,C
 <rect class="contribution-cell level-2 active" x="850" y="92" width="13" height="13" rx="2" fill="#054ada" data-date="2026-08-13" data-count="17" style="--delay:3.463s">
 <title>17 contributions on August 13, 2026</title>
 </rect>
-<rect class="contribution-cell level-3 active" x="850" y="108" width="13" height="13" rx="2" fill="#4589ff" data-date="2026-08-14" data-count="31" style="--delay:3.499s">
+<rect class="contribution-cell level-4 active" x="850" y="108" width="13" height="13" rx="2" fill="#78a9ff" data-date="2026-08-14" data-count="31" style="--delay:3.499s">
 <title>31 contributions on August 14, 2026</title>
 </rect>
-<rect class="contribution-cell level-1 active" x="850" y="124" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-08-15" data-count="10" style="--delay:3.535s">
+<rect class="contribution-cell level-2 active" x="850" y="124" width="13" height="13" rx="2" fill="#054ada" data-date="2026-08-15" data-count="10" style="--delay:3.535s">
 <title>10 contributions on August 15, 2026</title>
 </rect>
-<rect class="contribution-cell level-2 active" x="866" y="28" width="13" height="13" rx="2" fill="#054ada" data-date="2026-08-16" data-count="23" style="--delay:3.385s">
+<rect class="contribution-cell level-3 active" x="866" y="28" width="13" height="13" rx="2" fill="#4589ff" data-date="2026-08-16" data-count="23" style="--delay:3.385s">
 <title>23 contributions on August 16, 2026</title>
 </rect>
-<rect class="contribution-cell level-3 active" x="866" y="44" width="13" height="13" rx="2" fill="#4589ff" data-date="2026-08-17" data-count="33" style="--delay:3.421s">
+<rect class="contribution-cell level-4 active" x="866" y="44" width="13" height="13" rx="2" fill="#78a9ff" data-date="2026-08-17" data-count="33" style="--delay:3.421s">
 <title>33 contributions on August 17, 2026</title>
 </rect>
-<rect class="contribution-cell level-2 active" x="866" y="60" width="13" height="13" rx="2" fill="#054ada" data-date="2026-08-18" data-count="27" style="--delay:3.457s">
+<rect class="contribution-cell level-3 active" x="866" y="60" width="13" height="13" rx="2" fill="#4589ff" data-date="2026-08-18" data-count="27" style="--delay:3.457s">
 <title>27 contributions on August 18, 2026</title>
 </rect>
-<rect class="contribution-cell level-2 active" x="866" y="76" width="13" height="13" rx="2" fill="#054ada" data-date="2026-08-19" data-count="25" style="--delay:3.493s">
+<rect class="contribution-cell level-3 active" x="866" y="76" width="13" height="13" rx="2" fill="#4589ff" data-date="2026-08-19" data-count="25" style="--delay:3.493s">
 <title>25 contributions on August 19, 2026</title>
 </rect>
-<rect class="contribution-cell level-1 active" x="866" y="92" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-08-20" data-count="8" style="--delay:3.528s">
-<title>8 contributions on August 20, 2026</title>
+<rect class="contribution-cell level-4 active" x="866" y="92" width="13" height="13" rx="2" fill="#78a9ff" data-date="2026-08-20" data-count="31" style="--delay:3.528s">
+<title>31 contributions on August 20, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="866" y="108" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-08-21" data-count="9" style="--delay:3.564s">
+<title>9 contributions on August 21, 2026</title>
 </rect>
 </g>
 <path d="M4 144H887" stroke="#1c3153"/>
 <circle cx="18" cy="155" r="3" fill="#42be65"/>
-<text x="29" y="159" class="footer-value">1,472 CONTRIBUTIONS / LAST 12 MONTHS</text>
-<text x="876" y="159" class="footer" text-anchor="end">CURRENT 21D  ·  LONGEST 21D  ·  UPDATED 20 AUG</text>
+<text x="29" y="159" class="footer-value">1,504 CONTRIBUTIONS / LAST 12 MONTHS</text>
+<text x="876" y="159" class="footer" text-anchor="end">CURRENT 22D  ·  LONGEST 22D  ·  UPDATED 21 AUG</text>
 </svg>
