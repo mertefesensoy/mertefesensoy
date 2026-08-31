@@ -2,15 +2,15 @@
   "schema_version": 1,
   "username": "mertefesensoy",
   "source": "https://github.com/users/mertefesensoy/contributions",
-  "generated_at": "2026-08-30T11:57:28Z",
+  "generated_at": "2026-08-31T13:56:25Z",
   "range": {
     "start": "2025-08-31",
-    "end": "2026-08-30",
-    "days": 365
+    "end": "2026-08-31",
+    "days": 366
   },
   "stats": {
-    "yearly_total": 1750,
-    "current_streak": 8,
+    "yearly_total": 1785,
+    "current_streak": 9,
     "longest_streak": 22,
     "best_day": {
       "date": "2026-01-12",
@@ -29,7 +29,7 @@
       "2026-05": 181,
       "2026-06": 129,
       "2026-07": 161,
-      "2026-08": 712
+      "2026-08": 747
     }
   },
   "days": [
@@ -846,7 +846,7 @@
     {
       "date": "2026-02-09",
       "count": 32,
-      "level": 3
+      "level": 2
     },
     {
       "date": "2026-02-10",
@@ -1776,7 +1776,7 @@
     {
       "date": "2026-08-14",
       "count": 31,
-      "level": 3
+      "level": 2
     },
     {
       "date": "2026-08-15",
@@ -1845,18 +1845,23 @@
     },
     {
       "date": "2026-08-28",
-      "count": 60,
+      "count": 64,
       "level": 4
     },
     {
       "date": "2026-08-29",
-      "count": 13,
-      "level": 1
+      "count": 23,
+      "level": 2
     },
     {
       "date": "2026-08-30",
-      "count": 1,
+      "count": 5,
       "level": 1
+    },
+    {
+      "date": "2026-08-31",
+      "count": 17,
+      "level": 2
     }
   ]
 }
