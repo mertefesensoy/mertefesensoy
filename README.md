@@ -7,13 +7,6 @@
   Info card: python scripts/make_info_card.py
 -->
 
-<h3><code>mertefe@sysplex ~ $ ./contributions.sh</code></h3>
-
-<img src="./contrib-heatmap.svg" width="860" alt="IBM-blue 53-week public GitHub contribution calendar for Mert Efe Şensoy, with total and streak statistics." />
-
-<br>
-<br>
-
 <h3><code>mertefe@sysplex ~ $ whoami</code></h3>
 
 <table>
@@ -22,6 +15,14 @@
 <td valign="top"><img src="./assets/info-card.svg" width="490" alt="IBM-inspired system card showing Mert Efe Şensoy's current role, recognition, education, focus areas, technical stack, and active projects." /></td>
 </tr>
 </table>
+
+<br>
+<br>
+
+<h3><code>mertefe@sysplex ~ $ ./contributions.sh</code></h3>
+
+<img src="./contrib-heatmap.svg" width="860" alt="IBM-blue 53-week public GitHub contribution calendar for Mert Efe Şensoy, with total and streak statistics." />
+
 
 <br>
 <br>
