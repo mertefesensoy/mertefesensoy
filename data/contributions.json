@@ -2,15 +2,15 @@
   "schema_version": 1,
   "username": "mertefesensoy",
   "source": "https://github.com/users/mertefesensoy/contributions",
-  "generated_at": "2026-10-10T12:36:18Z",
+  "generated_at": "2026-10-11T12:55:02Z",
   "range": {
-    "start": "2025-10-05",
-    "end": "2026-10-10",
-    "days": 371
+    "start": "2025-10-12",
+    "end": "2026-10-11",
+    "days": 365
   },
   "stats": {
-    "yearly_total": 3210,
-    "current_streak": 9,
+    "yearly_total": 3273,
+    "current_streak": 11,
     "longest_streak": 27,
     "best_day": {
       "date": "2026-09-10",
@@ -29,45 +29,10 @@
       "2026-07": 161,
       "2026-08": 783,
       "2026-09": 1214,
-      "2026-10": 175
+      "2026-10": 238
     }
   },
   "days": [
-    {
-      "date": "2025-10-05",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-10-06",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-10-07",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-10-08",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-10-09",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-10-10",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-10-11",
-      "count": 0,
-      "level": 0
-    },
     {
       "date": "2025-10-12",
       "count": 0,
@@ -1850,8 +1815,8 @@
     },
     {
       "date": "2026-10-03",
-      "count": 19,
-      "level": 1
+      "count": 30,
+      "level": 2
     },
     {
       "date": "2026-10-04",
@@ -1865,7 +1830,7 @@
     },
     {
       "date": "2026-10-06",
-      "count": 14,
+      "count": 13,
       "level": 1
     },
     {
@@ -1875,18 +1840,23 @@
     },
     {
       "date": "2026-10-08",
-      "count": 18,
+      "count": 20,
       "level": 1
     },
     {
       "date": "2026-10-09",
-      "count": 2,
+      "count": 12,
       "level": 1
     },
     {
       "date": "2026-10-10",
-      "count": 0,
-      "level": 0
+      "count": 8,
+      "level": 1
+    },
+    {
+      "date": "2026-10-11",
+      "count": 33,
+      "level": 2
     }
   ]
 }
