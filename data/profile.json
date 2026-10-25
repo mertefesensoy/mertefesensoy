@@ -2,50 +2,111 @@
   "username": "mertefesensoy",
   "display_name": "Mert Efe Şensoy",
   "headline": "Systems Engineer & 2026 IBM Champion",
-  "kicker": "SYSTEMS · QUANTUM RESEARCH · OPEN HARDWARE",
+  "kicker": "SYSTEMS · QUANTUM RESEARCH · OPEN HARDWARE · OPEN SOURCE",
   "now": "Junior Data Analyst @ Turkish Airlines",
   "recognition": "2026 IBM Champion · IBM Z Student Ambassador",
   "education": "TED UNIVERSITY · CENG '27 · BUSINESS ADMINISTRATION MINOR",
   "roles": [
     "IBM Z Student Ambassador",
     "IBM-Z Club President",
-    "Open Hardware Designer"
+    "Open Hardware Designer",
+    "Upstream contributor (zowe, vcpkg, mitiq)"
   ],
-  "focus": "Systems · quantum simulation · embedded / real-time",
-  "stack": "Python · C · Rust · Qiskit · KiCad · IBM Z",
+  "focus": "Systems · quantum simulation · mainframe · open hardware",
+  "stack": "C · Rust · Python · COBOL · Qiskit · KiCad · IBM Z",
   "stack_groups": [
     {
       "label": "Systems",
-      "value": "C · Rust · Go · IBM Z · FreeRTOS"
+      "value": "C89 · C++17 · Rust · Go · COBOL · JCL"
     },
     {
       "label": "Research",
-      "value": "Python · Qiskit · PyTorch"
+      "value": "Python · Qiskit Aer · PyTorch"
     },
     {
       "label": "Hardware",
-      "value": "KiCad · DDR4 · open tooling"
+      "value": "KiCad · DDR4 / DDR5 · open tooling"
     }
   ],
   "endpoint": "mertefesensoy.dev",
   "flagships": [
     {
-      "code": "OMI",
-      "name": "Open Memory Initiative",
-      "status": "ACTIVE DEVELOPMENT",
-      "stack": "KiCad / Rust"
+      "code": "FLYB",
+      "name": "FlyBatch",
+      "status": "v0.5.1-rc.1 · TESTERS",
+      "state": "up",
+      "stack": "C89 · COBOL · JCL",
+      "url": "https://github.com/mertefesensoy/FlyBatch",
+      "mark": "flybatch",
+      "accent": "#e2d3a6",
+      "asid": "0021",
+      "tagline": "501-neuron fly circuit; identical fingerprints, x86-64 to MVS",
+      "note": "No IBM Z hardware yet: MVS 3.8j under Hercules, s390x under QEMU"
     },
     {
       "code": "SCTD",
       "name": "SuperconducTED",
-      "status": "ACTIVE RESEARCH",
-      "stack": "Qiskit / Python"
+      "status": "RESEARCH PREVIEW",
+      "state": "research",
+      "stack": "Python · Qiskit Aer",
+      "url": "https://github.com/SuperconducTED",
+      "mark": "superconducted",
+      "accent": "#4fd6e6",
+      "asid": "0022",
+      "tagline": "Noise as a range, not a number: IT2 fuzzy noise for Qiskit Aer",
+      "note": "Cycle 1 pipeline validated; trained memberships are cycle 2"
     },
     {
-      "code": "MŞHT",
-      "name": "Müşahit",
-      "status": "OPERATIONAL",
-      "stack": "Python / DuckDB"
+      "code": "CSDR",
+      "name": "Cassandra Collective",
+      "status": "STAGE 0 · NEGATIVE",
+      "state": "research",
+      "stack": "PyTorch",
+      "url": "https://github.com/Cassandra-Collective",
+      "mark": "cassandra",
+      "accent": "#d2a65a",
+      "asid": "0023",
+      "tagline": "Everyday-hardware language models: CASSANDRA, Chorus, Dervish",
+      "note": "Chorus Stage 0 closed as a published negative result; replanning"
+    },
+    {
+      "code": "OMI",
+      "name": "Open Memory Initiative",
+      "status": "ACTIVE DEVELOPMENT",
+      "state": "up",
+      "stack": "KiCad · Rust",
+      "url": "https://github.com/The-Open-Memory-Initiative-OMI/omi",
+      "mark": "omi",
+      "accent": "#2fd99a",
+      "asid": "0024",
+      "tagline": "Open, reproducible DDR4 UDIMM reference design and tooling",
+      "note": "Schematic-stage work; claims never run ahead of validation"
+    },
+    {
+      "code": "SPDR",
+      "name": "spdr",
+      "status": "v0.1.1 · crates.io",
+      "state": "up",
+      "stack": "Rust · no_std",
+      "url": "https://github.com/The-Open-Memory-Initiative-OMI/spdr",
+      "mark": "spdr",
+      "accent": "#dca152",
+      "asid": "0025",
+      "tagline": "DDR5 SPD decoder and beyond-CRC linter: no_std, no panic",
+      "note": "UDIMM complete; SODIMM, RDIMM, LRDIMM wait for real fixtures"
+    },
+    {
+      "code": "EPHS",
+      "name": "Ephesus",
+      "status": "PRE-ALPHA",
+      "state": "prealpha",
+      "stack": "Electron · TypeScript",
+      "url": "https://github.com/Cassandra-Collective/Ephesus",
+      "mark": "ephesus",
+      "accent": "#c4552d",
+      "asid": "0026",
+      "tagline": "An agent company you govern as its architect, built in public",
+      "note": "No releases and no installer; everything runs from source today"
     }
   ]
 }

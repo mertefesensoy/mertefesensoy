@@ -1,0 +1,253 @@
+{
+  "schema_version": 1,
+  "username": "mertefesensoy",
+  "source": "https://api.github.com/search/issues",
+  "generated_at": "2026-10-25T16:32:34Z",
+  "excluded_owners": [
+    "beelink-cn",
+    "cassandra-collective",
+    "diethuzz",
+    "gumeus",
+    "mertefesensoy",
+    "neurotie",
+    "superconducted",
+    "the-open-memory-initiative-omi"
+  ],
+  "caveats": [
+    "Public pull requests authored by the user in repositories not owned by the user or their organisations.",
+    "GitHub search returns at most 1000 results and can lag a merge by minutes.",
+    "Whether a PR counts for any programme is decided by that programme, not by this ledger."
+  ],
+  "stats": {
+    "merged": 7,
+    "open": 8,
+    "closed": 4,
+    "repositories": 9,
+    "last_merged": "2026-10-21"
+  },
+  "repositories": [
+    {
+      "repo": "microsoft/vcpkg",
+      "merged": 4,
+      "open": 1,
+      "closed": 0
+    },
+    {
+      "repo": "zowe/zowe-explorer-vscode",
+      "merged": 1,
+      "open": 2,
+      "closed": 0
+    },
+    {
+      "repo": "zowe/zowe-mcp",
+      "merged": 1,
+      "open": 2,
+      "closed": 0
+    },
+    {
+      "repo": "koala73/worldmonitor",
+      "merged": 1,
+      "open": 0,
+      "closed": 0
+    },
+    {
+      "repo": "zowe/zowe-cli",
+      "merged": 0,
+      "open": 2,
+      "closed": 0
+    },
+    {
+      "repo": "unitaryfoundation/mitiq",
+      "merged": 0,
+      "open": 1,
+      "closed": 0
+    },
+    {
+      "repo": "conan-io/conan-center-index",
+      "merged": 0,
+      "open": 0,
+      "closed": 1
+    },
+    {
+      "repo": "getsentry/sentry-native",
+      "merged": 0,
+      "open": 0,
+      "closed": 2
+    },
+    {
+      "repo": "pkgconf/pkgconf",
+      "merged": 0,
+      "open": 0,
+      "closed": 1
+    }
+  ],
+  "merged": [
+    {
+      "repo": "microsoft/vcpkg",
+      "number": 54529,
+      "title": "[nu-book-zxing-cpp] Update to 3.1.1",
+      "url": "https://github.com/microsoft/vcpkg/pull/54529",
+      "state": "merged",
+      "draft": false,
+      "created": "2026-10-20",
+      "merged": "2026-10-21",
+      "closed": "2026-10-21"
+    },
+    {
+      "repo": "zowe/zowe-mcp",
+      "number": 127,
+      "title": "fix(server): use product SAF code names in certificate error details",
+      "url": "https://github.com/zowe/zowe-mcp/pull/127",
+      "state": "merged",
+      "draft": false,
+      "created": "2026-10-11",
+      "merged": "2026-10-20",
+      "closed": "2026-10-20"
+    },
+    {
+      "repo": "microsoft/vcpkg",
+      "number": 54469,
+      "title": "[winreg] Update to 10.0.0",
+      "url": "https://github.com/microsoft/vcpkg/pull/54469",
+      "state": "merged",
+      "draft": false,
+      "created": "2026-10-17",
+      "merged": "2026-10-18",
+      "closed": "2026-10-18"
+    },
+    {
+      "repo": "microsoft/vcpkg",
+      "number": 54434,
+      "title": "[expat] Update to 2.9.0",
+      "url": "https://github.com/microsoft/vcpkg/pull/54434",
+      "state": "merged",
+      "draft": false,
+      "created": "2026-10-14",
+      "merged": "2026-10-16",
+      "closed": "2026-10-16"
+    },
+    {
+      "repo": "zowe/zowe-explorer-vscode",
+      "number": 4544,
+      "title": "Stop mapping PLX data sets to PL/I (fixes #3801)",
+      "url": "https://github.com/zowe/zowe-explorer-vscode/pull/4544",
+      "state": "merged",
+      "draft": false,
+      "created": "2026-10-12",
+      "merged": "2026-10-13",
+      "closed": "2026-10-13"
+    },
+    {
+      "repo": "microsoft/vcpkg",
+      "number": 53554,
+      "title": "[sentry-native] Limit the pkgconf host dependency to linux",
+      "url": "https://github.com/microsoft/vcpkg/pull/53554",
+      "state": "merged",
+      "draft": false,
+      "created": "2026-08-23",
+      "merged": "2026-08-24",
+      "closed": "2026-08-24"
+    },
+    {
+      "repo": "koala73/worldmonitor",
+      "number": 907,
+      "title": "feat(aviation): aviation-layer-improvements",
+      "url": "https://github.com/koala73/worldmonitor/pull/907",
+      "state": "merged",
+      "draft": false,
+      "created": "2026-03-03",
+      "merged": "2026-03-04",
+      "closed": "2026-03-04"
+    }
+  ],
+  "open": [
+    {
+      "repo": "zowe/zowe-cli",
+      "number": 2980,
+      "title": "fix(cli): let --binary override .zosattributes in upload file-to-uss",
+      "url": "https://github.com/zowe/zowe-cli/pull/2980",
+      "state": "open",
+      "draft": false,
+      "created": "2026-10-23",
+      "merged": null,
+      "closed": null
+    },
+    {
+      "repo": "zowe/zowe-cli",
+      "number": 2975,
+      "title": "docs(imperative): clarify values that satisfy implies",
+      "url": "https://github.com/zowe/zowe-cli/pull/2975",
+      "state": "open",
+      "draft": false,
+      "created": "2026-10-22",
+      "merged": null,
+      "closed": null
+    },
+    {
+      "repo": "zowe/zowe-mcp",
+      "number": 131,
+      "title": "fix(server): let the mock z/OS host start SDK 1.0's `zo` binary",
+      "url": "https://github.com/zowe/zowe-mcp/pull/131",
+      "state": "open",
+      "draft": false,
+      "created": "2026-10-21",
+      "merged": null,
+      "closed": null
+    },
+    {
+      "repo": "zowe/zowe-mcp",
+      "number": 130,
+      "title": "fix(deps): clear the 2026-10-20 production audit advisories",
+      "url": "https://github.com/zowe/zowe-mcp/pull/130",
+      "state": "open",
+      "draft": false,
+      "created": "2026-10-21",
+      "merged": null,
+      "closed": null
+    },
+    {
+      "repo": "unitaryfoundation/mitiq",
+      "number": 3169,
+      "title": "Document ZNE with a QuTiP-QIP backend",
+      "url": "https://github.com/unitaryfoundation/mitiq/pull/3169",
+      "state": "open",
+      "draft": false,
+      "created": "2026-10-20",
+      "merged": null,
+      "closed": null
+    },
+    {
+      "repo": "zowe/zowe-explorer-vscode",
+      "number": 4554,
+      "title": "Hide data set search for FTP profiles and show a message instead of a TypeError (fixes #4511)",
+      "url": "https://github.com/zowe/zowe-explorer-vscode/pull/4554",
+      "state": "open",
+      "draft": false,
+      "created": "2026-10-15",
+      "merged": null,
+      "closed": null
+    },
+    {
+      "repo": "zowe/zowe-explorer-vscode",
+      "number": 4548,
+      "title": "Do not add a profile when the \"apply to all trees\" prompt is cancelled (fixes #4514)",
+      "url": "https://github.com/zowe/zowe-explorer-vscode/pull/4548",
+      "state": "open",
+      "draft": false,
+      "created": "2026-10-13",
+      "merged": null,
+      "closed": null
+    },
+    {
+      "repo": "microsoft/vcpkg",
+      "number": 53562,
+      "title": "[motus] new port",
+      "url": "https://github.com/microsoft/vcpkg/pull/53562",
+      "state": "open",
+      "draft": true,
+      "created": "2026-08-24",
+      "merged": null,
+      "closed": null
+    }
+  ]
+}

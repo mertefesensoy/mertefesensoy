@@ -47,6 +47,24 @@ def contribution_payload() -> dict[str, object]:
     )
 
 
+def flagship(
+    code: str, name: str, status: str, state: str, mark: str, accent: str, asid: str
+) -> dict[str, str]:
+    return {
+        "code": code,
+        "name": name,
+        "status": status,
+        "state": state,
+        "stack": "Rust",
+        "url": f"https://github.com/example/{code.lower()}",
+        "mark": mark,
+        "accent": accent,
+        "asid": asid,
+        "tagline": "One line about the project",
+        "note": "An honest note about its stage",
+    }
+
+
 def profile_payload() -> dict[str, object]:
     return {
         "username": "mertefesensoy",
@@ -66,9 +84,9 @@ def profile_payload() -> dict[str, object]:
         ],
         "endpoint": "mertefesensoy.dev",
         "flagships": [
-            {"code": "OMI", "name": "Open Memory", "status": "ACTIVE", "stack": "Rust"},
-            {"code": "SCTD", "name": "Quantum", "status": "RESEARCH", "stack": "Qiskit"},
-            {"code": "MŞHT", "name": "Müşahit", "status": "OPERATIONAL", "stack": "Python"},
+            flagship("OMI", "Open Memory", "ACTIVE", "up", "omi", "#2fd99a", "0024"),
+            flagship("SCTD", "Quantum", "RESEARCH", "research", "superconducted", "#4fd6e6", "0022"),
+            flagship("EPHS", "Ephesus", "PRE-ALPHA", "prealpha", "ephesus", "#c4552d", "0026"),
         ],
     }
 

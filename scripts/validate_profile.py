@@ -22,7 +22,18 @@ DEFAULT_PROFILE_DATA = REPOSITORY_ROOT / "data" / "profile.json"
 DEFAULT_PORTRAIT_SVG = REPOSITORY_ROOT / "assets" / "mert-ascii.svg"
 DEFAULT_INFO_CARD_SVG = REPOSITORY_ROOT / "assets" / "info-card.svg"
 DEFAULT_HEATMAP_SVG = REPOSITORY_ROOT / "contrib-heatmap.svg"
+DEFAULT_LEDGER_DATA = REPOSITORY_ROOT / "data" / "upstream_prs.json"
+DEFAULT_LEDGER_SVG = REPOSITORY_ROOT / "assets" / "pr-ledger.svg"
+DEFAULT_CONNECTOME_SVG = REPOSITORY_ROOT / "assets" / "connectome.svg"
+DEFAULT_IPL_SVG = REPOSITORY_ROOT / "assets" / "ipl-map.svg"
 DEFAULT_README = REPOSITORY_ROOT / "README.md"
+
+FLAGSHIP_FIELDS = (
+    "code", "name", "status", "state", "stack", "url", "mark", "accent", "asid", "tagline", "note",
+)
+FLAGSHIP_STATES = frozenset({"up", "research", "prealpha"})
+ACCENT_RE = re.compile(r"^#[0-9a-fA-F]{6}$")
+REPO_RE = re.compile(r"^[A-Za-z0-9](?:[A-Za-z0-9-]{0,37}[A-Za-z0-9])?/[A-Za-z0-9._-]{1,100}$")
 
 EXPECTED_SVG_WIDTH = 860
 MIN_CALENDAR_DAYS = 364
@@ -34,6 +45,9 @@ URL_FUNCTION_RE = re.compile(r"url\(\s*(['\"]?)(.*?)\1\s*\)", re.IGNORECASE)
 EXTERNAL_SCHEME_RE = re.compile(
     r"(?:https?|ftp|file|javascript|vbscript|data):", re.IGNORECASE
 )
+# A protocol-relative URL needs a host with a dot; bare "//" runs occur in
+# ASCII art (the portrait's edge glyphs), so those must not trip the check.
+PROTOCOL_RELATIVE_RE = re.compile(r"(^|[\s('\"=])//[A-Za-z0-9-]+(?:\.[A-Za-z0-9-]+)+")
 MARKDOWN_IMAGE_RE = re.compile(
     r"(?<!\\)!\[[^\]\r\n]*\]\(\s*(?:<([^>\r\n]+)>|([^\s)]+))",
     re.MULTILINE,
@@ -292,8 +306,79 @@ def validate_identity_data(path: Path) -> Mapping[str, object]:
     for index, project in enumerate(flagships):
         if not isinstance(project, dict):
             raise ProfileValidationError(f"flagships[{index}] must be an object")
-        for field in ("code", "name", "status", "stack"):
+        for field in FLAGSHIP_FIELDS:
             _nonempty_string(project.get(field), f"flagships[{index}].{field}")
+        if project["state"] not in FLAGSHIP_STATES:
+            raise ProfileValidationError(
+                f"flagships[{index}].state must be one of {', '.join(sorted(FLAGSHIP_STATES))}"
+            )
+        if not ACCENT_RE.fullmatch(str(project["accent"])):
+            raise ProfileValidationError(f"flagships[{index}].accent must be a #rrggbb colour")
+        url = str(project["url"])
+        if not url.startswith("https://github.com/"):
+            raise ProfileValidationError(f"flagships[{index}].url must be a GitHub URL")
+    return payload
+
+
+def validate_ledger_data(path: Path) -> Mapping[str, object]:
+    """Validate the upstream pull-request ledger consumed by the ledger renderer."""
+
+    payload = _load_json_object(path)
+    if payload.get("schema_version") != 1:
+        raise ProfileValidationError("ledger schema_version must be 1")
+    if not USERNAME_RE.fullmatch(str(payload.get("username", ""))):
+        raise ProfileValidationError("ledger username is not a valid GitHub username")
+    generated_at = payload.get("generated_at")
+    try:
+        parsed = datetime.fromisoformat(str(generated_at).replace("Z", "+00:00"))
+    except ValueError as exc:
+        raise ProfileValidationError("ledger generated_at must be an ISO-8601 timestamp") from exc
+    if parsed.tzinfo is None:
+        raise ProfileValidationError("ledger generated_at must include a timezone")
+
+    stats = payload.get("stats")
+    if not isinstance(stats, dict):
+        raise ProfileValidationError("ledger stats must be an object")
+    for field in ("merged", "open", "closed", "repositories"):
+        _nonnegative_integer(stats.get(field), f"ledger stats.{field}")
+
+    repositories = payload.get("repositories")
+    if not isinstance(repositories, list):
+        raise ProfileValidationError("ledger repositories must be an array")
+    totals = {"merged": 0, "open": 0, "closed": 0}
+    for index, entry in enumerate(repositories):
+        if not isinstance(entry, dict) or not REPO_RE.fullmatch(str(entry.get("repo", ""))):
+            raise ProfileValidationError(f"ledger repositories[{index}] must name an owner/repo")
+        owner = str(entry["repo"]).split("/", 1)[0].lower()
+        if owner in {o.lower() for o in payload.get("excluded_owners", []) if isinstance(o, str)}:
+            raise ProfileValidationError(f"ledger repositories[{index}] belongs to an excluded owner")
+        for field in totals:
+            totals[field] += _nonnegative_integer(entry.get(field), f"ledger repositories[{index}].{field}")
+    for field, total in totals.items():
+        if total != stats[field]:
+            raise ProfileValidationError(f"ledger stats.{field} does not match the per-repository tally")
+    if len(repositories) != stats["repositories"]:
+        raise ProfileValidationError("ledger stats.repositories does not match the repository list")
+
+    for list_name, expected_state in (("merged", "merged"), ("open", "open")):
+        records = payload.get(list_name)
+        if not isinstance(records, list):
+            raise ProfileValidationError(f"ledger {list_name} must be an array")
+        for index, record in enumerate(records):
+            context = f"ledger {list_name}[{index}]"
+            if not isinstance(record, dict):
+                raise ProfileValidationError(f"{context} must be an object")
+            if not REPO_RE.fullmatch(str(record.get("repo", ""))):
+                raise ProfileValidationError(f"{context}.repo must name an owner/repo")
+            _positive_integer(record.get("number"), f"{context}.number")
+            _nonempty_string(record.get("title"), f"{context}.title")
+            url = str(record.get("url", ""))
+            if not url.startswith("https://github.com/"):
+                raise ProfileValidationError(f"{context}.url must be a GitHub URL")
+            if record.get("state") != expected_state:
+                raise ProfileValidationError(f"{context}.state must be {expected_state!r}")
+            if expected_state == "merged":
+                _iso_date(record.get("merged"), f"{context}.merged")
     return payload
 
 
@@ -302,7 +387,7 @@ def _local_name(name: str) -> str:
 
 
 def _check_url_text(value: str, context: str) -> None:
-    if EXTERNAL_SCHEME_RE.search(value) or re.search(r"(^|[\s('\"])//[^\s/]+", value):
+    if EXTERNAL_SCHEME_RE.search(value) or PROTOCOL_RELATIVE_RE.search(value):
         raise ProfileValidationError(f"{context} contains an external URL")
     if re.search(r"@import\b", value, re.IGNORECASE):
         raise ProfileValidationError(f"{context} contains a CSS import")
@@ -460,6 +545,11 @@ def run_validation(
     info_card_svg: Path,
     heatmap_svg: Path,
     readme: Path,
+    *,
+    ledger_data: Path | None = None,
+    ledger_svg: Path | None = None,
+    connectome_svg: Path | None = None,
+    ipl_svg: Path | None = None,
 ) -> list[str]:
     """Run every validation and return all failures rather than stopping early."""
 
@@ -474,6 +564,15 @@ def run_validation(
             lambda: validate_readme_images(readme, repository_root=readme.parent),
         ),
     ]
+    if ledger_data is not None:
+        checks.append(("ledger data", lambda: validate_ledger_data(ledger_data)))
+    for label, path in (
+        ("ledger SVG", ledger_svg),
+        ("connectome SVG", connectome_svg),
+        ("IPL SVG", ipl_svg),
+    ):
+        if path is not None:
+            checks.append((label, lambda p=path: validate_svg(p, expected_width=860)))
     failures: list[str] = []
     for label, check in checks:
         try:
@@ -491,6 +590,10 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--info-card-svg", type=Path, default=DEFAULT_INFO_CARD_SVG)
     parser.add_argument("--heatmap-svg", type=Path, default=DEFAULT_HEATMAP_SVG)
     parser.add_argument("--readme", type=Path, default=DEFAULT_README)
+    parser.add_argument("--ledger-data", type=Path, default=DEFAULT_LEDGER_DATA)
+    parser.add_argument("--ledger-svg", type=Path, default=DEFAULT_LEDGER_SVG)
+    parser.add_argument("--connectome-svg", type=Path, default=DEFAULT_CONNECTOME_SVG)
+    parser.add_argument("--ipl-svg", type=Path, default=DEFAULT_IPL_SVG)
     args = parser.parse_args(argv)
 
     failures = run_validation(
@@ -500,6 +603,10 @@ def main(argv: list[str] | None = None) -> int:
         args.info_card_svg,
         args.heatmap_svg,
         args.readme,
+        ledger_data=args.ledger_data,
+        ledger_svg=args.ledger_svg,
+        connectome_svg=args.connectome_svg,
+        ipl_svg=args.ipl_svg,
     )
     if failures:
         for failure in failures:
