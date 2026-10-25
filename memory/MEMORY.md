@@ -11,7 +11,9 @@ Updated 2026-10-25.
   and previewable at `preview/compare.html` (serve the repository root with
   `python -m http.server 8765`). Swapping back means three edits in `README.md`: the `<h3>`
   (`./ipl.sh` to `./connectome.sh`), and the `<img>` src and alt inside the `CENTREPIECE` markers.
-- GitHub renders the profile from `main` only; nothing is visible there until merged.
+- Merged to `main` as PR #1 on 2026-10-25 (merge 0ec9d43). The first dispatched workflow run
+  (40213505552) succeeded on the real runner and committed a refresh (fd6db9b); the live profile
+  was checked in the browser the same day: portrait, IPL map, heatmap and ledger all render.
 
 ## How the pipeline splits
 
