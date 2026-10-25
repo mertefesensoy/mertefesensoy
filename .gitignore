@@ -2,3 +2,5 @@ __pycache__/
 *.py[cod]
 .venv/
 /tmp*/
+# Preview-only static companions
+*.static.svg

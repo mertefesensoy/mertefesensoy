@@ -1,0 +1,72 @@
+{
+  "total_count": 6,
+  "incomplete_results": false,
+  "items": [
+    {
+      "number": 54529,
+      "title": "[nu-book-zxing-cpp] Update to 3.1.1",
+      "state": "closed",
+      "html_url": "https://github.com/microsoft/vcpkg/pull/54529",
+      "repository_url": "https://api.github.com/repos/microsoft/vcpkg",
+      "created_at": "2026-10-20T09:00:00Z",
+      "closed_at": "2026-10-21T10:00:00Z",
+      "draft": false,
+      "pull_request": {"merged_at": "2026-10-21T10:00:00Z"}
+    },
+    {
+      "number": 127,
+      "title": "fix(server): use product SAF code names in certificate error details",
+      "state": "closed",
+      "html_url": "https://github.com/zowe/zowe-mcp/pull/127",
+      "repository_url": "https://api.github.com/repos/zowe/zowe-mcp",
+      "created_at": "2026-10-19T09:00:00Z",
+      "closed_at": "2026-10-20T10:00:00Z",
+      "draft": false,
+      "pull_request": {"merged_at": "2026-10-20T10:00:00Z"}
+    },
+    {
+      "number": 2980,
+      "title": "fix(cli): let --binary override .zosattributes in upload file-to-uss",
+      "state": "open",
+      "html_url": "https://github.com/zowe/zowe-cli/pull/2980",
+      "repository_url": "https://api.github.com/repos/zowe/zowe-cli",
+      "created_at": "2026-10-23T09:00:00Z",
+      "closed_at": null,
+      "draft": false,
+      "pull_request": {"merged_at": null}
+    },
+    {
+      "number": 3169,
+      "title": "Document ZNE with a QuTiP-QIP backend",
+      "state": "closed",
+      "html_url": "https://github.com/unitaryfoundation/mitiq/pull/3169",
+      "repository_url": "https://api.github.com/repos/unitaryfoundation/mitiq",
+      "created_at": "2026-10-20T09:00:00Z",
+      "closed_at": "2026-10-22T10:00:00Z",
+      "draft": false,
+      "pull_request": {"merged_at": null}
+    },
+    {
+      "number": 112,
+      "title": "Fix brand links",
+      "state": "closed",
+      "html_url": "https://github.com/Cassandra-Collective/CASSANDRA-Chorus/pull/112",
+      "repository_url": "https://api.github.com/repos/Cassandra-Collective/CASSANDRA-Chorus",
+      "created_at": "2026-10-14T09:00:00Z",
+      "closed_at": "2026-10-14T10:00:00Z",
+      "draft": false,
+      "pull_request": {"merged_at": "2026-10-14T10:00:00Z"}
+    },
+    {
+      "number": 54529,
+      "title": "[nu-book-zxing-cpp] Update to 3.1.1 (duplicate item)",
+      "state": "closed",
+      "html_url": "https://github.com/microsoft/vcpkg/pull/54529",
+      "repository_url": "https://api.github.com/repos/microsoft/vcpkg",
+      "created_at": "2026-10-20T09:00:00Z",
+      "closed_at": "2026-10-21T10:00:00Z",
+      "draft": false,
+      "pull_request": {"merged_at": "2026-10-21T10:00:00Z"}
+    }
+  ]
+}

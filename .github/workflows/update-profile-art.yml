@@ -31,8 +31,24 @@ jobs:
       - name: Fetch public contribution data
         run: python scripts/fetch_contributions.py
 
+      - name: Fetch upstream pull requests
+        # The Actions-provided token lifts the search rate limit; it is not a
+        # personal access token and the script works without it.
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/fetch_upstream_prs.py
+
       - name: Render IBM contribution console
         run: python scripts/render_heatmap_svg.py
+
+      - name: Render upstream ledger
+        run: python scripts/render_ledger_svg.py
+
+      - name: Render system map centrepieces
+        # Stdlib only; the IPL console carries the current date.
+        run: |
+          python scripts/make_connectome_svg.py
+          python scripts/make_ipl_svg.py
 
       - name: Update accessible activity summary
         run: python scripts/update_readme_stats.py
@@ -47,7 +63,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/contributions.json contrib-heatmap.svg README.md
+          git add data/contributions.json data/upstream_prs.json contrib-heatmap.svg assets/pr-ledger.svg assets/connectome.svg assets/ipl-map.svg README.md
           if git diff --cached --quiet; then
             echo "Profile telemetry is already current."
             exit 0

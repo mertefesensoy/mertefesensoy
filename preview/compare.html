@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Profile preview: connectome vs IPL</title>
+<!--
+  Local comparison page for the profile README redesign.
+  Serve from the repository root so relative paths match GitHub's:
+      python -m http.server 8765
+      http://127.0.0.1:8765/preview/compare.html
+  Nothing here is published; GitHub renders README.md only.
+
+  The "Static renders" button swaps each image for its *.static.svg companion
+  (gitignored). Produce them with:
+      python scripts/make_ascii_svg.py --static --output assets/mert-ascii.static.svg
+      python scripts/make_info_card.py --static --output assets/info-card.static.svg
+      python scripts/make_connectome_svg.py --static --output assets/connectome.static.svg
+      python scripts/make_ipl_svg.py --static --output assets/ipl-map.static.svg
+      python scripts/render_ledger_svg.py --static --output assets/pr-ledger.static.svg
+      copy contrib-heatmap.svg contrib-heatmap.static.svg
+-->
+<style>
+  :root { --bg:#ffffff; --fg:#1f2328; --muted:#59636e; --border:#d1d9e0; --panel:#f6f8fa; --accent:#0969da; }
+  :root[data-theme="dark"] { --bg:#0d1117; --fg:#f0f6fc; --muted:#9198a1; --border:#3d444d; --panel:#151b23; --accent:#4493f8; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:14px/1.5 -apple-system,"Segoe UI",Helvetica,Arial,sans-serif; }
+  header { position:sticky; top:0; z-index:2; display:flex; gap:12px; align-items:center; padding:10px 16px; background:var(--panel); border-bottom:1px solid var(--border); }
+  header h1 { font-size:14px; margin:0 12px 0 0; }
+  button { font:inherit; padding:5px 12px; border:1px solid var(--border); background:var(--bg); color:var(--fg); border-radius:6px; cursor:pointer; }
+  button[aria-pressed="true"] { background:var(--accent); color:#fff; border-color:var(--accent); }
+  main { display:grid; grid-template-columns:1fr 1fr; gap:24px; padding:24px 16px; }
+  @media (max-width:1700px) { main { grid-template-columns:1fr; } }
+  .readme { max-width:1012px; margin:0 auto; border:1px solid var(--border); border-radius:6px; background:var(--bg); }
+  .readme .bar { padding:8px 16px; border-bottom:1px solid var(--border); background:var(--panel); font-size:12px; color:var(--muted); font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; }
+  .readme .body { padding:32px; }
+  .readme h3 { margin:0 0 12px; font-size:1.25em; }
+  .readme code { font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; font-size:85%; background:var(--panel); padding:.2em .4em; border-radius:6px; }
+  .readme img { max-width:100%; height:auto; }
+  .center { text-align:center; }
+  .row { display:flex; gap:8px; justify-content:center; align-items:flex-start; }
+  .gap { height:28px; }
+  .tag { display:inline-block; font-size:11px; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); margin-bottom:8px; }
+  p.note { color:var(--muted); font-size:12px; margin:4px 0 0; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Profile README preview</h1>
+  <button id="light" aria-pressed="true">Light</button>
+  <button id="dark" aria-pressed="false">Dark</button>
+  <button id="replay">Replay animations</button>
+  <button id="reduced" aria-pressed="false" title="Emulates the static fallback by swapping in the --static renders if present">Static renders</button>
+  <span style="color:var(--muted);font-size:12px">Each column is the same README with a different centrepiece. GitHub renders at 1012px max width.</span>
+</header>
+<main>
+  <section>
+    <span class="tag">Option A · spiking connectome</span>
+    <div class="readme">
+      <div class="bar">mertefesensoy / README.md</div>
+      <div class="body">
+        <div class="center">
+          <h3><code>mertefe@sysplex ~ $ whoami</code></h3>
+          <div class="row">
+            <img class="anim" src="../assets/mert-ascii.svg" width="370" alt="portrait">
+            <img class="anim" src="../assets/info-card.svg" width="490" alt="info card">
+          </div>
+          <div class="gap"></div>
+          <h3><code>mertefe@sysplex ~ $ ./connectome.sh</code></h3>
+          <img class="anim" src="../assets/connectome.svg" width="860" alt="connectome">
+          <div class="gap"></div>
+          <h3><code>mertefe@sysplex ~ $ ./contributions.sh</code></h3>
+          <img class="anim" src="../contrib-heatmap.svg" width="860" alt="heatmap">
+          <div class="gap"></div>
+          <h3><code>mertefe@sysplex ~ $ ./upstream.sh</code></h3>
+          <img class="anim" src="../assets/pr-ledger.svg" width="860" alt="ledger">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <span class="tag">Option B · IPL boot map</span>
+    <div class="readme">
+      <div class="bar">mertefesensoy / README.md</div>
+      <div class="body">
+        <div class="center">
+          <h3><code>mertefe@sysplex ~ $ whoami</code></h3>
+          <div class="row">
+            <img class="anim" src="../assets/mert-ascii.svg" width="370" alt="portrait">
+            <img class="anim" src="../assets/info-card.svg" width="490" alt="info card">
+          </div>
+          <div class="gap"></div>
+          <h3><code>mertefe@sysplex ~ $ ./ipl.sh</code></h3>
+          <img class="anim" src="../assets/ipl-map.svg" width="860" alt="IPL map">
+          <div class="gap"></div>
+          <h3><code>mertefe@sysplex ~ $ ./contributions.sh</code></h3>
+          <img class="anim" src="../contrib-heatmap.svg" width="860" alt="heatmap">
+          <div class="gap"></div>
+          <h3><code>mertefe@sysplex ~ $ ./upstream.sh</code></h3>
+          <img class="anim" src="../assets/pr-ledger.svg" width="860" alt="ledger">
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<script>
+  const root = document.documentElement;
+  const set = (theme) => {
+    root.dataset.theme = theme;
+    document.getElementById('light').setAttribute('aria-pressed', String(theme === 'light'));
+    document.getElementById('dark').setAttribute('aria-pressed', String(theme === 'dark'));
+  };
+  document.getElementById('light').onclick = () => set('light');
+  document.getElementById('dark').onclick = () => set('dark');
+  set(matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+  // Reloading an <img> restarts the SVG's CSS and SMIL clocks.
+  document.getElementById('replay').onclick = () => {
+    const stamp = Date.now();
+    document.querySelectorAll('img.anim').forEach((img) => {
+      const base = img.getAttribute('src').split('?')[0];
+      img.setAttribute('src', `${base}?t=${stamp}`);
+    });
+  };
+  let staticMode = false;
+  document.getElementById('reduced').onclick = (event) => {
+    staticMode = !staticMode;
+    event.currentTarget.setAttribute('aria-pressed', String(staticMode));
+    document.querySelectorAll('img.anim').forEach((img) => {
+      const base = img.getAttribute('src').split('?')[0];
+      const target = staticMode ? base.replace(/\.svg$/, '.static.svg') : base.replace(/\.static\.svg$/, '.svg');
+      img.setAttribute('src', target);
+    });
+  };
+</script>
+</body>
+</html>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="500" viewBox="0 0 860 500" role="img" aria-labelledby="connectome-title connectome-desc" class="connectome" focusable="false">
+<title id="connectome-title">Mert Efe Şensoy's project connectome</title>
+<desc id="connectome-desc">A soma labelled mertefe integrates a membrane potential, crosses threshold and fires one spike along six axons. Each spike lights a project node with its brand mark and an honest status line: FlyBatch (v0.5.1-rc.1 · TESTERS: 501-neuron fly circuit; identical fingerprints, x86-64 to MVS); SuperconducTED (RESEARCH PREVIEW: Noise as a range, not a number: IT2 fuzzy noise for Qiskit Aer); Cassandra Collective (STAGE 0 · NEGATIVE: Everyday-hardware language models: CASSANDRA, Chorus, Dervish); Open Memory Initiative (ACTIVE DEVELOPMENT: Open, reproducible DDR4 UDIMM reference design and tooling); spdr (v0.1.1 · crates.io: DDR5 SPD decoder and beyond-CRC linter: no_std, no panic); Ephesus (PRE-ALPHA: An agent company you govern as its architect, built in public).</desc>
+<defs>
+<symbol id="mark-flybatch" viewBox="0 0 64 64"><g stroke-width="1.6" stroke-linejoin="round"><path d="M18 6 H62 V42 H12 V12 Z" fill="#e2d3a6" stroke="#9a8445"/><path d="M14 11 H58 V47 H8 V17 Z" fill="#ebdcb3" stroke="#a08a4a"/><path d="M9 17 H53 V53 H3 V23 Z" fill="#f3e7c4" stroke="#a8914f"/></g><g fill="#3b3f4a"><rect x="7" y="27" width="2.4" height="4.4" rx="0.4"/><rect x="7" y="37" width="2.4" height="4.4" rx="0.4"/><rect x="12" y="45" width="2.4" height="4.4" rx="0.4"/><rect x="44" y="21" width="2.4" height="4.4" rx="0.4"/><rect x="47" y="31" width="2.4" height="4.4" rx="0.4"/><rect x="47" y="44" width="2.4" height="4.4" rx="0.4"/></g><g transform="translate(28 36) rotate(-18) scale(0.98)"><ellipse cx="-7" cy="3" rx="5.5" ry="11" transform="rotate(24 -7 3)" fill="#e6edf8" fill-opacity="0.92" stroke="#8a96ad" stroke-width="1"/><ellipse cx="7" cy="3" rx="5.5" ry="11" transform="rotate(-24 7 3)" fill="#e6edf8" fill-opacity="0.92" stroke="#8a96ad" stroke-width="1"/><ellipse cx="0" cy="7" rx="4.6" ry="7.5" fill="#c08a3e"/><path d="M-4.2 6 H4.2 M-4.4 9.5 H4.4" stroke="#6b4a1c" stroke-width="1.3"/><ellipse cx="0" cy="-3.5" rx="5" ry="4.6" fill="#9a6b2c"/><circle cx="0" cy="-9.5" r="3.6" fill="#9a6b2c"/><circle cx="-3" cy="-10.2" r="2.5" fill="#e0262b"/><circle cx="3" cy="-10.2" r="2.5" fill="#e0262b"/></g></symbol><symbol id="mark-superconducted" viewBox="0 0 64 64"><circle cx="32" cy="32" r="28" fill="none" stroke="#eef3f5" stroke-width="6"/><path d="M30 6 L34 6 L34 16 L30 16 Z M34 26 L46 26 L46 38 L34 38 Z" fill="#eef3f5"/><path d="M12 20 L22 20 L22 24 L16 24 L16 40 L22 40 L22 44 L12 44 Z M52 44 L42 44 L42 40 L48 40 L48 24 L42 24 L42 20 L52 20 Z" fill="#4fd6e6"/></symbol><symbol id="mark-cassandra" viewBox="0 0 64 64"><path d="M51.701 57.216 C38.57 67.476 19.764 65.94 8.47 53.687 C-2.823 41.435 -2.823 22.565 8.47 10.313 C19.764 -1.94 38.57 -3.476 51.701 6.784 L43.821 16.87 C35.942 10.715 24.658 11.636 17.882 18.988 C11.106 26.339 11.106 37.661 17.882 45.012 C24.658 52.364 35.942 53.285 43.821 47.13 Z" fill="#f4efe6"/><path d="M61.072 23.112 C62.843 28.905 62.843 35.095 61.072 40.888 L51.891 38.081 C53.103 34.118 53.103 29.882 51.891 25.919 Z" fill="#d2a65a"/></symbol><symbol id="mark-omi" viewBox="0 0 64 64"><rect x="4" y="19" width="56" height="24" rx="1.5" fill="#0f2a22" stroke="#2fd99a" stroke-width="2"/><g fill="#1c4a3c" stroke="#2fd99a" stroke-width="1"><rect x="8" y="23" width="7" height="9"/><rect x="17" y="23" width="7" height="9"/><rect x="26" y="23" width="7" height="9"/><rect x="37" y="23" width="7" height="9"/><rect x="46" y="23" width="7" height="9"/></g><rect x="34" y="23" width="2" height="9" fill="#2fd99a" fill-opacity=".5"/><g fill="#dca152"><rect x="7" y="44" width="2.4" height="6"/><rect x="11" y="44" width="2.4" height="6"/><rect x="15" y="44" width="2.4" height="6"/><rect x="19" y="44" width="2.4" height="6"/><rect x="23" y="44" width="2.4" height="6"/><rect x="27" y="44" width="2.4" height="6"/><rect x="31" y="44" width="2.4" height="6"/><rect x="39" y="44" width="2.4" height="6"/><rect x="43" y="44" width="2.4" height="6"/><rect x="47" y="44" width="2.4" height="6"/><rect x="51" y="44" width="2.4" height="6"/><rect x="55" y="44" width="2.4" height="6"/></g><rect x="34.5" y="43" width="3" height="8" fill="#07090e"/></symbol><symbol id="mark-spdr" viewBox="0 0 64 64"><g fill="none" stroke="#dca152" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 25 L13 17 L5 21"/><path d="M22 30 L12 28 L4 32"/><path d="M22 34 L12 36 L4 40"/><path d="M22 39 L13 47 L5 51"/><path d="M42 25 L51 17 L59 21"/><path d="M42 30 L52 28 L60 32"/><path d="M42 34 L52 36 L60 40"/><path d="M42 39 L51 47 L59 51"/></g><g fill="#f3d49b"><circle cx="5" cy="21" r="2"/><circle cx="4" cy="32" r="2"/><circle cx="4" cy="40" r="2"/><circle cx="5" cy="51" r="2"/><circle cx="59" cy="21" r="2"/><circle cx="60" cy="32" r="2"/><circle cx="60" cy="40" r="2"/><circle cx="59" cy="51" r="2"/></g><rect x="22" y="22" width="20" height="20" rx="1.5" fill="#141a16" stroke="#dca152" stroke-width="2"/><rect x="27" y="27" width="10" height="10" fill="none" stroke="#dca152" stroke-width="1" stroke-opacity=".7"/><circle cx="25" cy="25" r="1.5" fill="#f3d49b"/></symbol><symbol id="mark-ephesus" viewBox="0 0 64 64"><rect x="0" y="0" width="64" height="64" fill="#221A14"/><rect x="2" y="2" width="60" height="60" fill="#F4EDE0"/><rect x="14" y="8" width="36" height="2" fill="#E8A987"/><rect x="14" y="10" width="36" height="2" fill="#C4552D"/><rect x="14" y="12" width="36" height="1" fill="#4A3B2C"/><rect x="16" y="13" width="32" height="6" fill="#C4552D"/><rect x="19" y="14" width="6" height="4" fill="#4A3B2C"/><rect x="20" y="15" width="4" height="2" fill="#E8A987"/><rect x="21" y="15" width="2" height="2" fill="#4A3B2C"/><rect x="39" y="14" width="6" height="4" fill="#4A3B2C"/><rect x="40" y="15" width="4" height="2" fill="#E8A987"/><rect x="41" y="15" width="2" height="2" fill="#4A3B2C"/><rect x="18" y="19" width="28" height="2" fill="#4A3B2C"/><rect x="22" y="21" width="1" height="29" fill="#221A14"/><rect x="42" y="21" width="1" height="29" fill="#221A14"/><rect x="23" y="21" width="4" height="29" fill="#E7DCC6"/><rect x="27" y="21" width="1" height="29" fill="#4A3B2C"/><rect x="28" y="21" width="4" height="29" fill="#E7DCC6"/><rect x="32" y="21" width="1" height="29" fill="#4A3B2C"/><rect x="33" y="21" width="4" height="29" fill="#D3C4A5"/><rect x="37" y="21" width="1" height="29" fill="#4A3B2C"/><rect x="38" y="21" width="4" height="29" fill="#4A3B2C"/><rect x="18" y="50" width="28" height="1" fill="#E7DCC6"/><rect x="18" y="51" width="28" height="1" fill="#D3C4A5"/><rect x="18" y="52" width="28" height="1" fill="#D3C4A5"/><rect x="20" y="53" width="24" height="2" fill="#4A3B2C"/><rect x="16" y="55" width="32" height="2" fill="#D3C4A5"/><rect x="16" y="57" width="32" height="1" fill="#4A3B2C"/><rect x="14" y="58" width="36" height="2" fill="#4A3B2C"/></symbol>
+<pattern id="cx-grid" width="58" height="58" patternUnits="userSpaceOnUse"><path d="M58 0H0V58" fill="none" stroke="#4589ff" stroke-opacity=".04"/></pattern>
+<pattern id="cx-scan" width="4" height="4" patternUnits="userSpaceOnUse"><path d="M0 3.5H860" stroke="#f2f6fc" stroke-opacity=".025"/></pattern>
+<radialGradient id="cx-soma"><stop offset="0" stop-color="#f8f1e0"/><stop offset=".45" stop-color="#78a9ff"/><stop offset="1" stop-color="#0f1f3d"/></radialGradient>
+<path id="axon-0" d="M199.0 165.0 C309.0 165.0 302.0 77.0 386.0 77.0"/>
+<path id="axon-1" d="M199.0 165.0 C309.0 165.0 302.0 143.0 386.0 143.0"/>
+<path id="axon-2" d="M199.0 165.0 C309.0 165.0 302.0 209.0 386.0 209.0"/>
+<path id="axon-3" d="M199.0 165.0 C309.0 165.0 302.0 275.0 386.0 275.0"/>
+<path id="axon-4" d="M199.0 165.0 C309.0 165.0 302.0 341.0 386.0 341.0"/>
+<path id="axon-5" d="M199.0 165.0 C309.0 165.0 302.0 407.0 386.0 407.0"/>
+<style>
+
+          text { font-family:'IBM Plex Mono','Cascadia Mono','SFMono-Regular',Consolas,monospace; }
+          .micro { fill:#7185a8; font-size:11px; font-weight:600; letter-spacing:1.15px; }
+          .label { fill:#78a9ff; font-size:11px; font-weight:700; letter-spacing:1.05px; }
+          .status { fill:#42be65; font-size:11px; font-weight:700; letter-spacing:.9px; }
+          .node-name { fill:#f2f6fc; font-size:13px; font-weight:700; }
+          .node-code { fill:#7185a8; font-size:10px; font-weight:600; letter-spacing:1px; }
+          .node-tag { fill:#9fb2d1; font-size:10px; }
+          .node-note { fill:#7185a8; font-size:9.5px; }
+          .node-stack { fill:#78a9ff; font-size:9.5px; font-weight:600; letter-spacing:.6px; }
+          .pill { font-size:9px; font-weight:700; letter-spacing:.8px; }
+          .soma-label { fill:#f2f6fc; font-size:12px; font-weight:700; }
+          .scope-label { fill:#7185a8; font-size:10px; font-weight:600; letter-spacing:1px; }
+          .axon { fill:none; stroke:#27466f; stroke-width:1.4; }
+          .axon-charge { fill:none; stroke-width:1.8; stroke-linecap:round; }
+          .trace { fill:none; stroke:#78a9ff; stroke-width:1.6; stroke-linejoin:round; }
+          .node { opacity:1; }
+          .node-glow { opacity:.9; }
+          .fired { opacity:1; }
+          .armed { opacity:0; }
+          .soma-flash { opacity:0; }
+          .spike { opacity:0; }
+          .node-0 { --arrive:6.11s; }
+          .node-1 { --arrive:6.05s; }
+          .node-2 { --arrive:6.06s; }
+          .node-3 { --arrive:6.14s; }
+          .node-4 { --arrive:6.25s; }
+          .node-5 { --arrive:6.37s; }
+          @keyframes light { from { opacity:.28; } to { opacity:1; } }
+          @keyframes glow { from { opacity:0; } to { opacity:.9; } }
+          @keyframes charge { to { stroke-dashoffset:0; } }
+          @keyframes draw { to { stroke-dashoffset:0; } }
+          @keyframes flash { 0% { opacity:.9; transform:scale(1); } 100% { opacity:0; transform:scale(2.1); } }
+          @keyframes swap-out { to { opacity:0; } }
+          @keyframes swap-in { to { opacity:1; } }
+          @keyframes spike-vis { 0% { opacity:1; } 100% { opacity:1; } }
+          @media (prefers-reduced-motion:no-preference) {
+            .connectome:not(.static) .node { opacity:.28; animation:light .35s ease-out forwards; animation-delay:var(--arrive); }
+            .connectome:not(.static) .node-glow { opacity:0; animation:glow .5s ease-out forwards; animation-delay:var(--arrive); }
+            .connectome:not(.static) .axon-charge { stroke-dashoffset:var(--len); animation:charge var(--dur) linear forwards; animation-delay:5.6s; }
+            .connectome:not(.static) .trace { stroke-dasharray:551; stroke-dashoffset:551; animation:draw 5.5s linear forwards; }
+            .connectome:not(.static) .soma-flash { transform-box:fill-box; transform-origin:center; animation:flash .7s ease-out forwards; animation-delay:5.6s; }
+            .connectome:not(.static) .armed { opacity:1; animation:swap-out .01s linear forwards; animation-delay:7.0s; }
+            .connectome:not(.static) .fired { opacity:0; animation:swap-in .01s linear forwards; animation-delay:7.0s; }
+            .connectome:not(.static) .spike { animation:spike-vis var(--dur) linear forwards; animation-delay:5.6s; }
+          }
+          @media (prefers-reduced-motion:reduce) {
+            .node, .node-glow, .fired { animation:none !important; opacity:1 !important; }
+            .armed, .spike, .soma-flash { animation:none !important; opacity:0 !important; display:none; }
+            .axon-charge { animation:none !important; stroke-dashoffset:0 !important; }
+            .trace { animation:none !important; stroke-dashoffset:0 !important; }
+          }
+          .connectome.static .spike, .connectome.static .armed, .connectome.static .soma-flash { display:none; }
+
+</style>
+</defs>
+<rect width="860" height="500" fill="#07090e"/>
+<rect x=".5" y=".5" width="859" height="499" fill="#080e18" stroke="#27466f"/>
+<rect x="1" y="1" width="858" height="498" fill="url(#cx-grid)"/>
+<rect x="1" y="1" width="858" height="498" fill="url(#cx-scan)"/>
+<rect x="1" y="1" width="4" height="498" fill="#4589ff"/>
+<rect x="5" y="1" width="854" height="29" fill="#050a11"/>
+<path d="M5 30H859" stroke="#27466f"/>
+<text x="22" y="20" class="label">MERTEFE.SYSPLEX // CONNECTOME.MAP</text>
+<text x="330" y="20" class="micro">1 SOMA · 6 AXONS · LIF MODEL</text>
+<g class="armed"><circle cx="640" cy="15" r="3" fill="#f1c21b"/><text x="651" y="20" class="status" fill="#f1c21b">SPIKE ARMED</text></g>
+<g class="fired"><circle cx="640" cy="15" r="3" fill="#42be65"/><text x="651" y="20" class="status">FIRED · 6/6 LIT</text></g>
+<text x="838" y="20" class="micro" text-anchor="end">F1=HELP</text>
+<use href="#axon-0" class="axon"/>
+<use href="#axon-0" class="axon-charge" stroke="#e2d3a6" stroke-dasharray="214" style="--len:214;--dur:0.51s"/>
+<use href="#axon-1" class="axon"/>
+<use href="#axon-1" class="axon-charge" stroke="#4fd6e6" stroke-dasharray="189" style="--len:189;--dur:0.45s"/>
+<use href="#axon-2" class="axon"/>
+<use href="#axon-2" class="axon-charge" stroke="#d2a65a" stroke-dasharray="194" style="--len:194;--dur:0.46s"/>
+<use href="#axon-3" class="axon"/>
+<use href="#axon-3" class="axon-charge" stroke="#2fd99a" stroke-dasharray="226" style="--len:226;--dur:0.54s"/>
+<use href="#axon-4" class="axon"/>
+<use href="#axon-4" class="axon-charge" stroke="#dca152" stroke-dasharray="272" style="--len:272;--dur:0.65s"/>
+<use href="#axon-5" class="axon"/>
+<use href="#axon-5" class="axon-charge" stroke="#c4552d" stroke-dasharray="325" style="--len:325;--dur:0.77s"/>
+<circle class="soma-flash" cx="165.0" cy="165.0" r="34.0" fill="none" stroke="#f8f1e0" stroke-width="2"/>
+<circle cx="165.0" cy="165.0" r="44.0" fill="none" stroke="#27466f" stroke-dasharray="3 5"/>
+<circle cx="165.0" cy="165.0" r="34.0" fill="url(#cx-soma)" stroke="#78a9ff" stroke-width="1.5"/>
+<circle cx="165.0" cy="165.0" r="9" fill="#f8f1e0"/>
+<text x="165.0" y="229.0" class="soma-label" text-anchor="middle">mertefe</text>
+<text x="165.0" y="245.0" class="micro" text-anchor="middle">SOMA · SYSTEMS ENGINEER</text>
+<path d="M131 165 C95 165 105 103 79 99" class="axon"/>
+<path d="M131 165 C105 165 95 165 79 165" class="axon"/>
+<path d="M131 165 C95 165 105 227 79 231" class="axon"/>
+<circle cx="79" cy="99" r="2.5" fill="#27466f"/>
+<circle cx="79" cy="165" r="2.5" fill="#27466f"/>
+<circle cx="79" cy="231" r="2.5" fill="#27466f"/>
+<text x="22" y="103" class="micro">IBM Z</text>
+<text x="22" y="169" class="micro">QUANTUM</text>
+<text x="22" y="235" class="micro">HARDWARE</text>
+<rect x="24" y="300" width="356" height="150" fill="#050a11" stroke="#27466f"/>
+<text x="34" y="316" class="scope-label">V_m · SOMA · LEAKY INTEGRATE-AND-FIRE</text>
+<path d="M34 346H372" stroke="#f1c21b" stroke-dasharray="4 4" stroke-opacity=".7"/>
+<text x="372" y="341" class="scope-label" text-anchor="end" fill="#f1c21b">THRESHOLD</text>
+<path d="M34 440H372" stroke="#27466f"/>
+<text x="34" y="436" class="scope-label">REST</text>
+<path d="M34.0 440.0 L38.2 434.2 L42.5 428.8 L46.7 424.3 L50.9 420.6 L55.1 417.8 L59.3 415.7 L63.6 414.0 L67.8 412.6 L72.0 411.0 L76.2 409.0 L80.5 406.6 L84.7 403.6 L88.9 400.2 L93.2 396.5 L97.4 392.8 L101.6 389.4 L105.8 386.4 L110.0 384.1 L114.3 382.3 L118.5 381.2 L122.7 380.6 L127.0 380.1 L131.2 379.7 L135.4 379.0 L139.6 378.0 L143.9 376.5 L148.1 374.6 L152.3 372.4 L156.5 370.1 L160.8 367.9 L165.0 365.9 L169.2 364.3 L173.4 363.1 L177.7 362.4 L181.9 362.1 L186.1 362.0 L190.3 361.9 L194.6 361.8 L198.8 361.4 L203.0 360.8 L207.2 359.8 L211.5 358.6 L215.7 357.2 L219.9 355.8 L224.1 354.5 L228.3 353.4 L232.6 352.6 L236.8 352.1 L241.0 351.8 L245.2 351.7 L249.5 351.7 L253.7 351.7 L257.9 351.5 L262.1 351.2 L266.4 350.8 L270.6 350.1 L274.8 349.4 L279.1 348.6 L283.3 347.9 L287.5 347.4 L291.7 347.4 L296.0 347.4 L300.2 347.4 L304.4 347.4 L308.6 347.4 L312.8 347.4 L317.1 347.4 L321.3 347.4 L325.5 347.4 L329.8 347.4 L334.0 347.4 L338.2 347.4 L340.2 302.0 L344.2 448.0 L372.0 436.0" class="trace"/>
+<text x="372" y="462" class="micro" text-anchor="end">t = 5.6s · FIRE</text>
+<g class="node node-0">
+<rect x="392.0" y="48.0" width="444.0" height="58.0" rx="2" fill="#0b1422" stroke="#27466f"/>
+<rect class="node-glow" x="392.0" y="48.0" width="3" height="58.0" fill="#e2d3a6"/>
+<circle cx="386.0" cy="77.0" r="3.5" fill="#e2d3a6"/>
+<rect x="404.0" y="59.0" width="36" height="36" rx="3" fill="#07090e" stroke="#1c3153"/>
+<use href="#mark-flybatch" x="408.0" y="63.0" width="28" height="28"/>
+<text x="452.0" y="70.0" class="node-name">FlyBatch<tspan class="node-code" dx="8">FLYB</tspan></text>
+<rect x="669.4" y="58.0" width="155" height="16" rx="2" fill="#07090e" stroke="#42be65"/><circle cx="677.4" cy="66.0" r="2.5" fill="#42be65"/><text x="685.4" y="69.5" class="pill" fill="#42be65">V0.5.1-RC.1 · TESTERS</text>
+<text x="452.0" y="85.0" class="node-tag">501-neuron fly circuit; identical fingerprints, x86-64 to MVS</text>
+<text x="452.0" y="98.0" class="node-note">No IBM Z hardware yet: MVS 3.8j under Hercules, s390x under QEMU</text>
+</g>
+<circle class="spike" r="3.2" fill="#e2d3a6" style="--dur:0.51s"><animateMotion begin="5.6s" dur="0.51s" fill="freeze" rotate="auto"><mpath href="#axon-0"/></animateMotion></circle>
+<g class="node node-1">
+<rect x="392.0" y="114.0" width="444.0" height="58.0" rx="2" fill="#0b1422" stroke="#27466f"/>
+<rect class="node-glow" x="392.0" y="114.0" width="3" height="58.0" fill="#4fd6e6"/>
+<circle cx="386.0" cy="143.0" r="3.5" fill="#4fd6e6"/>
+<rect x="404.0" y="125.0" width="36" height="36" rx="3" fill="#07090e" stroke="#1c3153"/>
+<use href="#mark-superconducted" x="408.0" y="129.0" width="28" height="28"/>
+<text x="452.0" y="136.0" class="node-name">SuperconducTED<tspan class="node-code" dx="8">SCTD</tspan></text>
+<rect x="702.4" y="124.0" width="122" height="16" rx="2" fill="#07090e" stroke="#78a9ff"/><circle cx="710.4" cy="132.0" r="2.5" fill="#78a9ff"/><text x="718.4" y="135.5" class="pill" fill="#78a9ff">RESEARCH PREVIEW</text>
+<text x="452.0" y="151.0" class="node-tag">Noise as a range, not a number: IT2 fuzzy noise for Qiskit Aer</text>
+<text x="452.0" y="164.0" class="node-note">Cycle 1 pipeline validated; trained memberships are cycle 2</text>
+</g>
+<circle class="spike" r="3.2" fill="#4fd6e6" style="--dur:0.45s"><animateMotion begin="5.6s" dur="0.45s" fill="freeze" rotate="auto"><mpath href="#axon-1"/></animateMotion></circle>
+<g class="node node-2">
+<rect x="392.0" y="180.0" width="444.0" height="58.0" rx="2" fill="#0b1422" stroke="#27466f"/>
+<rect class="node-glow" x="392.0" y="180.0" width="3" height="58.0" fill="#d2a65a"/>
+<circle cx="386.0" cy="209.0" r="3.5" fill="#d2a65a"/>
+<rect x="404.0" y="191.0" width="36" height="36" rx="3" fill="#07090e" stroke="#1c3153"/>
+<use href="#mark-cassandra" x="408.0" y="195.0" width="28" height="28"/>
+<text x="452.0" y="202.0" class="node-name">Cassandra Collective<tspan class="node-code" dx="8">CSDR</tspan></text>
+<rect x="689.2" y="190.0" width="135" height="16" rx="2" fill="#07090e" stroke="#78a9ff"/><circle cx="697.2" cy="198.0" r="2.5" fill="#78a9ff"/><text x="705.2" y="201.5" class="pill" fill="#78a9ff">STAGE 0 · NEGATIVE</text>
+<text x="452.0" y="217.0" class="node-tag">Everyday-hardware language models: CASSANDRA, Chorus, Dervish</text>
+<text x="452.0" y="230.0" class="node-note">Chorus Stage 0 closed as a published negative result; replanning</text>
+</g>
+<circle class="spike" r="3.2" fill="#d2a65a" style="--dur:0.46s"><animateMotion begin="5.6s" dur="0.46s" fill="freeze" rotate="auto"><mpath href="#axon-2"/></animateMotion></circle>
+<g class="node node-3">
+<rect x="392.0" y="246.0" width="444.0" height="58.0" rx="2" fill="#0b1422" stroke="#27466f"/>
+<rect class="node-glow" x="392.0" y="246.0" width="3" height="58.0" fill="#2fd99a"/>
+<circle cx="386.0" cy="275.0" r="3.5" fill="#2fd99a"/>
+<rect x="404.0" y="257.0" width="36" height="36" rx="3" fill="#07090e" stroke="#1c3153"/>
+<use href="#mark-omi" x="408.0" y="261.0" width="28" height="28"/>
+<text x="452.0" y="268.0" class="node-name">Open Memory Initiative<tspan class="node-code" dx="8">OMI</tspan></text>
+<rect x="689.2" y="256.0" width="135" height="16" rx="2" fill="#07090e" stroke="#42be65"/><circle cx="697.2" cy="264.0" r="2.5" fill="#42be65"/><text x="705.2" y="267.5" class="pill" fill="#42be65">ACTIVE DEVELOPMENT</text>
+<text x="452.0" y="283.0" class="node-tag">Open, reproducible DDR4 UDIMM reference design and tooling</text>
+<text x="452.0" y="296.0" class="node-note">Schematic-stage work; claims never run ahead of validation</text>
+</g>
+<circle class="spike" r="3.2" fill="#2fd99a" style="--dur:0.54s"><animateMotion begin="5.6s" dur="0.54s" fill="freeze" rotate="auto"><mpath href="#axon-3"/></animateMotion></circle>
+<g class="node node-4">
+<rect x="392.0" y="312.0" width="444.0" height="58.0" rx="2" fill="#0b1422" stroke="#27466f"/>
+<rect class="node-glow" x="392.0" y="312.0" width="3" height="58.0" fill="#dca152"/>
+<circle cx="386.0" cy="341.0" r="3.5" fill="#dca152"/>
+<rect x="404.0" y="323.0" width="36" height="36" rx="3" fill="#07090e" stroke="#1c3153"/>
+<use href="#mark-spdr" x="408.0" y="327.0" width="28" height="28"/>
+<text x="452.0" y="334.0" class="node-name">spdr<tspan class="node-code" dx="8">SPDR</tspan></text>
+<rect x="689.2" y="322.0" width="135" height="16" rx="2" fill="#07090e" stroke="#42be65"/><circle cx="697.2" cy="330.0" r="2.5" fill="#42be65"/><text x="705.2" y="333.5" class="pill" fill="#42be65">V0.1.1 · CRATES.IO</text>
+<text x="452.0" y="349.0" class="node-tag">DDR5 SPD decoder and beyond-CRC linter: no_std, no panic</text>
+<text x="452.0" y="362.0" class="node-note">UDIMM complete; SODIMM, RDIMM, LRDIMM wait for real fixtures</text>
+</g>
+<circle class="spike" r="3.2" fill="#dca152" style="--dur:0.65s"><animateMotion begin="5.6s" dur="0.65s" fill="freeze" rotate="auto"><mpath href="#axon-4"/></animateMotion></circle>
+<g class="node node-5">
+<rect x="392.0" y="378.0" width="444.0" height="58.0" rx="2" fill="#0b1422" stroke="#27466f"/>
+<rect class="node-glow" x="392.0" y="378.0" width="3" height="58.0" fill="#c4552d"/>
+<circle cx="386.0" cy="407.0" r="3.5" fill="#c4552d"/>
+<rect x="404.0" y="389.0" width="36" height="36" rx="3" fill="#07090e" stroke="#1c3153"/>
+<use href="#mark-ephesus" x="408.0" y="393.0" width="28" height="28"/>
+<text x="452.0" y="400.0" class="node-name">Ephesus<tspan class="node-code" dx="8">EPHS</tspan></text>
+<rect x="748.6" y="388.0" width="75" height="16" rx="2" fill="#07090e" stroke="#f1c21b"/><circle cx="756.6" cy="396.0" r="2.5" fill="#f1c21b"/><text x="764.6" y="399.5" class="pill" fill="#f1c21b">PRE-ALPHA</text>
+<text x="452.0" y="415.0" class="node-tag">An agent company you govern as its architect, built in public</text>
+<text x="452.0" y="428.0" class="node-note">No releases and no installer; everything runs from source today</text>
+</g>
+<circle class="spike" r="3.2" fill="#c4552d" style="--dur:0.77s"><animateMotion begin="5.6s" dur="0.77s" fill="freeze" rotate="auto"><mpath href="#axon-5"/></animateMotion></circle>
+</svg>

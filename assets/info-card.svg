@@ -49,15 +49,15 @@
 <g class="card-row" style="--delay:0.21s"><text x="20" y="77.4" class="key">Now</text><text x="108" y="77.4" class="value">Junior Data Analyst @ Turkish Airlines</text></g>
 <g class="card-row" style="--delay:0.27s"><text x="20" y="97.8" class="key">IBM</text><text x="108" y="97.8" class="value">2026 IBM Champion · IBM Z Student Ambassador</text></g>
 <g class="card-row" style="--delay:0.33s"><text x="20" y="118.2" class="key">Edu</text><text x="108" y="118.2" class="value">TEDU CENG '27 · BA minor</text></g>
-<g class="card-row" style="--delay:0.39s"><text x="20" y="138.6" class="key">Focus</text><text x="108" y="138.6" class="value">Systems · quantum simulation · embedded / real-time</text></g>
+<g class="card-row" style="--delay:0.39s"><text x="20" y="138.6" class="key">Focus</text><text x="108" y="138.6" class="value">Systems · quantum simulation · mainframe · open hardware</text></g>
 <g class="card-row" style="--delay:0.45s"><text x="20" y="167.2" class="section">— STACK</text><path d="M78.0 163.2H460" stroke="#1c3153"/></g>
-<g class="card-row" style="--delay:0.51s"><text x="20" y="187.6" class="key">Systems</text><text x="108" y="187.6" class="value">C · Rust · Go · IBM Z · FreeRTOS</text></g>
-<g class="card-row" style="--delay:0.57s"><text x="20" y="208.0" class="key">Research</text><text x="108" y="208.0" class="value">Python · Qiskit · PyTorch</text></g>
-<g class="card-row" style="--delay:0.63s"><text x="20" y="228.4" class="key">Hardware</text><text x="108" y="228.4" class="value">KiCad · DDR4 · open tooling</text></g>
+<g class="card-row" style="--delay:0.51s"><text x="20" y="187.6" class="key">Systems</text><text x="108" y="187.6" class="value">C89 · C++17 · Rust · Go · COBOL · JCL</text></g>
+<g class="card-row" style="--delay:0.57s"><text x="20" y="208.0" class="key">Research</text><text x="108" y="208.0" class="value">Python · Qiskit Aer · PyTorch</text></g>
+<g class="card-row" style="--delay:0.63s"><text x="20" y="228.4" class="key">Hardware</text><text x="108" y="228.4" class="value">KiCad · DDR4 / DDR5 · open tooling</text></g>
 <g class="card-row" style="--delay:0.69s"><text x="20" y="256.9" class="section">— ACTIVE CHANNELS</text><path d="M150.0 252.9H460" stroke="#1c3153"/></g>
-<g class="card-row" style="--delay:0.75s"><rect x="20" y="267.3" width="3" height="12" fill="#4589ff"/><text x="33" y="277.3" class="bullet">OMI // ACTIVE DEVELOPMENT</text></g>
-<g class="card-row" style="--delay:0.81s"><rect x="20" y="287.7" width="3" height="12" fill="#4589ff"/><text x="33" y="297.7" class="bullet">SCTD // ACTIVE RESEARCH</text></g>
-<g class="card-row" style="--delay:0.87s"><rect x="20" y="308.1" width="3" height="12" fill="#4589ff"/><text x="33" y="318.1" class="bullet">MŞHT // OPERATIONAL</text></g>
+<g class="card-row" style="--delay:0.75s"><rect x="20" y="267.3" width="3" height="12" fill="#4589ff"/><text x="33" y="277.3" class="bullet">FLYB // v0.5.1-rc.1 · TESTERS</text></g>
+<g class="card-row" style="--delay:0.81s"><rect x="20" y="287.7" width="3" height="12" fill="#4589ff"/><text x="33" y="297.7" class="bullet">SCTD // RESEARCH PREVIEW</text></g>
+<g class="card-row" style="--delay:0.87s"><rect x="20" y="308.1" width="3" height="12" fill="#4589ff"/><text x="33" y="318.1" class="bullet">CSDR // STAGE 0 · NEGATIVE</text></g>
 <path d="M5 347H479" stroke="#27466f"/>
 <text x="20" y="366" class="micro">F3=PROJECTS   F6=CONTACT</text>
 <text x="460" y="366" class="status" text-anchor="end">RC=0000</text>
