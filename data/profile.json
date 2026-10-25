@@ -3,7 +3,7 @@
   "display_name": "Mert Efe Şensoy",
   "headline": "Systems Engineer & 2026 IBM Champion",
   "kicker": "SYSTEMS · QUANTUM RESEARCH · OPEN HARDWARE · OPEN SOURCE",
-  "now": "Open-source systems work · FlyBatch, SuperconducTED, OMI",
+  "now": "Open source · FlyBatch · SuperconducTED · OMI",
   "recognition": "2026 IBM Champion · IBM Z Student Ambassador",
   "education": "TED UNIVERSITY · CENG '27 · BUSINESS ADMINISTRATION MINOR",
   "roles": [
@@ -12,7 +12,7 @@
     "Open Hardware Designer",
     "Upstream contributor (zowe, vcpkg, mitiq)"
   ],
-  "focus": "Systems · quantum simulation · mainframe · open hardware",
+  "focus": "Systems · quantum · mainframe · open hardware",
   "stack": "C · Rust · Python · COBOL · Qiskit · KiCad · IBM Z",
   "stack_groups": [
     {

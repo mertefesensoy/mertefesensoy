@@ -46,10 +46,10 @@
 <text x="380" y="20" class="status">READY</text>
 <text x="460" y="20" class="micro" text-anchor="end">F1=HELP</text>
 <g class="card-row" style="--delay:0.15s"><text x="20" y="57.0" class="host"><tspan class="host-accent">mertefesensoy</tspan><tspan fill="#7185a8">@</tspan>sysplex</text><path d="M168 53.0H460" stroke="#1c3153"/></g>
-<g class="card-row" style="--delay:0.21s"><text x="20" y="77.4" class="key">Now</text><text x="108" y="77.4" class="value">Open-source systems work · FlyBatch, SuperconducTED, OMI</text></g>
+<g class="card-row" style="--delay:0.21s"><text x="20" y="77.4" class="key">Now</text><text x="108" y="77.4" class="value">Open source · FlyBatch · SuperconducTED · OMI</text></g>
 <g class="card-row" style="--delay:0.27s"><text x="20" y="97.8" class="key">IBM</text><text x="108" y="97.8" class="value">2026 IBM Champion · IBM Z Student Ambassador</text></g>
 <g class="card-row" style="--delay:0.33s"><text x="20" y="118.2" class="key">Edu</text><text x="108" y="118.2" class="value">TEDU CENG '27 · BA minor</text></g>
-<g class="card-row" style="--delay:0.39s"><text x="20" y="138.6" class="key">Focus</text><text x="108" y="138.6" class="value">Systems · quantum simulation · mainframe · open hardware</text></g>
+<g class="card-row" style="--delay:0.39s"><text x="20" y="138.6" class="key">Focus</text><text x="108" y="138.6" class="value">Systems · quantum · mainframe · open hardware</text></g>
 <g class="card-row" style="--delay:0.45s"><text x="20" y="167.2" class="section">— STACK</text><path d="M78.0 163.2H460" stroke="#1c3153"/></g>
 <g class="card-row" style="--delay:0.51s"><text x="20" y="187.6" class="key">Systems</text><text x="108" y="187.6" class="value">C89 · C++17 · Rust · Go · COBOL · JCL</text></g>
 <g class="card-row" style="--delay:0.57s"><text x="20" y="208.0" class="key">Research</text><text x="108" y="208.0" class="value">Python · Qiskit Aer · PyTorch</text></g>
