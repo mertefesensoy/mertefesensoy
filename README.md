@@ -101,7 +101,6 @@ The ledger above counts public pull requests in repositories I do not own, refre
 
 - **2026 IBM Champion**, recognised for advocacy and technical community work. [View credential](https://www.credly.com/badges/b58586a6-8305-47a5-8bd6-6a7e7b1ce69e/public_url).
 - **IBM Z Student Ambassador** and **President of the IBM-Z Club at TED University**: connecting enterprise computing practitioners with the next generation of systems engineers.
-- **Junior Data Analyst (part time), Revenue Management at Turkish Airlines**: analytical decision support in aviation operations.
 - **Computer Engineering at TED University** with a **Business Administration minor**, expected 2027.
 
 ### `05 / TOOLCHAIN`
