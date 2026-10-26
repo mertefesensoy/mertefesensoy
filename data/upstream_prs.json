@@ -2,7 +2,7 @@
   "schema_version": 1,
   "username": "mertefesensoy",
   "source": "https://api.github.com/search/issues",
-  "generated_at": "2026-10-25T17:05:00Z",
+  "generated_at": "2026-10-26T13:14:31Z",
   "excluded_owners": [
     "beelink-cn",
     "cassandra-collective",
@@ -20,7 +20,7 @@
   ],
   "stats": {
     "merged": 7,
-    "open": 8,
+    "open": 9,
     "closed": 4,
     "repositories": 9,
     "last_merged": "2026-10-21"
@@ -29,7 +29,7 @@
     {
       "repo": "microsoft/vcpkg",
       "merged": 4,
-      "open": 1,
+      "open": 2,
       "closed": 0
     },
     {
@@ -162,6 +162,17 @@
   ],
   "open": [
     {
+      "repo": "microsoft/vcpkg",
+      "number": 54682,
+      "title": "[signalsmith-dsp] Update to 1.7.3",
+      "url": "https://github.com/microsoft/vcpkg/pull/54682",
+      "state": "open",
+      "draft": false,
+      "created": "2026-10-26",
+      "merged": null,
+      "closed": null
+    },
+    {
       "repo": "zowe/zowe-cli",
       "number": 2980,
       "title": "fix(cli): let --binary override .zosattributes in upload file-to-uss",
@@ -235,17 +246,6 @@
       "state": "open",
       "draft": false,
       "created": "2026-10-13",
-      "merged": null,
-      "closed": null
-    },
-    {
-      "repo": "microsoft/vcpkg",
-      "number": 53562,
-      "title": "[motus] new port",
-      "url": "https://github.com/microsoft/vcpkg/pull/53562",
-      "state": "open",
-      "draft": true,
-      "created": "2026-08-24",
       "merged": null,
       "closed": null
     }
