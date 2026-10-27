@@ -66,7 +66,7 @@
 <circle cx="640" cy="15" r="3" fill="#42be65"/>
 <text x="651" y="20" class="status">CONSOLE ACTIVE</text>
 <text x="838" y="20" class="micro" text-anchor="end">F1=HELP</text>
-<text x="22" y="60" class="con" clip-path="url(#ipl-line-0)"><tspan class="con-id">MEF001I</tspan> IPL SYS1.MERTEFE · LOADPARM 0A80 · 2026-10-26</text>
+<text x="22" y="60" class="con" clip-path="url(#ipl-line-0)"><tspan class="con-id">MEF001I</tspan> IPL SYS1.MERTEFE · LOADPARM 0A80 · 2026-10-27</text>
 <rect class="cursor" style="--t:0.30s;--w:808px" x="22" y="48" width="7" height="14" fill="#78a9ff"/>
 <text x="22" y="82" class="con" clip-path="url(#ipl-line-1)"><tspan class="con-id">MEF002I</tspan> MEMBER IEASYS00 FOUND · <tspan class="con-dim">6 SUBSYSTEMS QUEUED</tspan></text>
 <rect class="cursor" style="--t:0.72s;--w:808px" x="22" y="70" width="7" height="14" fill="#78a9ff"/>
