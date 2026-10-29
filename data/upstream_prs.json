@@ -2,7 +2,7 @@
   "schema_version": 1,
   "username": "mertefesensoy",
   "source": "https://api.github.com/search/issues",
-  "generated_at": "2026-10-29T06:22:59Z",
+  "generated_at": "2026-10-29T13:14:06Z",
   "excluded_owners": [
     "beelink-cn",
     "cassandra-collective",
@@ -20,7 +20,7 @@
   ],
   "stats": {
     "merged": 9,
-    "open": 10,
+    "open": 11,
     "closed": 4,
     "repositories": 11,
     "last_merged": "2026-10-29"
@@ -29,7 +29,7 @@
     {
       "repo": "microsoft/vcpkg",
       "merged": 6,
-      "open": 1,
+      "open": 2,
       "closed": 0
     },
     {
@@ -196,6 +196,17 @@
   ],
   "open": [
     {
+      "repo": "microsoft/vcpkg",
+      "number": 54757,
+      "title": "[presentmon] Update to 2.6.0",
+      "url": "https://github.com/microsoft/vcpkg/pull/54757",
+      "state": "open",
+      "draft": true,
+      "created": "2026-10-29",
+      "merged": null,
+      "closed": null
+    },
+    {
       "repo": "zowe/zowe-common-c",
       "number": 724,
       "title": "Bugfix: keep the failing GSK status in tlsInit() and tlsSocketInit2()",
@@ -269,17 +280,6 @@
       "state": "open",
       "draft": false,
       "created": "2026-10-20",
-      "merged": null,
-      "closed": null
-    },
-    {
-      "repo": "zowe/zowe-explorer-vscode",
-      "number": 4554,
-      "title": "Hide data set search for FTP profiles and show a message instead of a TypeError (fixes #4511)",
-      "url": "https://github.com/zowe/zowe-explorer-vscode/pull/4554",
-      "state": "open",
-      "draft": false,
-      "created": "2026-10-15",
       "merged": null,
       "closed": null
     }
