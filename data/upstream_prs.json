@@ -2,7 +2,7 @@
   "schema_version": 1,
   "username": "mertefesensoy",
   "source": "https://api.github.com/search/issues",
-  "generated_at": "2026-10-28T13:07:44Z",
+  "generated_at": "2026-10-29T06:22:59Z",
   "excluded_owners": [
     "beelink-cn",
     "cassandra-collective",
@@ -19,17 +19,17 @@
     "Whether a PR counts for any programme is decided by that programme, not by this ledger."
   ],
   "stats": {
-    "merged": 8,
-    "open": 9,
+    "merged": 9,
+    "open": 10,
     "closed": 4,
-    "repositories": 9,
-    "last_merged": "2026-10-27"
+    "repositories": 11,
+    "last_merged": "2026-10-29"
   },
   "repositories": [
     {
       "repo": "microsoft/vcpkg",
-      "merged": 5,
-      "open": 2,
+      "merged": 6,
+      "open": 1,
       "closed": 0
     },
     {
@@ -57,7 +57,19 @@
       "closed": 0
     },
     {
+      "repo": "Qiskit/qiskit-mitigation",
+      "merged": 0,
+      "open": 1,
+      "closed": 0
+    },
+    {
       "repo": "unitaryfoundation/mitiq",
+      "merged": 0,
+      "open": 1,
+      "closed": 0
+    },
+    {
+      "repo": "zowe/zowe-common-c",
       "merged": 0,
       "open": 1,
       "closed": 0
@@ -82,6 +94,17 @@
     }
   ],
   "merged": [
+    {
+      "repo": "microsoft/vcpkg",
+      "number": 54704,
+      "title": "[winreg] Update to 14.0.0",
+      "url": "https://github.com/microsoft/vcpkg/pull/54704",
+      "state": "merged",
+      "draft": false,
+      "created": "2026-10-27",
+      "merged": "2026-10-29",
+      "closed": "2026-10-29"
+    },
     {
       "repo": "microsoft/vcpkg",
       "number": 54682,
@@ -173,13 +196,24 @@
   ],
   "open": [
     {
-      "repo": "microsoft/vcpkg",
-      "number": 54704,
-      "title": "[winreg] Update to 14.0.0",
-      "url": "https://github.com/microsoft/vcpkg/pull/54704",
+      "repo": "zowe/zowe-common-c",
+      "number": 724,
+      "title": "Bugfix: keep the failing GSK status in tlsInit() and tlsSocketInit2()",
+      "url": "https://github.com/zowe/zowe-common-c/pull/724",
       "state": "open",
       "draft": false,
-      "created": "2026-10-27",
+      "created": "2026-10-28",
+      "merged": null,
+      "closed": null
+    },
+    {
+      "repo": "Qiskit/qiskit-mitigation",
+      "number": 55,
+      "title": "Postprocess PEC results of circuits without noisy layers",
+      "url": "https://github.com/Qiskit/qiskit-mitigation/pull/55",
+      "state": "open",
+      "draft": false,
+      "created": "2026-10-28",
       "merged": null,
       "closed": null
     },
@@ -246,17 +280,6 @@
       "state": "open",
       "draft": false,
       "created": "2026-10-15",
-      "merged": null,
-      "closed": null
-    },
-    {
-      "repo": "zowe/zowe-explorer-vscode",
-      "number": 4548,
-      "title": "Do not add a profile when the \"apply to all trees\" prompt is cancelled (fixes #4514)",
-      "url": "https://github.com/zowe/zowe-explorer-vscode/pull/4548",
-      "state": "open",
-      "draft": false,
-      "created": "2026-10-13",
       "merged": null,
       "closed": null
     }
