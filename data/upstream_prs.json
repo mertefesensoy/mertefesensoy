@@ -2,7 +2,7 @@
   "schema_version": 1,
   "username": "mertefesensoy",
   "source": "https://api.github.com/search/issues",
-  "generated_at": "2026-10-29T13:14:06Z",
+  "generated_at": "2026-10-30T13:06:03Z",
   "excluded_owners": [
     "beelink-cn",
     "cassandra-collective",
@@ -20,7 +20,7 @@
   ],
   "stats": {
     "merged": 9,
-    "open": 11,
+    "open": 12,
     "closed": 4,
     "repositories": 11,
     "last_merged": "2026-10-29"
@@ -57,6 +57,12 @@
       "closed": 0
     },
     {
+      "repo": "zowe/zowe-common-c",
+      "merged": 0,
+      "open": 2,
+      "closed": 0
+    },
+    {
       "repo": "Qiskit/qiskit-mitigation",
       "merged": 0,
       "open": 1,
@@ -64,12 +70,6 @@
     },
     {
       "repo": "unitaryfoundation/mitiq",
-      "merged": 0,
-      "open": 1,
-      "closed": 0
-    },
-    {
-      "repo": "zowe/zowe-common-c",
       "merged": 0,
       "open": 1,
       "closed": 0
@@ -196,6 +196,17 @@
   ],
   "open": [
     {
+      "repo": "zowe/zowe-common-c",
+      "number": 725,
+      "title": "Bugfix: store CCSID_BINARY as 65535 in patternChangeTagTest()",
+      "url": "https://github.com/zowe/zowe-common-c/pull/725",
+      "state": "open",
+      "draft": false,
+      "created": "2026-10-30",
+      "merged": null,
+      "closed": null
+    },
+    {
       "repo": "microsoft/vcpkg",
       "number": 54757,
       "title": "[presentmon] Update to 2.6.0",
@@ -269,17 +280,6 @@
       "state": "open",
       "draft": false,
       "created": "2026-10-21",
-      "merged": null,
-      "closed": null
-    },
-    {
-      "repo": "unitaryfoundation/mitiq",
-      "number": 3169,
-      "title": "Document ZNE with a QuTiP-QIP backend",
-      "url": "https://github.com/unitaryfoundation/mitiq/pull/3169",
-      "state": "open",
-      "draft": false,
-      "created": "2026-10-20",
       "merged": null,
       "closed": null
     }
