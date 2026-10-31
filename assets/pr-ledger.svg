@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="860" height="340" viewBox="0 0 860 340" role="img" aria-labelledby="ledger-title ledger-desc" class="ledger" focusable="false">
 <title id="ledger-title">Upstream pull-request ledger</title>
-<desc id="ledger-desc">Public pull requests by Mert Efe Şensoy in repositories outside their own organisations: 9 merged, 12 open, across 11 repositories, generated 2026-10-30 from GitHub search.</desc>
+<desc id="ledger-desc">Public pull requests by Mert Efe Şensoy in repositories outside their own organisations: 9 merged, 12 open, across 11 repositories, generated 2026-10-31 from GitHub search.</desc>
 <defs>
 <pattern id="lg-grid" width="58" height="58" patternUnits="userSpaceOnUse"><path d="M58 0H0V58" fill="none" stroke="#4589ff" stroke-opacity=".04"/></pattern>
 <pattern id="lg-scan" width="4" height="4" patternUnits="userSpaceOnUse"><path d="M0 3.5H860" stroke="#f2f6fc" stroke-opacity=".025"/></pattern>
@@ -44,7 +44,7 @@
 <text x="22" y="20" class="label">MERTEFE.SYSPLEX // UPSTREAM.LEDGER</text>
 <text x="330" y="20" class="micro">PUBLIC PRs · OUTSIDE OWN ORGS</text>
 <circle cx="640" cy="15" r="3" fill="#42be65"/>
-<text x="651" y="20" class="status">SYNCED 2026-10-30</text>
+<text x="651" y="20" class="status">SYNCED 2026-10-31</text>
 <text x="838" y="20" class="micro" text-anchor="end">F1=HELP</text>
 <g class="fade" style="--d:0.10s"><rect x="22" y="50" width="86" height="64" rx="2" fill="#0b1422" stroke="#27466f"/><text x="32" y="66" class="tile-key">MERGED</text><text x="32" y="98" class="tile-value" fill="#42be65">9</text></g>
 <g class="fade" style="--d:0.18s"><rect x="118" y="50" width="86" height="64" rx="2" fill="#0b1422" stroke="#27466f"/><text x="128" y="66" class="tile-key">OPEN</text><text x="128" y="98" class="tile-value" fill="#78a9ff">12</text></g>
