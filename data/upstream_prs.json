@@ -2,7 +2,7 @@
   "schema_version": 1,
   "username": "mertefesensoy",
   "source": "https://api.github.com/search/issues",
-  "generated_at": "2026-11-01T13:34:44Z",
+  "generated_at": "2026-11-02T16:10:20Z",
   "excluded_owners": [
     "beelink-cn",
     "cassandra-collective",
@@ -19,11 +19,11 @@
     "Whether a PR counts for any programme is decided by that programme, not by this ledger."
   ],
   "stats": {
-    "merged": 9,
-    "open": 12,
+    "merged": 10,
+    "open": 11,
     "closed": 4,
     "repositories": 11,
-    "last_merged": "2026-10-29"
+    "last_merged": "2026-11-01"
   },
   "repositories": [
     {
@@ -51,6 +51,12 @@
       "closed": 0
     },
     {
+      "repo": "Qiskit/qiskit-mitigation",
+      "merged": 1,
+      "open": 0,
+      "closed": 0
+    },
+    {
       "repo": "zowe/zowe-cli",
       "merged": 0,
       "open": 2,
@@ -60,12 +66,6 @@
       "repo": "zowe/zowe-common-c",
       "merged": 0,
       "open": 2,
-      "closed": 0
-    },
-    {
-      "repo": "Qiskit/qiskit-mitigation",
-      "merged": 0,
-      "open": 1,
       "closed": 0
     },
     {
@@ -94,6 +94,17 @@
     }
   ],
   "merged": [
+    {
+      "repo": "Qiskit/qiskit-mitigation",
+      "number": 55,
+      "title": "Postprocess PEC results of circuits without noisy layers",
+      "url": "https://github.com/Qiskit/qiskit-mitigation/pull/55",
+      "state": "merged",
+      "draft": false,
+      "created": "2026-10-28",
+      "merged": "2026-11-01",
+      "closed": "2026-11-01"
+    },
     {
       "repo": "microsoft/vcpkg",
       "number": 54704,
@@ -229,17 +240,6 @@
       "closed": null
     },
     {
-      "repo": "Qiskit/qiskit-mitigation",
-      "number": 55,
-      "title": "Postprocess PEC results of circuits without noisy layers",
-      "url": "https://github.com/Qiskit/qiskit-mitigation/pull/55",
-      "state": "open",
-      "draft": false,
-      "created": "2026-10-28",
-      "merged": null,
-      "closed": null
-    },
-    {
       "repo": "zowe/zowe-cli",
       "number": 2980,
       "title": "fix(cli): let --binary override .zosattributes in upload file-to-uss",
@@ -280,6 +280,17 @@
       "state": "open",
       "draft": false,
       "created": "2026-10-21",
+      "merged": null,
+      "closed": null
+    },
+    {
+      "repo": "unitaryfoundation/mitiq",
+      "number": 3169,
+      "title": "Document ZNE with a QuTiP-QIP backend",
+      "url": "https://github.com/unitaryfoundation/mitiq/pull/3169",
+      "state": "open",
+      "draft": false,
+      "created": "2026-10-20",
       "merged": null,
       "closed": null
     }
