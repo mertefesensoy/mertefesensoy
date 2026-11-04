@@ -2,7 +2,7 @@
   "schema_version": 1,
   "username": "mertefesensoy",
   "source": "https://api.github.com/search/issues",
-  "generated_at": "2026-11-03T14:26:19Z",
+  "generated_at": "2026-11-04T14:41:37Z",
   "excluded_owners": [
     "beelink-cn",
     "cassandra-collective",
@@ -19,11 +19,11 @@
     "Whether a PR counts for any programme is decided by that programme, not by this ledger."
   ],
   "stats": {
-    "merged": 10,
-    "open": 11,
-    "closed": 4,
-    "repositories": 11,
-    "last_merged": "2026-11-01"
+    "merged": 12,
+    "open": 9,
+    "closed": 5,
+    "repositories": 12,
+    "last_merged": "2026-11-04"
   },
   "repositories": [
     {
@@ -34,15 +34,15 @@
     },
     {
       "repo": "zowe/zowe-explorer-vscode",
-      "merged": 1,
-      "open": 2,
+      "merged": 2,
+      "open": 1,
       "closed": 0
     },
     {
       "repo": "zowe/zowe-mcp",
-      "merged": 1,
-      "open": 2,
-      "closed": 0
+      "merged": 2,
+      "open": 0,
+      "closed": 1
     },
     {
       "repo": "koala73/worldmonitor",
@@ -66,6 +66,12 @@
       "repo": "zowe/zowe-common-c",
       "merged": 0,
       "open": 2,
+      "closed": 0
+    },
+    {
+      "repo": "open-telemetry/opentelemetry-python",
+      "merged": 0,
+      "open": 1,
       "closed": 0
     },
     {
@@ -94,6 +100,28 @@
     }
   ],
   "merged": [
+    {
+      "repo": "zowe/zowe-explorer-vscode",
+      "number": 4554,
+      "title": "Show a message instead of a TypeError when a profile type cannot search data sets (fixes #4511)",
+      "url": "https://github.com/zowe/zowe-explorer-vscode/pull/4554",
+      "state": "merged",
+      "draft": false,
+      "created": "2026-10-15",
+      "merged": "2026-11-04",
+      "closed": "2026-11-04"
+    },
+    {
+      "repo": "zowe/zowe-mcp",
+      "number": 131,
+      "title": "fix(server): let the mock z/OS host start SDK 1.0's `zo` binary",
+      "url": "https://github.com/zowe/zowe-mcp/pull/131",
+      "state": "merged",
+      "draft": false,
+      "created": "2026-10-21",
+      "merged": "2026-11-03",
+      "closed": "2026-11-03"
+    },
     {
       "repo": "Qiskit/qiskit-mitigation",
       "number": 55,
@@ -207,6 +235,17 @@
   ],
   "open": [
     {
+      "repo": "open-telemetry/opentelemetry-python",
+      "number": 5881,
+      "title": "opentelemetry-sdk: preserve metric instrument name casing",
+      "url": "https://github.com/open-telemetry/opentelemetry-python/pull/5881",
+      "state": "open",
+      "draft": false,
+      "created": "2026-11-03",
+      "merged": null,
+      "closed": null
+    },
+    {
       "repo": "zowe/zowe-common-c",
       "number": 725,
       "title": "Bugfix: store CCSID_BINARY as 65535 in patternChangeTagTest()",
@@ -262,28 +301,6 @@
       "closed": null
     },
     {
-      "repo": "zowe/zowe-mcp",
-      "number": 131,
-      "title": "fix(server): let the mock z/OS host start SDK 1.0's `zo` binary",
-      "url": "https://github.com/zowe/zowe-mcp/pull/131",
-      "state": "open",
-      "draft": false,
-      "created": "2026-10-21",
-      "merged": null,
-      "closed": null
-    },
-    {
-      "repo": "zowe/zowe-mcp",
-      "number": 130,
-      "title": "fix(deps): clear the 2026-10-20 production audit advisories",
-      "url": "https://github.com/zowe/zowe-mcp/pull/130",
-      "state": "open",
-      "draft": false,
-      "created": "2026-10-21",
-      "merged": null,
-      "closed": null
-    },
-    {
       "repo": "unitaryfoundation/mitiq",
       "number": 3169,
       "title": "Document ZNE with a QuTiP-QIP backend",
@@ -291,6 +308,17 @@
       "state": "open",
       "draft": false,
       "created": "2026-10-20",
+      "merged": null,
+      "closed": null
+    },
+    {
+      "repo": "zowe/zowe-explorer-vscode",
+      "number": 4548,
+      "title": "Do not add a profile when the \"apply to all trees\" prompt is cancelled (fixes #4514)",
+      "url": "https://github.com/zowe/zowe-explorer-vscode/pull/4548",
+      "state": "open",
+      "draft": false,
+      "created": "2026-10-13",
       "merged": null,
       "closed": null
     }
