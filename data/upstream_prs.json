@@ -2,7 +2,7 @@
   "schema_version": 1,
   "username": "mertefesensoy",
   "source": "https://api.github.com/search/issues",
-  "generated_at": "2026-11-05T14:46:11Z",
+  "generated_at": "2026-11-06T14:23:42Z",
   "excluded_owners": [
     "beelink-cn",
     "cassandra-collective",
@@ -19,11 +19,11 @@
     "Whether a PR counts for any programme is decided by that programme, not by this ledger."
   ],
   "stats": {
-    "merged": 12,
-    "open": 9,
+    "merged": 13,
+    "open": 8,
     "closed": 5,
     "repositories": 12,
-    "last_merged": "2026-11-04"
+    "last_merged": "2026-11-05"
   },
   "repositories": [
     {
@@ -34,8 +34,8 @@
     },
     {
       "repo": "zowe/zowe-explorer-vscode",
-      "merged": 2,
-      "open": 1,
+      "merged": 3,
+      "open": 0,
       "closed": 0
     },
     {
@@ -100,6 +100,17 @@
     }
   ],
   "merged": [
+    {
+      "repo": "zowe/zowe-explorer-vscode",
+      "number": 4548,
+      "title": "Do not add a profile when the \"apply to all trees\" prompt is cancelled (fixes #4514)",
+      "url": "https://github.com/zowe/zowe-explorer-vscode/pull/4548",
+      "state": "merged",
+      "draft": false,
+      "created": "2026-10-13",
+      "merged": "2026-11-05",
+      "closed": "2026-11-05"
+    },
     {
       "repo": "zowe/zowe-explorer-vscode",
       "number": 4554,
@@ -220,17 +231,6 @@
       "created": "2026-08-23",
       "merged": "2026-08-24",
       "closed": "2026-08-24"
-    },
-    {
-      "repo": "koala73/worldmonitor",
-      "number": 907,
-      "title": "feat(aviation): aviation-layer-improvements",
-      "url": "https://github.com/koala73/worldmonitor/pull/907",
-      "state": "merged",
-      "draft": false,
-      "created": "2026-03-03",
-      "merged": "2026-03-04",
-      "closed": "2026-03-04"
     }
   ],
   "open": [
@@ -312,13 +312,13 @@
       "closed": null
     },
     {
-      "repo": "zowe/zowe-explorer-vscode",
-      "number": 4548,
-      "title": "Do not add a profile when the \"apply to all trees\" prompt is cancelled (fixes #4514)",
-      "url": "https://github.com/zowe/zowe-explorer-vscode/pull/4548",
+      "repo": "microsoft/vcpkg",
+      "number": 53562,
+      "title": "[motus] new port",
+      "url": "https://github.com/microsoft/vcpkg/pull/53562",
       "state": "open",
-      "draft": false,
-      "created": "2026-10-13",
+      "draft": true,
+      "created": "2026-08-24",
       "merged": null,
       "closed": null
     }
