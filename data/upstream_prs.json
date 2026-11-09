@@ -2,7 +2,7 @@
   "schema_version": 1,
   "username": "mertefesensoy",
   "source": "https://api.github.com/search/issues",
-  "generated_at": "2026-11-08T13:35:42Z",
+  "generated_at": "2026-11-09T16:33:54Z",
   "excluded_owners": [
     "beelink-cn",
     "cassandra-collective",
@@ -20,7 +20,7 @@
   ],
   "stats": {
     "merged": 13,
-    "open": 8,
+    "open": 9,
     "closed": 5,
     "repositories": 12,
     "last_merged": "2026-11-05"
@@ -41,7 +41,7 @@
     {
       "repo": "zowe/zowe-mcp",
       "merged": 2,
-      "open": 0,
+      "open": 1,
       "closed": 1
     },
     {
@@ -235,6 +235,17 @@
   ],
   "open": [
     {
+      "repo": "zowe/zowe-mcp",
+      "number": 146,
+      "title": "fix(vscode): resolve editor profiles through Zowe Explorer",
+      "url": "https://github.com/zowe/zowe-mcp/pull/146",
+      "state": "open",
+      "draft": false,
+      "created": "2026-11-08",
+      "merged": null,
+      "closed": null
+    },
+    {
       "repo": "open-telemetry/opentelemetry-python",
       "number": 5881,
       "title": "opentelemetry-sdk: preserve metric instrument name casing",
@@ -308,17 +319,6 @@
       "state": "open",
       "draft": false,
       "created": "2026-10-20",
-      "merged": null,
-      "closed": null
-    },
-    {
-      "repo": "microsoft/vcpkg",
-      "number": 53562,
-      "title": "[motus] new port",
-      "url": "https://github.com/microsoft/vcpkg/pull/53562",
-      "state": "open",
-      "draft": true,
-      "created": "2026-08-24",
       "merged": null,
       "closed": null
     }
