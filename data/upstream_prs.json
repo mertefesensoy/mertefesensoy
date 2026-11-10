@@ -2,7 +2,7 @@
   "schema_version": 1,
   "username": "mertefesensoy",
   "source": "https://api.github.com/search/issues",
-  "generated_at": "2026-11-09T16:33:54Z",
+  "generated_at": "2026-11-10T14:59:45Z",
   "excluded_owners": [
     "beelink-cn",
     "cassandra-collective",
@@ -20,9 +20,9 @@
   ],
   "stats": {
     "merged": 13,
-    "open": 9,
+    "open": 12,
     "closed": 5,
-    "repositories": 12,
+    "repositories": 13,
     "last_merged": "2026-11-05"
   },
   "repositories": [
@@ -35,13 +35,13 @@
     {
       "repo": "zowe/zowe-explorer-vscode",
       "merged": 3,
-      "open": 0,
+      "open": 1,
       "closed": 0
     },
     {
       "repo": "zowe/zowe-mcp",
       "merged": 2,
-      "open": 1,
+      "open": 2,
       "closed": 1
     },
     {
@@ -70,6 +70,12 @@
     },
     {
       "repo": "open-telemetry/opentelemetry-python",
+      "merged": 0,
+      "open": 1,
+      "closed": 0
+    },
+    {
+      "repo": "Qiskit/qiskit",
       "merged": 0,
       "open": 1,
       "closed": 0
@@ -235,6 +241,39 @@
   ],
   "open": [
     {
+      "repo": "Qiskit/qiskit",
+      "number": 17471,
+      "title": "Fix QPY loading of custom gate parameters",
+      "url": "https://github.com/Qiskit/qiskit/pull/17471",
+      "state": "open",
+      "draft": true,
+      "created": "2026-11-10",
+      "merged": null,
+      "closed": null
+    },
+    {
+      "repo": "zowe/zowe-explorer-vscode",
+      "number": 4612,
+      "title": "Keep numeric user and password environment variables as text instead of throwing a TypeError (fixes #4153)",
+      "url": "https://github.com/zowe/zowe-explorer-vscode/pull/4612",
+      "state": "open",
+      "draft": false,
+      "created": "2026-11-10",
+      "merged": null,
+      "closed": null
+    },
+    {
+      "repo": "zowe/zowe-mcp",
+      "number": 148,
+      "title": "docs(vscode): move standalone server options out of the extension README",
+      "url": "https://github.com/zowe/zowe-mcp/pull/148",
+      "state": "open",
+      "draft": false,
+      "created": "2026-11-10",
+      "merged": null,
+      "closed": null
+    },
+    {
       "repo": "zowe/zowe-mcp",
       "number": 146,
       "title": "fix(vscode): resolve editor profiles through Zowe Explorer",
@@ -286,39 +325,6 @@
       "state": "open",
       "draft": false,
       "created": "2026-10-28",
-      "merged": null,
-      "closed": null
-    },
-    {
-      "repo": "zowe/zowe-cli",
-      "number": 2980,
-      "title": "fix(cli): let --binary override .zosattributes in upload file-to-uss",
-      "url": "https://github.com/zowe/zowe-cli/pull/2980",
-      "state": "open",
-      "draft": false,
-      "created": "2026-10-23",
-      "merged": null,
-      "closed": null
-    },
-    {
-      "repo": "zowe/zowe-cli",
-      "number": 2975,
-      "title": "docs(imperative): clarify values that satisfy implies",
-      "url": "https://github.com/zowe/zowe-cli/pull/2975",
-      "state": "open",
-      "draft": false,
-      "created": "2026-10-22",
-      "merged": null,
-      "closed": null
-    },
-    {
-      "repo": "unitaryfoundation/mitiq",
-      "number": 3169,
-      "title": "Document ZNE with a QuTiP-QIP backend",
-      "url": "https://github.com/unitaryfoundation/mitiq/pull/3169",
-      "state": "open",
-      "draft": false,
-      "created": "2026-10-20",
       "merged": null,
       "closed": null
     }
