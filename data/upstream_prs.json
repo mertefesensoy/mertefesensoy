@@ -2,7 +2,7 @@
   "schema_version": 1,
   "username": "mertefesensoy",
   "source": "https://api.github.com/search/issues",
-  "generated_at": "2026-11-11T14:30:39Z",
+  "generated_at": "2026-11-12T15:23:51Z",
   "excluded_owners": [
     "beelink-cn",
     "cassandra-collective",
@@ -20,7 +20,7 @@
   ],
   "stats": {
     "merged": 13,
-    "open": 11,
+    "open": 12,
     "closed": 6,
     "repositories": 13,
     "last_merged": "2026-11-05"
@@ -35,7 +35,7 @@
     {
       "repo": "zowe/zowe-explorer-vscode",
       "merged": 3,
-      "open": 1,
+      "open": 2,
       "closed": 0
     },
     {
@@ -242,6 +242,17 @@
   "open": [
     {
       "repo": "zowe/zowe-explorer-vscode",
+      "number": 4616,
+      "title": "Open jobs submitted from favorited data set searches (fixes #4352)",
+      "url": "https://github.com/zowe/zowe-explorer-vscode/pull/4616",
+      "state": "open",
+      "draft": false,
+      "created": "2026-11-12",
+      "merged": null,
+      "closed": null
+    },
+    {
+      "repo": "zowe/zowe-explorer-vscode",
       "number": 4612,
       "title": "Keep numeric user and password environment variables as text instead of throwing a TypeError (fixes #4153)",
       "url": "https://github.com/zowe/zowe-explorer-vscode/pull/4612",
@@ -314,17 +325,6 @@
       "state": "open",
       "draft": false,
       "created": "2026-10-28",
-      "merged": null,
-      "closed": null
-    },
-    {
-      "repo": "zowe/zowe-cli",
-      "number": 2980,
-      "title": "fix(cli): let --binary override .zosattributes in upload file-to-uss",
-      "url": "https://github.com/zowe/zowe-cli/pull/2980",
-      "state": "open",
-      "draft": false,
-      "created": "2026-10-23",
       "merged": null,
       "closed": null
     }
