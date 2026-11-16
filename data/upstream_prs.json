@@ -2,7 +2,7 @@
   "schema_version": 1,
   "username": "mertefesensoy",
   "source": "https://api.github.com/search/issues",
-  "generated_at": "2026-11-15T14:03:02Z",
+  "generated_at": "2026-11-16T15:59:16Z",
   "excluded_owners": [
     "beelink-cn",
     "cassandra-collective",
@@ -20,8 +20,8 @@
   ],
   "stats": {
     "merged": 14,
-    "open": 12,
-    "closed": 6,
+    "open": 13,
+    "closed": 7,
     "repositories": 13,
     "last_merged": "2026-11-12"
   },
@@ -42,16 +42,16 @@
       "repo": "zowe/zowe-mcp",
       "merged": 2,
       "open": 2,
-      "closed": 1
-    },
-    {
-      "repo": "koala73/worldmonitor",
-      "merged": 1,
-      "open": 0,
-      "closed": 0
+      "closed": 2
     },
     {
       "repo": "Qiskit/qiskit-mitigation",
+      "merged": 1,
+      "open": 1,
+      "closed": 0
+    },
+    {
+      "repo": "koala73/worldmonitor",
       "merged": 1,
       "open": 0,
       "closed": 0
@@ -241,6 +241,28 @@
   ],
   "open": [
     {
+      "repo": "Qiskit/qiskit-mitigation",
+      "number": 66,
+      "title": "Keep the TREX calibration layer on the qubits of the calibrated circuits",
+      "url": "https://github.com/Qiskit/qiskit-mitigation/pull/66",
+      "state": "open",
+      "draft": false,
+      "created": "2026-11-16",
+      "merged": null,
+      "closed": null
+    },
+    {
+      "repo": "zowe/zowe-mcp",
+      "number": 167,
+      "title": "fix(server): keep mock-zos separate from MCP stdio startup",
+      "url": "https://github.com/zowe/zowe-mcp/pull/167",
+      "state": "open",
+      "draft": false,
+      "created": "2026-11-15",
+      "merged": null,
+      "closed": null
+    },
+    {
       "repo": "zowe/zowe-explorer-vscode",
       "number": 4623,
       "title": "Show an error before pasting members onto a profile node (fixes #3949)",
@@ -256,17 +278,6 @@
       "number": 4612,
       "title": "Keep numeric user and password environment variables as text instead of throwing a TypeError (fixes #4153)",
       "url": "https://github.com/zowe/zowe-explorer-vscode/pull/4612",
-      "state": "open",
-      "draft": false,
-      "created": "2026-11-10",
-      "merged": null,
-      "closed": null
-    },
-    {
-      "repo": "zowe/zowe-mcp",
-      "number": 148,
-      "title": "docs(vscode): move standalone server options out of the extension README",
-      "url": "https://github.com/zowe/zowe-mcp/pull/148",
       "state": "open",
       "draft": false,
       "created": "2026-11-10",
@@ -314,17 +325,6 @@
       "state": "open",
       "draft": true,
       "created": "2026-10-29",
-      "merged": null,
-      "closed": null
-    },
-    {
-      "repo": "zowe/zowe-common-c",
-      "number": 724,
-      "title": "Bugfix: keep the failing GSK status in tlsInit() and tlsSocketInit2()",
-      "url": "https://github.com/zowe/zowe-common-c/pull/724",
-      "state": "open",
-      "draft": false,
-      "created": "2026-10-28",
       "merged": null,
       "closed": null
     }
