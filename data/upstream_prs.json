@@ -2,7 +2,7 @@
   "schema_version": 1,
   "username": "mertefesensoy",
   "source": "https://api.github.com/search/issues",
-  "generated_at": "2026-11-16T15:59:16Z",
+  "generated_at": "2026-11-17T16:11:28Z",
   "excluded_owners": [
     "beelink-cn",
     "cassandra-collective",
@@ -19,13 +19,19 @@
     "Whether a PR counts for any programme is decided by that programme, not by this ledger."
   ],
   "stats": {
-    "merged": 14,
+    "merged": 36,
     "open": 13,
     "closed": 7,
-    "repositories": 13,
-    "last_merged": "2026-11-12"
+    "repositories": 16,
+    "last_merged": "2026-11-17"
   },
   "repositories": [
+    {
+      "repo": "Pactolus-Microelectronics/ddr4-udimm",
+      "merged": 20,
+      "open": 0,
+      "closed": 0
+    },
     {
       "repo": "microsoft/vcpkg",
       "merged": 6,
@@ -52,6 +58,18 @@
     },
     {
       "repo": "koala73/worldmonitor",
+      "merged": 1,
+      "open": 0,
+      "closed": 0
+    },
+    {
+      "repo": "Pactolus-Microelectronics/.github",
+      "merged": 1,
+      "open": 0,
+      "closed": 0
+    },
+    {
+      "repo": "Pactolus-Microelectronics/spdr",
       "merged": 1,
       "open": 0,
       "closed": 0
@@ -106,6 +124,72 @@
     }
   ],
   "merged": [
+    {
+      "repo": "Pactolus-Microelectronics/ddr4-udimm",
+      "number": 40,
+      "title": "docs: describe the schematic as an ERC-clean connectivity schematic and remove the backup zips",
+      "url": "https://github.com/Pactolus-Microelectronics/ddr4-udimm/pull/40",
+      "state": "merged",
+      "draft": false,
+      "created": "2026-11-17",
+      "merged": "2026-11-17",
+      "closed": "2026-11-17"
+    },
+    {
+      "repo": "Pactolus-Microelectronics/ddr4-udimm",
+      "number": 39,
+      "title": "fix(export): keep local paths out of the exports",
+      "url": "https://github.com/Pactolus-Microelectronics/ddr4-udimm/pull/39",
+      "state": "merged",
+      "draft": false,
+      "created": "2026-11-16",
+      "merged": "2026-11-16",
+      "closed": "2026-11-16"
+    },
+    {
+      "repo": "Pactolus-Microelectronics/ddr4-udimm",
+      "number": 38,
+      "title": "docs: recover the phase 3 and 5 ERC evidence and correct three records",
+      "url": "https://github.com/Pactolus-Microelectronics/ddr4-udimm/pull/38",
+      "state": "merged",
+      "draft": false,
+      "created": "2026-11-16",
+      "merged": "2026-11-16",
+      "closed": "2026-11-16"
+    },
+    {
+      "repo": "Pactolus-Microelectronics/ddr4-udimm",
+      "number": 37,
+      "title": "docs: add the implementation-record template",
+      "url": "https://github.com/Pactolus-Microelectronics/ddr4-udimm/pull/37",
+      "state": "merged",
+      "draft": false,
+      "created": "2026-11-16",
+      "merged": "2026-11-16",
+      "closed": "2026-11-16"
+    },
+    {
+      "repo": "Pactolus-Microelectronics/spdr",
+      "number": 3,
+      "title": "docs: add the implementation-record template",
+      "url": "https://github.com/Pactolus-Microelectronics/spdr/pull/3",
+      "state": "merged",
+      "draft": false,
+      "created": "2026-11-16",
+      "merged": "2026-11-16",
+      "closed": "2026-11-16"
+    },
+    {
+      "repo": "Pactolus-Microelectronics/.github",
+      "number": 1,
+      "title": "Add the implementation-record template",
+      "url": "https://github.com/Pactolus-Microelectronics/.github/pull/1",
+      "state": "merged",
+      "draft": false,
+      "created": "2026-11-16",
+      "merged": "2026-11-16",
+      "closed": "2026-11-16"
+    },
     {
       "repo": "zowe/zowe-explorer-vscode",
       "number": 4616,
@@ -171,72 +255,6 @@
       "created": "2026-10-27",
       "merged": "2026-10-29",
       "closed": "2026-10-29"
-    },
-    {
-      "repo": "microsoft/vcpkg",
-      "number": 54682,
-      "title": "[signalsmith-dsp] Update to 1.7.3",
-      "url": "https://github.com/microsoft/vcpkg/pull/54682",
-      "state": "merged",
-      "draft": false,
-      "created": "2026-10-26",
-      "merged": "2026-10-27",
-      "closed": "2026-10-27"
-    },
-    {
-      "repo": "microsoft/vcpkg",
-      "number": 54529,
-      "title": "[nu-book-zxing-cpp] Update to 3.1.1",
-      "url": "https://github.com/microsoft/vcpkg/pull/54529",
-      "state": "merged",
-      "draft": false,
-      "created": "2026-10-20",
-      "merged": "2026-10-21",
-      "closed": "2026-10-21"
-    },
-    {
-      "repo": "zowe/zowe-mcp",
-      "number": 127,
-      "title": "fix(server): use product SAF code names in certificate error details",
-      "url": "https://github.com/zowe/zowe-mcp/pull/127",
-      "state": "merged",
-      "draft": false,
-      "created": "2026-10-11",
-      "merged": "2026-10-20",
-      "closed": "2026-10-20"
-    },
-    {
-      "repo": "microsoft/vcpkg",
-      "number": 54469,
-      "title": "[winreg] Update to 10.0.0",
-      "url": "https://github.com/microsoft/vcpkg/pull/54469",
-      "state": "merged",
-      "draft": false,
-      "created": "2026-10-17",
-      "merged": "2026-10-18",
-      "closed": "2026-10-18"
-    },
-    {
-      "repo": "microsoft/vcpkg",
-      "number": 54434,
-      "title": "[expat] Update to 2.9.0",
-      "url": "https://github.com/microsoft/vcpkg/pull/54434",
-      "state": "merged",
-      "draft": false,
-      "created": "2026-10-14",
-      "merged": "2026-10-16",
-      "closed": "2026-10-16"
-    },
-    {
-      "repo": "zowe/zowe-explorer-vscode",
-      "number": 4544,
-      "title": "Stop mapping PLX data sets to PL/I (fixes #3801)",
-      "url": "https://github.com/zowe/zowe-explorer-vscode/pull/4544",
-      "state": "merged",
-      "draft": false,
-      "created": "2026-10-12",
-      "merged": "2026-10-13",
-      "closed": "2026-10-13"
     }
   ],
   "open": [
@@ -279,7 +297,7 @@
       "title": "Keep numeric user and password environment variables as text instead of throwing a TypeError (fixes #4153)",
       "url": "https://github.com/zowe/zowe-explorer-vscode/pull/4612",
       "state": "open",
-      "draft": false,
+      "draft": true,
       "created": "2026-11-10",
       "merged": null,
       "closed": null

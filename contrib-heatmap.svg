@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="888" height="166" viewBox="0 0 888 166" role="img" aria-labelledby="calendar-title calendar-desc" focusable="false">
 <title id="calendar-title">mertefesensoy&#x27;s 53-week GitHub contribution signal</title>
-<desc id="calendar-desc">Contribution calendar from 2025-11-16 through 2026-11-16, totaling 4,972 contributions. Current streak: 47 days; longest streak: 47 days.</desc>
+<desc id="calendar-desc">Contribution calendar from 2025-11-16 through 2026-11-17, totaling 5,004 contributions. Current streak: 48 days; longest streak: 48 days.</desc>
 <defs><pattern id="heatmap-scan" width="4" height="4" patternUnits="userSpaceOnUse"><path d="M0 3.5H888" stroke="#f2f6fc" stroke-opacity=".018"/></pattern></defs>
 <style>
 text { font-family:'IBM Plex Mono','IBM Plex Sans',ui-monospace,SFMono-Regular,Consolas,monospace; }
@@ -1133,12 +1133,15 @@ text { font-family:'IBM Plex Mono','IBM Plex Sans',ui-monospace,SFMono-Regular,C
 <rect class="contribution-cell level-1 active" x="866" y="28" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-11-15" data-count="12" style="--delay:3.385s">
 <title>12 contributions on November 15, 2026</title>
 </rect>
-<rect class="contribution-cell level-1 active" x="866" y="44" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-11-16" data-count="17" style="--delay:3.421s">
-<title>17 contributions on November 16, 2026</title>
+<rect class="contribution-cell level-1 active" x="866" y="44" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-11-16" data-count="25" style="--delay:3.421s">
+<title>25 contributions on November 16, 2026</title>
+</rect>
+<rect class="contribution-cell level-1 active" x="866" y="60" width="13" height="13" rx="2" fill="#1c3153" data-date="2026-11-17" data-count="24" style="--delay:3.457s">
+<title>24 contributions on November 17, 2026</title>
 </rect>
 </g>
 <path d="M4 144H887" stroke="#1c3153"/>
 <circle cx="18" cy="155" r="3" fill="#42be65"/>
-<text x="29" y="159" class="footer-value">4,972 CONTRIBUTIONS / LAST 12 MONTHS</text>
-<text x="876" y="159" class="footer" text-anchor="end">CURRENT 47D  ·  LONGEST 47D  ·  UPDATED 16 NOV</text>
+<text x="29" y="159" class="footer-value">5,004 CONTRIBUTIONS / LAST 12 MONTHS</text>
+<text x="876" y="159" class="footer" text-anchor="end">CURRENT 48D  ·  LONGEST 48D  ·  UPDATED 17 NOV</text>
 </svg>
