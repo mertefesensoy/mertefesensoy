@@ -2,7 +2,7 @@
   "schema_version": 1,
   "username": "mertefesensoy",
   "source": "https://api.github.com/search/issues",
-  "generated_at": "2026-11-17T16:11:28Z",
+  "generated_at": "2026-11-18T15:47:05Z",
   "excluded_owners": [
     "beelink-cn",
     "cassandra-collective",
@@ -19,16 +19,16 @@
     "Whether a PR counts for any programme is decided by that programme, not by this ledger."
   ],
   "stats": {
-    "merged": 36,
+    "merged": 37,
     "open": 13,
     "closed": 7,
     "repositories": 16,
-    "last_merged": "2026-11-17"
+    "last_merged": "2026-11-18"
   },
   "repositories": [
     {
       "repo": "Pactolus-Microelectronics/ddr4-udimm",
-      "merged": 20,
+      "merged": 21,
       "open": 0,
       "closed": 0
     },
@@ -124,6 +124,17 @@
     }
   ],
   "merged": [
+    {
+      "repo": "Pactolus-Microelectronics/ddr4-udimm",
+      "number": 41,
+      "title": "docs: fix the broken timing-diagram link and the label name, correct the baseline claim",
+      "url": "https://github.com/Pactolus-Microelectronics/ddr4-udimm/pull/41",
+      "state": "merged",
+      "draft": false,
+      "created": "2026-11-17",
+      "merged": "2026-11-18",
+      "closed": "2026-11-18"
+    },
     {
       "repo": "Pactolus-Microelectronics/ddr4-udimm",
       "number": 40,
@@ -244,17 +255,6 @@
       "created": "2026-10-28",
       "merged": "2026-11-01",
       "closed": "2026-11-01"
-    },
-    {
-      "repo": "microsoft/vcpkg",
-      "number": 54704,
-      "title": "[winreg] Update to 14.0.0",
-      "url": "https://github.com/microsoft/vcpkg/pull/54704",
-      "state": "merged",
-      "draft": false,
-      "created": "2026-10-27",
-      "merged": "2026-10-29",
-      "closed": "2026-10-29"
     }
   ],
   "open": [
