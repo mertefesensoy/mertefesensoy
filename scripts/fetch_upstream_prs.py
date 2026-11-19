@@ -54,6 +54,7 @@ EXCLUDED_OWNERS = frozenset(
         "DietHuzz",
         "Gumeus",
         "NeuroTie",
+        "Pactolus-Microelectronics",
     )
 )
 

@@ -40,6 +40,24 @@ class UpstreamLedgerTests(unittest.TestCase):
         self.assertEqual(records[0]["merged"], "2026-10-21")
         self.assertIsNone(records[2]["merged"])
 
+    def test_normalize_drops_pactolus_microelectronics(self) -> None:
+        own = {
+            "repository_url": "https://api.github.com/repos/Pactolus-Microelectronics/ddr4-udimm",
+            "html_url": "https://github.com/Pactolus-Microelectronics/ddr4-udimm/pull/41",
+            "number": 41,
+            "title": "docs: fix the broken timing diagram",
+            "state": "closed",
+            "created_at": "2026-11-18T09:00:00Z",
+            "closed_at": "2026-11-18T10:00:00Z",
+            "pull_request": {"merged_at": "2026-11-18T10:00:00Z"},
+        }
+        records = normalize([own, *fixture_items()])
+        self.assertEqual(len(records), 4)
+        self.assertFalse(any(str(r["repo"]).lower().startswith("pactolus-microelectronics/") for r in records))
+        payload = build_payload("mertefesensoy", records)
+        self.assertIn("pactolus-microelectronics", payload["excluded_owners"])
+        self.assertEqual(payload["stats"]["merged"], 2)
+
     def test_payload_counts_sorts_and_records_caveats(self) -> None:
         payload = build_payload(
             "mertefesensoy",
