@@ -2,7 +2,7 @@
   "schema_version": 1,
   "username": "mertefesensoy",
   "source": "https://api.github.com/search/issues",
-  "generated_at": "2026-11-19T15:51:59Z",
+  "generated_at": "2026-11-20T15:34:41Z",
   "excluded_owners": [
     "beelink-cn",
     "cassandra-collective",
