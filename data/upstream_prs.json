@@ -2,7 +2,7 @@
   "schema_version": 1,
   "username": "mertefesensoy",
   "source": "https://api.github.com/search/issues",
-  "generated_at": "2026-11-20T15:34:41Z",
+  "generated_at": "2026-11-21T14:45:20Z",
   "excluded_owners": [
     "beelink-cn",
     "cassandra-collective",
@@ -20,11 +20,11 @@
     "Whether a PR counts for any programme is decided by that programme, not by this ledger."
   ],
   "stats": {
-    "merged": 15,
+    "merged": 16,
     "open": 11,
     "closed": 8,
     "repositories": 13,
-    "last_merged": "2026-11-18"
+    "last_merged": "2026-11-20"
   },
   "repositories": [
     {
@@ -41,7 +41,7 @@
     },
     {
       "repo": "zowe/zowe-mcp",
-      "merged": 2,
+      "merged": 3,
       "open": 2,
       "closed": 2
     },
@@ -107,6 +107,17 @@
     }
   ],
   "merged": [
+    {
+      "repo": "zowe/zowe-mcp",
+      "number": 167,
+      "title": "fix(server): keep mock-zos separate from MCP stdio startup",
+      "url": "https://github.com/zowe/zowe-mcp/pull/167",
+      "state": "merged",
+      "draft": false,
+      "created": "2026-11-15",
+      "merged": "2026-11-20",
+      "closed": "2026-11-20"
+    },
     {
       "repo": "zowe/zowe-cli",
       "number": 2975,
@@ -227,20 +238,20 @@
       "created": "2026-10-17",
       "merged": "2026-10-18",
       "closed": "2026-10-18"
-    },
-    {
-      "repo": "microsoft/vcpkg",
-      "number": 54434,
-      "title": "[expat] Update to 2.9.0",
-      "url": "https://github.com/microsoft/vcpkg/pull/54434",
-      "state": "merged",
-      "draft": false,
-      "created": "2026-10-14",
-      "merged": "2026-10-16",
-      "closed": "2026-10-16"
     }
   ],
   "open": [
+    {
+      "repo": "zowe/zowe-mcp",
+      "number": 173,
+      "title": "ci: test the installed native backend against mock z/OS",
+      "url": "https://github.com/zowe/zowe-mcp/pull/173",
+      "state": "open",
+      "draft": false,
+      "created": "2026-11-21",
+      "merged": null,
+      "closed": null
+    },
     {
       "repo": "Qiskit/qiskit-mitigation",
       "number": 66,
@@ -249,17 +260,6 @@
       "state": "open",
       "draft": false,
       "created": "2026-11-16",
-      "merged": null,
-      "closed": null
-    },
-    {
-      "repo": "zowe/zowe-mcp",
-      "number": 167,
-      "title": "fix(server): keep mock-zos separate from MCP stdio startup",
-      "url": "https://github.com/zowe/zowe-mcp/pull/167",
-      "state": "open",
-      "draft": false,
-      "created": "2026-11-15",
       "merged": null,
       "closed": null
     },
