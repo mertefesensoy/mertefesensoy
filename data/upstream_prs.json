@@ -2,7 +2,7 @@
   "schema_version": 1,
   "username": "mertefesensoy",
   "source": "https://api.github.com/search/issues",
-  "generated_at": "2026-11-25T17:22:09Z",
+  "generated_at": "2026-11-26T17:01:49Z",
   "excluded_owners": [
     "beelink-cn",
     "cassandra-collective",
@@ -21,8 +21,8 @@
   ],
   "stats": {
     "merged": 18,
-    "open": 9,
-    "closed": 8,
+    "open": 8,
+    "closed": 9,
     "repositories": 13,
     "last_merged": "2026-11-24"
   },
@@ -46,12 +46,6 @@
       "closed": 0
     },
     {
-      "repo": "Qiskit/qiskit-mitigation",
-      "merged": 1,
-      "open": 1,
-      "closed": 0
-    },
-    {
       "repo": "zowe/zowe-cli",
       "merged": 1,
       "open": 1,
@@ -62,6 +56,12 @@
       "merged": 1,
       "open": 0,
       "closed": 0
+    },
+    {
+      "repo": "Qiskit/qiskit-mitigation",
+      "merged": 1,
+      "open": 0,
+      "closed": 1
     },
     {
       "repo": "zowe/zowe-common-c",
@@ -242,17 +242,6 @@
   ],
   "open": [
     {
-      "repo": "Qiskit/qiskit-mitigation",
-      "number": 66,
-      "title": "Keep the TREX calibration layer on the qubits of the calibrated circuits",
-      "url": "https://github.com/Qiskit/qiskit-mitigation/pull/66",
-      "state": "open",
-      "draft": false,
-      "created": "2026-11-16",
-      "merged": null,
-      "closed": null
-    },
-    {
       "repo": "zowe/zowe-explorer-vscode",
       "number": 4623,
       "title": "Show an error before pasting members onto a profile node (fixes #3949)",
@@ -326,6 +315,17 @@
       "state": "open",
       "draft": false,
       "created": "2026-10-23",
+      "merged": null,
+      "closed": null
+    },
+    {
+      "repo": "microsoft/vcpkg",
+      "number": 53562,
+      "title": "[motus] new port",
+      "url": "https://github.com/microsoft/vcpkg/pull/53562",
+      "state": "open",
+      "draft": true,
+      "created": "2026-08-24",
       "merged": null,
       "closed": null
     }
